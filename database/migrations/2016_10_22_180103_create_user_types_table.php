@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSessionTable extends Migration
+class CreateUserTypesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,9 @@ class CreateSessionTable extends Migration
      */
     public function up()
     {
-        Schema::create('sesion', function (Blueprint $table){
+        Schema::create('tipo_usuario', function (Blueprint $table){
             $table->increments('id')->unsigned();
-            $table->integer('id_estudiante')->unsigned();
-            //$table->foreign('id_estudiante')->references('id')->on('usuarios');
-            $table->dateTime('inicio_sesion');
-            $table->dateTime('final_sesion');
+            $table->string('nombre');
         });
     }
 
@@ -29,6 +26,6 @@ class CreateSessionTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sesion');
+        Schema::dropIfExists('tipo_usuario');
     }
 }
