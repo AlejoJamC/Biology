@@ -1,6 +1,6 @@
-@extends('layouts.main')
+@extends('layouts.admin')
 
-@section('title', 'Proyecto de Grado Biologia 5 grado')
+@section('title', 'Dashboard | Proyecto de Grado Biologia 5 grado')
 
 @section('content')
     <!-- BLOCK "TYPE 1" -->
