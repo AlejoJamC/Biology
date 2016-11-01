@@ -4,7 +4,7 @@
 <body data-theme="theme-3" class="sidebar-menu-added">
 
 <!-- HEADER -->
-@include('partials.admin.header')
+@include('partials.admin.sidebar')
 
 <!-- LOADER -->
 <div id="loader-wrapper">
