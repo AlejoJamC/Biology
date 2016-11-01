@@ -17,10 +17,10 @@
                 <a href="#">Forum</a>
             </div>
             <div class="media-icon">
-                <a href="#"><img src="{{ URL::asset('img/theme-1/c-icon.png') }}" alt=""/></a>
-                <a href="#"><img src="{{ URL::asset('img/theme-1/c-icon1.png') }}" alt=""/></a>
-                <a href="#"><img src="{{ URL::asset('img/theme-1/c-icon2.png') }}" alt=""/></a>
-                <a href="#"><img src="{{ URL::asset('img/theme-1/c-icon3.png') }}" alt=""/></a>
+                <a href="#"><img src="{{ URL::asset('img/theme-3/c-icon.png') }}" alt=""/></a>
+                <a href="#"><img src="{{ URL::asset('img/theme-3/c-icon1.png') }}" alt=""/></a>
+                <a href="#"><img src="{{ URL::asset('img/theme-3/c-icon2.png') }}" alt=""/></a>
+                <a href="#"><img src="{{ URL::asset('img/theme-3/c-icon3.png') }}" alt=""/></a>
             </div>
             <div class="copy">
                 <span>© 2015 All rights reserved. O.MNI</span>

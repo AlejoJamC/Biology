@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 @include('partials.main.head')
-<body data-theme="theme-1">
+<body data-theme="theme-3">
 <!-- HEADER -->
 @include('partials.main.header')
 
