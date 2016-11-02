@@ -6,14 +6,11 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#home" class="submeny-top act scroll-to-link">Home</a></li>
-                <li><a href="#about" class="scroll-to-link">about</a></li>
-                <li><a href="#how-it-work" class="scroll-to-link">how it work</a></li>
-                <li><a href="#why" class="scroll-to-link">Why</a></li>
-                <li><a href="#benefits" class="scroll-to-link">benefits</a></li>
-                <li><a href="#testimonials" class="scroll-to-link">testimonials</a></li>
-                <li><a href="#team" class="scroll-to-link">team</a></li>
-                <li><a href="#contact" class="scroll-to-link">contact</a></li>
+                <li><a href="#home" class="submeny-top act scroll-to-link">Inicio</a></li>
+                <li><a href="#about" class="scroll-to-link">Acerca de </a></li>
+                <li><a href="#how-it-work" class="scroll-to-link">Como Funciona</a></li>
+                <li><a href="#team" class="scroll-to-link">Desarrollo</a></li>
+                <li><a href="#contact" class="scroll-to-link">Contacto</a></li>
                 <li class="submeny">
                     <a href="#" class="submeny-top">Iniciar sesión</a>
                     <ul>
