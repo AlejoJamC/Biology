@@ -103,7 +103,7 @@
                 <div class="col-sm-7 content-entry wow fadeInRight" data-wow-delay="0.3s">
                     <div class="video-thumbnail">
                         <img src="img/content/Home-2/about_image_1.jpg" alt="" />
-                        <a data-src="https://www.youtube.com/embed/RqMmtcPjCwA?rel=0" class="play" href="#"></a>
+                        <a data-src="https://www.youtube.com/embed/fWfGul6TN0Q" class="play" href="#"></a>
                     </div>
                 </div>
             </div>
@@ -121,29 +121,29 @@
                 </div>
                 <div class="content-entry col-sm-6">
                     <article class="normall wow fadeInRight" data-wow-delay="0.3s">
-                        <h2 class="h2 titel-left">How it work</h2>
-                        <p>Curabitur nunc erat, consequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficitur massa, nec congue sem dapibus sed. Sed eget justo at erat suscipit tristique sit.</p>
+                        <h2 class="h2 titel-left">Como funciona</h2>
+                        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
                     </article>
 
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
                         <img src="img/theme-1/icon4.png" alt="">
                         <article class="small">
-                            <h4 class="h4">why our app</h4>
-                            <p>Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficiturus sed.</p>
+                            <h4 class="h4">por que usarla</h4>
+                            <p>En esta aplicación encontraras todo lo relacionado al mundo de la Célula. Permitiendo que puedas ampliar tus conocimientos sobre esta rama de la Biología, encontrando material didáctico en un solo lugar.</p>
                         </article>
                     </div>
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
                         <img src="img/theme-1/icon5.png" alt="">
                         <article class="small">
-                            <h4 class="h4">regular updates</h4>
-                            <p>Curabitur nunc erat, consequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi.</p>
+                            <h4 class="h4">Actualiza</h4>
+                            <p>Danos tus sugerencias, para poder realizar constantes actualizaciones que sean de gran importancia y de mucha ayuda para que puedas lograr y cumplir con tu proceso educativo.</p>
                         </article>
                     </div>
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
                         <img src="img/theme-1/icon6.png" alt="">
                         <article class="small">
-                            <h4 class="h4">many addons</h4>
-                            <p>Praesent at vestibulum tortor. Praesent condimentum efficitur massa, necpulvinar tortor semper quisl.</p>
+                            <h4 class="h4">Buen contenido</h4>
+                            <p>En nuestra APP encontraras gran contenido de mucha ayuda en la obtención de conocimientos sobre la Célula.</p>
                         </article>
                     </div>
                 </div>
@@ -178,9 +178,9 @@
                                     </div>
                                     <img class="thumbnail-image" src="img/content/Home-2/team-1.jpg" height="493" width="370" alt="" />
                                 </div>
-                                <div class="name">Patricia arton</div>
-                                <div class="position">co-founder. creative director</div>
-                                <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
+                                <div class="name">xxxxxxxxxxxxxxxxxxxxx</div>
+                                <div class="position">xxxxxxxxxxxxxxxxxxxxx</div>
+                                <div class="description"></div>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -194,11 +194,11 @@
                                             <a href="#"><img src="img/c-icon3.png" alt="" /></a>
                                         </div>
                                     </div>
-                                    <img class="thumbnail-image" src="img/content/Home-2/team-2.jpg" height="493" width="370" alt="" />
+                                    <img class="thumbnail-image" src="img/content/Home-2/yo.jpg" height="493" width="370" alt="" />
                                 </div>
                                 <div class="name">JONATHAN ANDRES RODRIGUEZ PEREZ</div>
-                                <div class="position">co-founder, developer</div>
-                                <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
+                                <div class="position">director, programador</div>
+                                <div class="description">Con gran entusiasmo y mucha energía estaré dispuesto a realizar los cambios que consideres pertinentes para que como usuario te sientas contento de aprender de una forma diferente.</div>
                             </div>
                         </div>
                     <div class="pagination"></div>
