@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/content/Home-2/banner_4.jpg" class="center-image" alt="" />
+                    <img src="img/content/Home-2/cell-div.jpg" class="center-image" alt="" />
                     <div class="center-tagline">
                         <div class="container">
                             <div class="row">
@@ -122,7 +122,7 @@
                 <div class="content-entry col-sm-6">
                     <article class="normall wow fadeInRight" data-wow-delay="0.3s">
                         <h2 class="h2 titel-left">Como funciona</h2>
-                        <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                        <p>Para ingresar al sistema debes de tener un Usuario y Contraseña, de este modo podrás hacer uso de toda la información que encontraras en BIO.VA.</p>
                     </article>
 
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
@@ -235,7 +235,7 @@
                             <p>
                                 Email:
                                 <br>
-                                <a href="andre:bioloova.gmail.com">bioloova.gmail.com</a>
+                                <a href="malito:bioloova.gmail.com">bioloova.gmail.com</a>
                             </p>
                         </article>
                     </div>

@@ -9,7 +9,7 @@
         </div>
         <div class="footer-bottom">
             <div class="footer-linck">
-                <a href="#">Privacy Policy</a>
+                <a href="#">Inicio</a>
                 <a href="#">About Us </a>
                 <a href="#">Support</a>
                 <a href="#">FAQ</a>

@@ -7,23 +7,15 @@
         <nav>
             <ul>
                 <li class="submeny">
-                    <a href="#home" class="submeny-top act scroll-to-link">Home</a>
-                    <ul>
-                        <li><a href="index-5.html">home app screens</a></li>
-                        <li><a href="index-6.html">home sidebar menu</a></li>
-                        <li><a href="index.html">home welcome banner</a></li>
-                        <li><a href="index-2.html">home banner with tabs</a></li>
-                        <li><a href="index-3.html">home banner-slider</a></li>
-                        <li><a href="index-4.html">home video banner</a></li>
-                    </ul>
+                    <a href="#home" class="submeny-top act scroll-to-link">Inicio</a>
+
                 </li>
-                <li><a href="#about" class="scroll-to-link">about</a></li>
-                <li><a href="#benefits" class="scroll-to-link">benefits</a></li>
+                <li><a href="#about" class="scroll-to-link">¿Sabias que?</a></li>
+                <li><a href="#benefits" class="scroll-to-link">La célula</a></li>
                 <li><a href="#gallery" class="scroll-to-link">gallery</a></li>
                 <li><a href="#why" class="scroll-to-link">why</a></li>
                 <li><a href="#how-it-works" class="scroll-to-link">how it works</a></li>
                 <li><a href="#team" class="scroll-to-link">team</a></li>
-                <li><a href="#contact" class="scroll-to-link">contact</a></li>
                 <li class="submeny">
                     <a href="#" class="submeny-top">Pages</a>
                     <ul>
