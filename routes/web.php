@@ -19,7 +19,23 @@ Route::get('/login',function () {
     return view('auth.login');
 });
 
+Route::get('/teacher/login',function () {
+    return view('auth.login');
+});
+
+Route::get('/admin/login',function () {
+    return view('auth.login');
+});
+
 Route::get('/register',function () {
+    return view('auth.register');
+});
+
+Route::get('/teacher/register',function () {
+    return view('auth.register');
+});
+
+Route::get('/admin/register',function () {
     return view('auth.register');
 });
 
