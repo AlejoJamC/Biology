@@ -68,9 +68,8 @@
         <div class="container">
             <div class="row page-tagline">
                 <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
-                    <h2 class="title">La célula</h2>
-                    <div class="description">La célula es la unidad elemental que compone todo organismo y es capaz de actuar de manera autónoma. Todos los seres vivos están formados por células.</div>
-                    <div class="description">Las células tienen numerosas reacciones químicas que les permiten crecer, producir energía y eliminar residuos, a estas reacciones se llama metabolismo (término que proviene de una palabra griega que significa cambio).</div>
+                    <h2 class="title">What You Get</h2>
+                    <div class="description">Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficitur massa pharetra dolor sed.</div>
                 </div>
             </div>
             <div class="row">
@@ -78,66 +77,70 @@
                 <div class="phone-icons-box">
                     <div class="col-sm-4 col-sm-push-4 wow flipInY" data-wow-delay="0.3s">
                         <div class="phone-icons-image">
-                            <img src="img/content/Home-6/lacelula.jpg" alt="" />
+                            <img src="img/content/Home-6/phone-icons-image-def.jpg" alt="" />
+                        </div>
+                        <div class="phone-icons-image">
+                            <img src="img/content/Home-6/phone-icons-image-1.jpg" alt="" />
+                        </div>
+                        <div class="phone-icons-image">
+                            <img src="img/content/Home-6/phone-icons-image-2.jpg" alt="" />
+                        </div>
+                        <div class="phone-icons-image">
+                            <img src="img/content/Home-6/phone-icons-image-3.jpg" alt="" />
+                        </div>
+                        <div class="phone-icons-image">
+                            <img src="img/content/Home-6/phone-icons-image-4.jpg" alt="" />
+                        </div>
+                        <div class="phone-icons-image">
+                            <img src="img/content/Home-6/phone-icons-image-5.jpg" alt="" />
+                        </div>
+                        <div class="phone-icons-image">
+                            <img src="img/content/Home-6/phone-icons-image-6.jpg" alt="" />
                         </div>
                     </div>
                     <div class="col-sm-4 col-sm-pull-4">
                         <div class="phone-icons-description right-align">
                             <div class="entry wow fadeInRight" data-wow-delay="0.3s">
-                                <div class="icon"><img alt="" src="img/theme-1/nucleolo.png" /></div>
+                                <div class="icon"><img alt="" src="img/theme-3/icon10.png" /></div>
                                 <div class="content">
-                                    <div class="title">El Núcleo</div>
-                                    <div style="text-align:justify" class="description">Está rodeado de forma característica por una membrana, es esférico y mide unas 5 µm de diámetro.Se le llama Núcleo Celular al centro de las células eucariotas, las cuales contienen todos los datos genéticos necesarios a la hora de la reproducción, el núcleo celular esta compuesto por un orgánulo blando que lo compone el ADN y el ARN, estos se mantienen aislados y se protegen hasta el momento de la fusión, en el caso de la reproducción animal, este orgánulo u organelo no libera su contenido hasta que el espermatozoide y el ovulo no se fecundan. A Este lo rodea una capa lipídica rica en proteínas que mantienen a distancia al citoplasma, el cual sirve como una gelatina inerte en la que se depositan todos los demás componentes de la célula.</div><br>
-                                    <a href="http://www.cerebriti.com/juegos-de-ciencias/el-nucleo">JUEGA</a>
+                                    <div class="title">online shopping</div>
+                                    <div class="description">Etiam neque tortor, bibendum id maximus vitae, tincidunt id libero. Morbi ac leo vitae sapien rutrum sempe.</div>
                                 </div>
                             </div>
                             <div class="entry wow fadeInRight" data-wow-delay="0.5s">
-                                <div class="icon"><img alt="" src="img/theme-1/citoplasma.png" /></div>
+                                <div class="icon"><img alt="" src="img/theme-3/icon11.png" /></div>
                                 <div class="content">
-                                    <div class="title">El citoplasma</div>
-                                    <div style="text-align:justify" class="description">El citoplasma es una de las partes, elementos básicos de la célula, que se ubica entre la membrana plasmática y el núcleo, en las células eucariotas, y en las células procariotas que al no disponer de núcleo, usan al citoplasma para ser el alojamiento de su material genético.
-                                        Básicamente, el citoplasma se ocupa de desarrollar todas las reacciones químicas de los seres vivientes y está conformado eminentemente por agua y también por sustancias minerales ionizadas y sustancias orgánicas como enzimas y proteínas. <br>
-                                        Sus funciones relevantes son tres: nutrición, ya que en él se incorporan esas sustancias que serán luego transformadas para liberar energía; almacenamiento, se ocupa de almacenar ciertas sustancias que a futuro se usarán y es importante que estén allí a la espera de su necesidad de usarlas; y la estructural, dado que el citoplasma es aquella parte que le da la forma a la célula y que será el punto de partida de todos sus movimientos
-                                    </div><br>
-                                    <a href="http://www.cerebriti.com/juegos-de-ciencias/partes-del-citoplasma#.WCKtLPnhDIU">JUEGA</a>
+                                    <div class="title">multimedia archives</div>
+                                    <div class="description">Vestibulum accumsan est malesuada sem auctor, eu aliquet nisi ornare. Aliquam dapibus lectus</div>
                                 </div>
                             </div>
-                         </div>
+                            <div class="entry wow fadeInRight" data-wow-delay="0.7s">
+                                <div class="icon"><img alt="" src="img/theme-3/icon12.png" /></div>
+                                <div class="content">
+                                    <div class="title">quick settings</div>
+                                    <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="phone-icons-description">
                             <div class="entry wow fadeInLeft" data-wow-delay="0.3s">
-                                <div class="icon"><img alt="" src="img/theme-1/organulos.png" /></div>
+                                <div class="icon"><img alt="" src="img/theme-3/icon13.png" /></div>
                                 <div class="content">
-                                    <div class="title">organelos</div>
-                                    <div style="text-align:justify" class="description">Los organelos u orgánulos, son estructuras celulares especializadas, que cumplen funciones específicas dentro de las células. Las células procariontes, al ser de estructura más sencilla, tienen menos organelos, mientras que, en los eucariontes, mientras más aumenta su complejidad, contienen mayor cantidad de organelos. <br>
-                                        En seguida se describirán los organelos que forman parte de la mayoría de las células. <br><br>
-
-                                        <li> <p>Retículo endoplasmático: Es una red de conductos que recorren el citoplasma; comunican el núcleo con el citoplasma con el exterior de la célula. almacena las proteínas fabricadas en los ribosomas para distribuirlas en el citoplasma.</li> </p>
-
-                                        <li> <p>Ribosomas: Es de forma esférica y cada uno está constituido por dos unidades de proteína. Se forman en el retículo endoplasmático e intervienen en la fabricación de proteinas.</li> </p>
-
-                                        <li> <p>Aparato de Golgi: Es un sistema de sacos aplanados llamados “discoidales”, encargado de construir ciertos glúcidos y almacenarlos junto con algunas proteínas. Interviene en el transporte y acumulación de muchas sustancias.</li> </p>
-
-                                        <li> <p>Vacuolas: Sacos de membrana sencilla, la cual almacena agua y sustancias de reserva: almidones y grasas, sustancias de desecho y sales. Son más frecuentes en las células vegetales que en las animales.</li> </p>
-
-                                        <li> <p>Lisosomas: Pequeñas bolsas globulares, cargadas de jugos digestivos, que se forman en el aparato de Golgi. Realizan la digestión de las sustancias ingeridas por la célula. Abundan en las células defensoras del organismo, como son los glóbulos blancos.</li> </p>
-
-                                        <li> <p> Mitocondrias: Son de forma esférica o de bastoncilio. Formadas por un sistema de doble membrana; su parte externa es lisa, y la interna tiene una serie de pliegues, los cuales forman crestas. se encarga de dar la energía necesaria para las funciones celulares.</li> </p> <br>
-                                        <a href="http://cmapspublic3.ihmc.us/rid=1HKBXG8YC-J6PPKX-LY5/organelos.cmap"> ORGANELOS</a>
-
-                                    </div>
+                                    <div class="title">global weather</div>
+                                    <div class="description">Etiam neque tortor, bibendum id maximus vitae, tincidunt id libero. Morbi ac leo vitae sapien rutrum sempe.</div>
                                 </div>
                             </div>
                             <div class="entry wow fadeInLeft" data-wow-delay="0.5s">
-                                <div class="icon"><img alt="" src="img/theme-1/icon14.png" /></div>
+                                <div class="icon"><img alt="" src="img/theme-3/icon14.png" /></div>
                                 <div class="content">
                                     <div class="title">personal planners</div>
                                     <div class="description">Vestibulum accumsan est malesuada sem auctor, eu aliquet nisi ornare. Aliquam dapibus lectus</div>
                                 </div>
                             </div>
                             <div class="entry wow fadeInLeft" data-wow-delay="0.7s">
-                                <div class="icon"><img alt="" src="img/theme-1/icon15.png" /></div>
+                                <div class="icon"><img alt="" src="img/theme-3/icon15.png" /></div>
                                 <div class="content">
                                     <div class="title">your Achievements</div>
                                     <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
@@ -258,14 +261,14 @@
                             <p>Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficiturus sed. Vestibulum ac tincidunt enim.Suspendisse id pharetra lacus, et hendrerit mi.<br/><br/></p>
                         </div>
                         <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-                            <img src="img/theme-1/icon4.png" alt="">
+                            <img src="img/theme-3/icon4.png" alt="">
                             <article class="small">
                                 <h4 class="h4">why our app</h4>
                                 <p>Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficiturus sed.</p>
                             </article>
                         </div>
                         <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-                            <img src="img/theme-1/icon5.png" alt="">
+                            <img src="img/theme-3/icon5.png" alt="">
                             <article class="small">
                                 <h4 class="h4">regular updates</h4>
                                 <p>Curabitur nunc erat, consequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi.</p>
@@ -403,6 +406,65 @@
         </div>
     </div>
 
+    <!-- BLOCK "TYPE 7" -->
+    <div class="block type-7 scroll-to-block" data-id="contact">
+        <div class="container">
+            <div class="row page-tagline">
+                <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
+                    <h2 class="title">get in touch</h2>
+                    <div class="description">Praesent at vestibulum tortor. Praesent condimentum efficitur massa, nec congue sem dapibus sed. Sed eget justo at erat suscipit tristique sit.</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="contact-thumbs">
+                        <img src="img/theme-3/icon7.png" alt=""/>
+                        <article class="normall">
+                            <p>
+                                Tel:
+                                <br>
+                                <a href="tel:43477596204">+4 347.759.6204</a>
+                            </p>
+                        </article>
+                    </div>
+                    <div class="contact-thumbs">
+                        <img src="img/theme-3/icon8.png" alt=""/>
+                        <article class="normall">
+                            <p>
+                                Email:
+                                <br>
+                                <a href="maito:marketing@inspire.com">marketing@inspire.com</a>
+                            </p>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-md-7 col-md-offset-1 wow fadeInRight" data-wow-delay="0.3s">
+                    <form class="contact-form"  method="post">
+                        <input class="required" type="text" placeholder="Your name" value="" name="name" />
+                        <input class="required" type="text" placeholder="Your email" value="" name="email" />
+                        <input type="text" placeholder="Subject" value="" name="subject" />
+                        <select name="department">
+                            <option>Department</option>
+                            <option>Department1</option>
+                            <option>Department2</option>
+                            <option>Department3</option>
+                        </select>
+                        <textarea class="required" placeholder="Your message" name="text"></textarea>
+                        <div class="submit-wraper">
+                            <div class="button">submit message<input type="submit" value="" /></div>
+                        </div>
+                        <input type="hidden" name="mailto" value="marketingsomemailaddress@inspire.com" style="display: none;" />
+                    </form>
+                </div>
+                <div class="form-popup">
+                    <div class="form-popup-close-layer"></div>
+                    <div class="form-popup-content">
+                        <div class="text">Lorem Ipsum Dollor Sit Ammet consectetur dim Elit</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- BLOCK "MAP" -->
     <div>
