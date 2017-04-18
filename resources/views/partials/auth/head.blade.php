@@ -9,6 +9,8 @@
         <link href="{{ URL::asset('css/devices.min.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ URL::asset('css/animate.css') }}" rel="stylesheet" type="text/css" />
+        @section('css')
+        @show
         <link rel="shortcut icon" href="{{ URL::asset('img/favicon.png') }}" />
         <title>@yield('title')</title>
     </head>

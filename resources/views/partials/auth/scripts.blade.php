@@ -123,4 +123,6 @@
             setInterval(createDots, 1000 / 30);
         });
     </script>
+    @section('js')
+    @show
 @show

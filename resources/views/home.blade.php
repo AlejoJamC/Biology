@@ -126,21 +126,21 @@
                     </article>
 
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-
+                        <img src="img/theme-3/icon4.png" alt="">
                         <article class="small">
                             <h4 class="h4">por que usarla</h4>
                             <p>En esta aplicación encontraras todo lo relacionado al mundo de la Célula. Permitiendo que puedas ampliar tus conocimientos sobre esta rama de la Biología, encontrando material didáctico en un solo lugar.</p>
                         </article>
                     </div>
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-
+                        <img src="img/theme-3/icon5.png" alt="">
                         <article class="small">
                             <h4 class="h4">Actualiza</h4>
                             <p>Danos tus sugerencias, para poder realizar constantes actualizaciones que sean de gran importancia y de mucha ayuda para que puedas lograr y cumplir con tu proceso educativo.</p>
                         </article>
                     </div>
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-
+                        <img src="img/theme-3/icon6.png" alt="">
                         <article class="small">
                             <h4 class="h4">Buen contenido</h4>
                             <p>En nuestra APP encontraras gran contenido de mucha ayuda en la obtención de conocimientos sobre la Célula.</p>
@@ -200,7 +200,7 @@
             <div class="row">
                 <div class="col-md-3 wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="contact-thumbs">
-                        <img src="img/theme-1/icon7.png" alt=""/>
+                        <img src="img/theme-3/icon7.png" alt=""/>
                         <article class="normall">
                             <p>
                                 Tel:
@@ -210,7 +210,7 @@
                         </article>
                     </div>
                     <div class="contact-thumbs">
-                        <img src="img/theme-1/icon8.png" alt=""/>
+                        <img src="img/theme-3/icon8.png" alt=""/>
                         <article class="normall">
                             <p>
                                 Email:

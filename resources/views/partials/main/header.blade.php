@@ -14,9 +14,9 @@
                 <li class="submeny">
                     <a href="#" class="submeny-top">Iniciar sesión</a>
                     <ul>
-                        <li><a href="blog.html">Estudiante</a></li>
-                        <li><a href="blog-2.html">Docente</a></li>
-                        <li><a href="blog-3.html">Administrador</a></li>
+                        <li><a href="/login">Estudiante</a></li>
+                        <li><a href="/teacher/login">Docente</a></li>
+                        <li><a href="/admin/login">Administrador</a></li>
                     </ul>
                 </li>
             </ul>
