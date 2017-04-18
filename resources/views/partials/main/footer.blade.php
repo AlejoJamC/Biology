@@ -4,17 +4,11 @@
         <div class="footer-bottom">
             <div class="footer-linck">
                 <a href="#">Inicio</a>
-                <a href="#">About Us </a>
-                <a href="#">Support</a>
-                <a href="#">FAQ</a>
-                <a href="#">Blog</a>
-                <a href="#">Forum</a>
+
             </div>
             <div class="media-icon">
-                <a href="#"><img src="{{ URL::asset('img/theme-3/c-icon.png') }}" alt=""/></a>
-                <a href="#"><img src="{{ URL::asset('img/theme-3/c-icon1.png') }}" alt=""/></a>
-                <a href="#"><img src="{{ URL::asset('img/theme-3/c-icon2.png') }}" alt=""/></a>
-                <a href="#"><img src="{{ URL::asset('img/theme-3/c-icon3.png') }}" alt=""/></a>
+                <a target="_blank" href="https://www.linkedin.com/in/jonathan-andres-rodriguez-0b3264139/"><img src="{{ URL::asset('img/theme-3/c-icon1.png') }}" alt=""/></a>
+                <a target="_blank" href="https://twitter.com/mineducacion?lang=es"><img src="{{ URL::asset('img/theme-3/c-icon3.png') }}" alt=""/></a>
             </div>
             <div class="copy">
                 <span>© 2016 DERECHOS RESERVADOS BIO.VA</span>

@@ -17,7 +17,7 @@
                                     <div class="banner-article">
                                         <h1 class="title">LA CÉLULA</h1>
                                         <div class="description">La célula es la unidad elemental que compone todo organismo y es capaz de actuar de manera autónoma. Todos los seres vivos están formados por células.</div>
-                                        <a class="button" href="#"><span>APRENDE YA</span></a>
+                                        <a class="button" href="#" data-toggle="tooltip" title="Has Clik!"><span>APRENDE YA</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@
                                     <div class="banner-article">
                                         <h1 class="title">PARTES DE LA CÉLULA</h1>
                                         <div class="description"> Si piensas en las habitaciones de nuestros hogares, el interior de cualquier célula animal o vegetal tiene muchas estructuras similares como la de nuestras habitaciones llamados orgánulos. Tanto las células vegetales y animales tienen muchos orgánulos en común.</div>
-                                        <a class="button" href="#"><span>INGRESA</span></a>
+                                        <a class="button" href="#" data-toggle="tooltip" title="Has Clik!"><span>INGRESA</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@
                                     <div class="banner-article">
                                         <h1 class="title">CLASIFICACIÓN CÉLULAR</h1>
                                         <div class="description">Las células se pueden clasificar en dos grandes grupos, según su estructura: EUCARIOTAS, PROCARIOTAS.</div>
-                                        <a class="button" href="#"><span>ADELANTE</span></a>
+                                        <a class="button" href="#" data-toggle="tooltip" title="Has Clik!"><span>ADELANTE</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@
                                     <div class="banner-article">
                                         <h1 class="title">DIVISIÓN CÉLULAR</h1>
                                         <div class="description">Es una parte muy importante del ciclo celular en la que una célula inicial se divide para formar células hijas. Gracias a la división celular se produce el crecimiento de los seres vivos.</div>
-                                        <a class="button" href="#"><span>SIGUE</span></a>
+                                        <a class="button" href="#" data-toggle="tooltip" title="Has Clik!"><span>SIGUE</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@
                     <div class="cell-view">
                         <article class="normall">
                             <h2 class="h2 titel-left">La Biología</h2>
-                            <p>La biología estudia las células en función de su constitución molecular y la forma en que cooperan entre sí para constituir organismos muy complejos, como por ejemplo el ser humano. Todo esto permite comprender como es el funcionamiento del cuerpo humano sano, cómo se desarrolla y envejece y qué falla en caso de enfermedad, por lo cual es imprescindible conocer las células que lo constituyen. </p>
+                            <p style="text-align:justify">La biología estudia las células en función de su constitución molecular y la forma en que cooperan entre sí para constituir organismos muy complejos, como por ejemplo el ser humano. Todo esto permite comprender como es el funcionamiento del cuerpo humano sano, cómo se desarrolla y envejece y qué falla en caso de enfermedad, por lo cual es imprescindible conocer las células que lo constituyen. </p>
                         </article>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
             <div class="row">
                 <div class="content-entry col-sm-6 wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="phones-container">
-                        <img src="img/content/Home-1/how_it_work_image.png" alt="" />
+                        <img src="img/content/Home-1/lacelula.jpg" alt="" />
                     </div>
                 </div>
                 <div class="content-entry col-sm-6">
@@ -126,21 +126,21 @@
                     </article>
 
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-                        <img src="img/theme-1/icon4.png" alt="">
+
                         <article class="small">
                             <h4 class="h4">por que usarla</h4>
                             <p>En esta aplicación encontraras todo lo relacionado al mundo de la Célula. Permitiendo que puedas ampliar tus conocimientos sobre esta rama de la Biología, encontrando material didáctico en un solo lugar.</p>
                         </article>
                     </div>
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-                        <img src="img/theme-1/icon5.png" alt="">
+
                         <article class="small">
                             <h4 class="h4">Actualiza</h4>
                             <p>Danos tus sugerencias, para poder realizar constantes actualizaciones que sean de gran importancia y de mucha ayuda para que puedas lograr y cumplir con tu proceso educativo.</p>
                         </article>
                     </div>
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-                        <img src="img/theme-1/icon6.png" alt="">
+
                         <article class="small">
                             <h4 class="h4">Buen contenido</h4>
                             <p>En nuestra APP encontraras gran contenido de mucha ayuda en la obtención de conocimientos sobre la Célula.</p>
@@ -165,32 +165,12 @@
 
                 <div class="swiper-container horizontal-pagination" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-lg-slides="3">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                       <div class="swiper-slide">
                             <div class="paddings-container">
                                 <div class="image-wrapper">
                                     <div class="image-socials-box">
                                         <div class="vertical-align">
-                                            <a href="#"><img src="img/c-icon.png" alt="" /></a>
                                             <a href="#"><img src="img/c-icon1.png" alt="" /></a>
-                                            <a href="#"><img src="img/c-icon2.png" alt="" /></a>
-                                            <a href="#"><img src="img/c-icon3.png" alt="" /></a>
-                                        </div>
-                                    </div>
-                                    <img class="thumbnail-image" src="img/content/Home-2/team-1.jpg" height="493" width="370" alt="" />
-                                </div>
-                                <div class="name">xxxxxxxxxxxxxxxxxxxxx</div>
-                                <div class="position">xxxxxxxxxxxxxxxxxxxxx</div>
-                                <div class="description"></div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="paddings-container">
-                                <div class="image-wrapper">
-                                    <div class="image-socials-box">
-                                        <div class="vertical-align">
-                                            <a href="#"><img src="img/c-icon.png" alt="" /></a>
-                                            <a href="#"><img src="img/c-icon1.png" alt="" /></a>
-                                            <a href="#"><img src="img/c-icon2.png" alt="" /></a>
                                             <a href="#"><img src="img/c-icon3.png" alt="" /></a>
                                         </div>
                                     </div>
@@ -198,7 +178,7 @@
                                 </div>
                                 <div class="name">JONATHAN ANDRES RODRIGUEZ PEREZ</div>
                                 <div class="position">director, programador</div>
-                                <div class="description">Con gran entusiasmo y mucha energía estaré dispuesto a realizar los cambios que consideres pertinentes para que como usuario te sientas contento de aprender de una forma diferente.</div>
+                                <div style="text-align:justify" class="description">Con gran entusiasmo y mucha energía estaré dispuesto a realizar los cambios que consideres pertinentes para que como usuario te sientas contento de aprender de una forma diferente.</div>
                             </div>
                         </div>
                     <div class="pagination"></div>
@@ -258,7 +238,7 @@
                 <div class="form-popup">
                     <div class="form-popup-close-layer"></div>
                     <div class="form-popup-content">
-                        <div class="text">Lorem Ipsum Dollor Sit Ammet consectetur dim Elit</div>
+                        <div class="text">Lxxxxxxxxxxxxxxxxxxx</div>
                     </div>
                 </div>
             </div>

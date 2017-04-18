@@ -4,20 +4,20 @@
 
 @section('content')
     <!-- BLOCK "TYPE 1" -->
-    <div class="block type-1 scroll-to-block" data-id="home">
+    <div class="block type-1 scroll-to-block" data-id="inicio">
         <div class="clip">
-            <div class="bg" style="background-image:url(img/content/Home-6/home-6-banner.jpg);">
+            <div class="bg" style="background-image:url(img/content/Home-6/eeee.jpg);">
             </div>
             <div class="bg-span"></div>
         </div>
         <div class="container type-1-text wow fadeInUp" data-wow-delay="0.3s">
-            <img class="hand-image" src="img/content/Home-6/hand.png" alt="" />
+
             <div class="row">
                 <div class="col-md-8 col-md-offset-4 type-1-center">
                     <article class="big white table" style="text-align: left;">
                         <h1 class="h1">BIO.VA</h1>
-                        <p>BIO.VA es una sitio web en donde podrás encontrar en secciones diferentes información sobre la Célula en el entorno educativo del grado quinto (5°) de primaria.</p>
-                        <a href="#" class="button" style="margin-bottom: 15px; margin-left: 0;"><span>ingresa!</span></a>
+                        <p>Bienvenidos BIO.VA es una sitio web en donde podrás encontrar en secciones diferentes información sobre la Célula en el entorno educativo del grado quinto (5°) de primaria.</p>
+
                     </article>
                 </div>
             </div>
@@ -25,7 +25,7 @@
     </div>
     <!-- BLOCK "TYPE 1" -->
 
-    <div class="new-block color-background scroll-to-block" data-id="about">
+    <div class="new-block color-background scroll-to-block" data-id="sabias-que">
         <div class="container">
             <div class="row page-tagline">
                 <div class="col-md-12">
@@ -34,27 +34,27 @@
                     <div class="description typography-article wow fadeInUp" data-wow-delay="0.3s">
                         <div class="row">
                             <div class="col-sm-6">
-                                <p style=”text-align:justify”>La Biología: Etimológicamente la palabra Biología proviene de dos vocablos griegos Bio-vida, y Logos-tratado. Es la ciencia que se ocupa de estudiar la vida, sus orígenes y su evolución. </p>
-                                <p style=”text-align:justify”>Muchas personas tienen noción de lo que es la biología y pueden definirla como la ciencia que se encarga del estudio de la vida en todas sus manifestaciones, implicando con ello el estudio de todo ser vivo y de su estructura, funcionamiento, taxonomía, distribución, evolución y relaciones, entre otras.</p>
-                                <p style=”text-align:justify”>A los que estudian la biología se les conoce profesionalmente como biólogos, aunque pueden ser llamados con los nombres de la rama específica en la que se enfocan, debido a que es una ciencia multidisciplinaria, que se nutre de otras ciencias y que a la vez provee a éstas información elemental.</p>
-                                <p style=”text-align:justify”>A través de la historia, la biología se ha ocupado de campos como: la teoría celular, la evolución, la genética, la energía y la homeóstasis, desde diversos puntos de vista. La Biología es una rama muy amplia, la cual brinda a sus profesionales la posibilidad de especializarse en: </p>
+                                <p style="text-align:justify">La Biología: Etimológicamente la palabra Biología proviene de dos vocablos griegos Bio-vida, y Logos-tratado. Es la ciencia que se ocupa de estudiar la vida, sus orígenes y su evolución. </p>
+                                <p style="text-align:justify">Muchas personas tienen noción de lo que es la biología y pueden definirla como la ciencia que se encarga del estudio de la vida en todas sus manifestaciones, implicando con ello el estudio de todo ser vivo y de su estructura, funcionamiento, taxonomía, distribución, evolución y relaciones, entre otras.</p>
+                                <p style="text-align:justify">A los que estudian la biología se les conoce profesionalmente como biólogos, aunque pueden ser llamados con los nombres de la rama específica en la que se enfocan, debido a que es una ciencia multidisciplinaria, que se nutre de otras ciencias y que a la vez provee a éstas información elemental. </p>
+                                <p style="text-align:justify">A través de la historia, la biología se ha ocupado de campos como: la teoría celular, la evolución, la genética, la energía y la homeóstasis, desde diversos puntos de vista. La Biología es una rama muy amplia, la cual brinda a sus profesionales la posibilidad de especializarse en: </p>
                             </div>
                             <div class="col-sm-6">
                                 <h7>
-                                <li><p>Botánica: Es el estudio de los miembros del reino plantea.</p></li>
-                                <li><p>Zoología: Estudio de los animales, miembros del reino Animalia.</p></li>
-                                <li><p>Anatomía: Estudio de la estructura interna y externa de los seres vivos.</p></li>
-                                <li><p>Citología: Se ocupa del estudio de las células.</p></li>
-                                <li><p>Ecología: Estudia a los seres vivos y su interacción con el medio ambiente.</p></li>
-                                <li><p>Microbiología: Se encarga del estudio de los microorganismos u organismos microscópicos.</p></li>
-                                <li><p>Micología: Estudia los hongos.</p></li>
-                                <li><p>Entomología: Estudio de los insectos. Es una subrama de la Zoología.</p></li>
-                                <li><p>Etología: Estudia el comportamiento de los seres vivos.</p></li>
-                                <li><p>Ornitología: Estudio de las aves.</p></li>
-                                <li><p>Genética: Estudio de los genes y de la herencia genética.</p></li>
+                                <li><p style="text-align:justify">Botánica: Es el estudio de los miembros del reino plantea.</p></li>
+                                <li><p style="text-align:justify">Zoología: Estudio de los animales, miembros del reino Animalia.</p></li>
+                                <li><p style="text-align:justify">Anatomía: Estudio de la estructura interna y externa de los seres vivos.</p></li>
+                                <li><p style="text-align:justify">Citología: Se ocupa del estudio de las células.</p></li>
+                                <li><p style="text-align:justify">Ecología: Estudia a los seres vivos y su interacción con el medio ambiente.</p></li>
+                                <li><p style="text-align:justify">Microbiología: Estudia los microorganismos u organismos microscópicos.</p></li>
+                                <li><p style="text-align:justify">Micología: Estudia los hongos.</p></li>
+                                <li><p style="text-align:justify">Entomología: Estudio de los insectos. Es una subrama de la Zoología.</p></li>
+                                <li><p style="text-align:justify">Etología: Estudia el comportamiento de los seres vivos.</p></li>
+                                <li><p style="text-align:justify">Ornitología: Estudio de las aves.</p></li>
+                                <li><p style="text-align:justify">Genética: Estudio de los genes y de la herencia genética.</p></li>
                                 </h7>
                                 <br>
-                                <p style=”text-align:justify”>Cada una de las ramas de la biología aporta elementos importantes para la comprensión de fenómenos y/o problemas específicos y son muchas veces inherentes entre sí, siendo apoyada por otras áreas como son la química y las matemáticas.</p>
+                                <p style="text-align:justify">Cada una de las ramas de la biología aporta elementos importantes para la comprensión de fenómenos y/o problemas específicos y son muchas veces inherentes entre sí, siendo apoyada por otras áreas como son la química y las matemáticas.</p>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
 
     </div>
 
-    <div class="new-block scroll-to-block" data-id="benefits">
+    <div class="new-block scroll-to-block" data-id="celula">
         <div class="container">
             <div class="row page-tagline">
                 <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
@@ -87,19 +87,29 @@
                                 <div class="icon"><img alt="" src="img/theme-1/nucleolo.png" /></div>
                                 <div class="content">
                                     <div class="title">El Núcleo</div>
-                                    <div style="text-align:justify" class="description">Está rodeado de forma característica por una membrana, es esférico y mide unas 5 µm de diámetro.Se le llama Núcleo Celular al centro de las células eucariotas, las cuales contienen todos los datos genéticos necesarios a la hora de la reproducción, el núcleo celular esta compuesto por un orgánulo blando que lo compone el ADN y el ARN, estos se mantienen aislados y se protegen hasta el momento de la fusión, en el caso de la reproducción animal, este orgánulo u organelo no libera su contenido hasta que el espermatozoide y el ovulo no se fecundan. A Este lo rodea una capa lipídica rica en proteínas que mantienen a distancia al citoplasma, el cual sirve como una gelatina inerte en la que se depositan todos los demás componentes de la célula.</div><br>
-                                    <a href="http://www.cerebriti.com/juegos-de-ciencias/el-nucleo">JUEGA</a>
+                                    <div style="text-align:justify" class="description">Es el órgano más importante en casi todas las células animales y vegetales. Está rodeado por una membrana, es esférico y mide unas 5 micras de diámetro.<br> <br>Dentro del núcleo las moléculas de ADN y proteínas están organizadas en cromosomas que suelen aparecer dispuestos en pares idénticos.<br><br>
+                                        Los cromosomas están muy retorcidos y enmarañados y es difícil identificarlos por separado.<br> <br>Pero justo antes de que la célula se divida, se condensan y adquieren grosor suficiente para ser detectables como estructuras independientes.<br><br>
+                                        El ADN del interior de cada cromosoma es una molécula única muy larga y enrollada que contiene secuencias lineales de genes, estos encierran a su vez instrucciones codificadas para la construcción de las moléculas de proteínas y ARN necesarias para producir una copia funcional de la célula.
+                                        <br> <br>
+                                    <p>Sigue el enlace y encontraras temas relacionados <a href="http://www.cerebriti.com/juegos-de-ciencias/el-nucleo">JUEGA* </a></p><br>
+                                    <p style="font-size: 10px; color: dimgray;">* todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L. </p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="entry wow fadeInRight" data-wow-delay="0.5s">
                                 <div class="icon"><img alt="" src="img/theme-1/citoplasma.png" /></div>
                                 <div class="content">
                                     <div class="title">El citoplasma</div>
-                                    <div style="text-align:justify" class="description">El citoplasma es una de las partes, elementos básicos de la célula, que se ubica entre la membrana plasmática y el núcleo, en las células eucariotas, y en las células procariotas que al no disponer de núcleo, usan al citoplasma para ser el alojamiento de su material genético.
-                                        Básicamente, el citoplasma se ocupa de desarrollar todas las reacciones químicas de los seres vivientes y está conformado eminentemente por agua y también por sustancias minerales ionizadas y sustancias orgánicas como enzimas y proteínas. <br>
-                                        Sus funciones relevantes son tres: nutrición, ya que en él se incorporan esas sustancias que serán luego transformadas para liberar energía; almacenamiento, se ocupa de almacenar ciertas sustancias que a futuro se usarán y es importante que estén allí a la espera de su necesidad de usarlas; y la estructural, dado que el citoplasma es aquella parte que le da la forma a la célula y que será el punto de partida de todos sus movimientos
-                                    </div><br>
-                                    <a href="http://www.cerebriti.com/juegos-de-ciencias/partes-del-citoplasma#.WCKtLPnhDIU">JUEGA</a>
+                                    <div style="text-align:justify" class="description">Es un elementos básicos de la célula, se ubica entre la membrana plasmática, el núcleo, células eucariotas y en las células procariotas que al no disponer de núcleo usan al citoplasma para ser el alojamiento de su material genético.<br><br>
+                                        el citoplasma desarrolla todas las reacciones químicas de los seres vivientes y está conformado eminentemente por agua y también por sustancias minerales ionizadas y sustancias orgánicas como enzimas y proteínas, tiene tres funciones:<br> <br>
+
+                                        <li>Nutrición, ya que en él se incorporan esas sustancias que serán luego transformadas para liberar energía</li><br>
+                                        <li>Almacenamiento, se ocupa de almacenar ciertas sustancias que a futuro se usarán y es importante que estén allí a la espera de su necesidad de usarlas</li><br>
+                                        <li>Estructural, dado que el citoplasma es aquella parte que le da la forma a la célula y que será el punto de partida de todos sus movimientos</li><br>
+                                        <p> Sigue el enlace y encontraras temas relacionados <a href="http://www.cerebriti.com/juegos-de-ciencias/partes-del-citoplasma#.WCKtLPnhDIU">CLICK AQUÍ* </a> </p><br>
+                                        <p style="font-size: 10px; color: dimgray;">* todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L. </p>
+                                    </div>
+
                                 </div>
                             </div>
                          </div>
@@ -110,40 +120,41 @@
                                 <div class="icon"><img alt="" src="img/theme-1/organulos.png" /></div>
                                 <div class="content">
                                     <div class="title">organelos</div>
-                                    <div style="text-align:justify" class="description">Los organelos u orgánulos, son estructuras celulares especializadas, que cumplen funciones específicas dentro de las células. Las células procariontes, al ser de estructura más sencilla, tienen menos organelos, mientras que, en los eucariontes, mientras más aumenta su complejidad, contienen mayor cantidad de organelos. <br>
-                                        En seguida se describirán los organelos que forman parte de la mayoría de las células. <br><br>
+                                    <div style="text-align:justify" class="description">Son estructuras celulares especializadas. Las células procariontes tienen menos organelos que las eucariontas, mientras más aumenta su complejidad, contienen mayor cantidad de organelos. <br>
+                                        En seguida se describirán los organelos que forman parte de la mayoría de las células. <br>
 
-                                        <li> <p>Retículo endoplasmático: Es una red de conductos que recorren el citoplasma; comunican el núcleo con el citoplasma con el exterior de la célula. almacena las proteínas fabricadas en los ribosomas para distribuirlas en el citoplasma.</li> </p>
+                                        <li> <p>Retículo endoplasmático: Red de conductos que recorren el citoplasma; comunican el núcleo con el exterior de la célula. almacena las proteínas fabricadas en los ribosomas para distribuirlas en el citoplasma.</li> </p> <br>
 
-                                        <li> <p>Ribosomas: Es de forma esférica y cada uno está constituido por dos unidades de proteína. Se forman en el retículo endoplasmático e intervienen en la fabricación de proteinas.</li> </p>
+                                        <li> <p>Ribosomas: Es de forma esférica y cada uno está constituido por dos unidades de proteína. Se forman en el retículo endoplasmático e intervienen en la fabricación de proteinas.</li> </p> <br>
 
-                                        <li> <p>Aparato de Golgi: Es un sistema de sacos aplanados llamados “discoidales”, encargado de construir ciertos glúcidos y almacenarlos junto con algunas proteínas. Interviene en el transporte y acumulación de muchas sustancias.</li> </p>
+                                        <li> <p>Aparato de Golgi: Es un sistema de sacos aplanados llamados “discoidales”, encargado de construir ciertos glúcidos y almacenarlos junto con algunas proteínas. Interviene en el transporte y acumulación de muchas sustancias.</li> </p> <br>
 
-                                        <li> <p>Vacuolas: Sacos de membrana sencilla, la cual almacena agua y sustancias de reserva: almidones y grasas, sustancias de desecho y sales. Son más frecuentes en las células vegetales que en las animales.</li> </p>
+                                        <li> <p>Vacuolas: Sacos de membrana sencilla, la cual almacena agua y sustancias de reserva: almidones y grasas, sustancias de desecho y sales. Son más frecuentes en las células vegetales que en las animales.</li> </p> <br>
 
-                                        <li> <p>Lisosomas: Pequeñas bolsas globulares, cargadas de jugos digestivos, que se forman en el aparato de Golgi. Realizan la digestión de las sustancias ingeridas por la célula. Abundan en las células defensoras del organismo, como son los glóbulos blancos.</li> </p>
+                                        <li> <p>Lisosomas: Pequeñas bolsas globulares, cargadas de jugos digestivos, que se forman en el aparato de Golgi. Realizan la digestión de las sustancias ingeridas por la célula. Abundan en las células defensoras como son los glóbulos blancos.</li> </p> <br>
 
-                                        <li> <p> Mitocondrias: Son de forma esférica o de bastoncilio. Formadas por un sistema de doble membrana; su parte externa es lisa, y la interna tiene una serie de pliegues, los cuales forman crestas. se encarga de dar la energía necesaria para las funciones celulares.</li> </p> <br>
-                                        <a href="http://cmapspublic3.ihmc.us/rid=1HKBXG8YC-J6PPKX-LY5/organelos.cmap"> ORGANELOS</a>
+                                        <li> <p> Mitocondrias: Son de forma esférica, formadas por una doble membrana; su parte externa es lisa, y la interna tiene una serie de pliegues, los cuales forman crestas. Brinda energía necesaria para las funciones celulares.</li> </p> <br>
+                                        <p> Sigue el enlace y encontraras temas relacionados <a href="http://cmapspublic3.ihmc.us/rid=1HKBXG8YC-J6PPKX-LY5/organelos.cmap"> ORGANELOS*</a></p><br>
+
+                                        <p style="font-size: 10px; color: dimgray;">* todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L. </p>
+
 
                                     </div>
                                 </div>
                             </div>
                             <div class="entry wow fadeInLeft" data-wow-delay="0.5s">
-                                <div class="icon"><img alt="" src="img/theme-1/icon14.png" /></div>
+                                <div class="icon"><img alt="" src="img/theme-1/menbrana.png" /></div>
                                 <div class="content">
-                                    <div class="title">personal planners</div>
-                                    <div class="description">Vestibulum accumsan est malesuada sem auctor, eu aliquet nisi ornare. Aliquam dapibus lectus</div>
+                                    <div class="title">membrana célular</div>
+                                    <div style="text-align:justify" class="description">Es una estructura que contiene los diferentes elementos que conforman la célula, esta membrana es bien conocida por su función delimitadora, sin embargo es una estructura compleja capaz de llevar a cabo múltiples funciones de gran importancia para la vida.<br><br>
+                                        Los principales constituyentes de la membrana celular son los lípidos o moléculas de grasa, específicamente los fosfolípidos que se disponen formando dos capas, en la formación de la membrana también participa el colesterol. Estas moléculas se mantienen adheridas entre sí, sin embargo tienen capacidad de movimiento lo cual le brinda fluidez y flexibilidad a la membrana.<br><br>
+                                        <p> Sigue el enlace y encontraras temas relacionados <a href="http://es.slideshare.net/Rosmakoch/membrana-celular-estructura-y-funcin"> MEMBRANA CÉLULAR*</a></p><br>
+
+                                        <p style="font-size: 10px; color: dimgray;">* todos los derechos reservados de Rosmakoch, slideshare </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="entry wow fadeInLeft" data-wow-delay="0.7s">
-                                <div class="icon"><img alt="" src="img/theme-1/icon15.png" /></div>
-                                <div class="content">
-                                    <div class="title">your Achievements</div>
-                                    <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
-                                </div>
-                            </div>
-                        </div>
+                          </div>
                     </div>
                 </div>
 
@@ -151,93 +162,27 @@
         </div>
     </div>
 
-    <div class="new-block color-background scroll-to-block" data-id="gallery">
-        <div class="container">
-            <div class="row page-tagline">
-                <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
-                    <h2 class="title">take more with us</h2>
-                    <div class="description">Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficitur massa pharetra dolor sed.</div>
-                </div>
-            </div>
-            <div class="screens-custom-slider-box wow fadeInUp" data-wow-delay="0.3s">
-                <div class="swiper-container horizontal-pagination" data-autoplay="0" data-loop="0" data-speed="500" data-center="1" data-slides-per-view="3">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/screens_slider_image_1.jpg" alt="" /><div class="text"><p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus</p></div></div>
-
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/screens_slider_image_2.jpg" alt="" /><div class="text"><p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus</p></div></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/screens_slider_image_3.jpg" alt="" /><div class="text"><p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus</p></div></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/screens_slider_image_4.jpg" alt="" /><div class="text"><p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus</p></div></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/screens_slider_image_5.jpg" alt="" /><div class="text"><p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus</p></div></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/screens_slider_image_6.jpg" alt="" /><div class="text"><p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus</p></div></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/screens_slider_image_7.jpg" alt="" /><div class="text"><p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus</p></div></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/screens_slider_image_8.jpg" alt="" /><div class="text"><p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus</p></div></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/screens_slider_image_9.jpg" alt="" /><div class="text"><p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus</p></div></div>
-                        </div>
-                    </div>
-                    <div class="pagination"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="new-block color-background scroll-to-block" data-id="why">
-        <div class="clip">
-            <video loop autoplay poster="assets/intro_for_ipad.jpg" class="bgvid">
-                <source src="assets/header-v5-ogg-1.ogg" type="video/ogg">
-                <source src="assets/header-v5-h264-2.mp4" type="video/mp4">
-            </video>
-            <div class="bg-span"></div>
-        </div>
-
-        <div class="container">
-            <div class="row page-tagline">
-                <div data-wow-delay="0.3s" class="col-md-12 wow flipInX">
-                    <h2 class="title">why our app</h2>
-                    <div class="description typography-article"><p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficitur massa pharetra dolor sed. Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi.</p></div>
-
-                    <a data-src="https://www.youtube.com/embed/RqMmtcPjCwA?rel=0" class="play inline-play-button" href="#"></a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="new-block scroll-to-block" style="background: #fbfbfb;" data-id="how-it-works">
+    <div class="new-block scroll-to-block" style="background: #fbfbfb;" data-id="Partes_Celula">
         <div class="container">
             <div class="row left-right-entry">
                 <div class="col-sm-6 wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="image-entry"><img src="img/content/Home-6/left-right-image-1.png" alt="" /></div>
+                    <div class="image-entry"><img src="img/content/Home-6/partescelula.jpg" alt="" /></div>
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-delay="0.3s">
                     <div class="cell-view">
                         <div class="typography-article">
-                            <h2 class="titel-left">How it work</h2>
-                            <p>Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficiturus sed. Vestibulum ac tincidunt enim.Suspendisse id pharetra lacus, et hendrerit mi.</p>
+                            <h2 class="titel-left">Partes de la Célula</h2>
+                            <p style="text-align:justify">Si piensas en las habitaciones de nuestros hogares, el interior de cualquier célula animal o vegetal tiene muchas estructuras similares como la de nuestras habitaciones llamados orgánulos. Tanto las células vegetales y animales tienen muchos orgánulos en común.</p>
                             <ul class="list-style-2">
-                                <li>MP3, Ogg Vorbis or AAC can be used</li>
-                                <li>48 kHz sample rate</li>
-                                <li>16 bits per sample</li>
-                                <li>2 channels for stereo audio</li>
-                                <li>Audio bitrate 128-320Kbps</li>
+
+                                <li><p style="text-align:justify">El núcleo: es el órgano más importante en casi todas las células animales y vegetales. Está rodeado por una membrana, es esférico y mide unas 5 micras de diámetro. Dentro del núcleo las moléculas de ADN y proteínas están organizadas en cromosomas que suelen aparecer dispuestos en pares idénticos. </li></p>
+                                <li><p style="text-align:justify"> El nucléolo: es una región especial en la que se sintetizan partículas que contienen ARN y proteína que migran al citoplasma a través de los poros nucleares y a continuación se modifican para transformarse en ribosomas, este controla la síntesis de proteínas en el citoplasma enviando mensajeros moleculares.
+
+                                        El ARN mensajero (ARNm) se sintetiza de acuerdo con las instrucciones contenidas en el ADN y abandona el núcleo a través de los poros.</li></p>
+                                <li><p style="text-align:justify">Citoplasma y citosol: comprende todo el volumen de la célula, salvo el núcleo. Engloba numerosas estructuras especializadas y orgánulos, como se describirá más adelante.</li></p>
+                                <li><P style="text-align:justify">Citosol: es un gel de base acuosa que contiene gran cantidad de moléculas grandes y pequeñas, en el citosol se producen muchas de las funciones más importantes del mantenimiento celular, como las primeras etapas de descomposición de moléculas nutritivas y la síntesis de muchas de las grandes moléculas que constituyen la célula.</li></p>
+                                <li><P style="text-align:justify">Membranas internas: Núcleos, mitocondrias y cloroplastos no son los únicos orgánulos internos de las células eucarióticas delimitados por membranas. El citoplasma contiene también muchos otros orgánulos envueltos por una membrana única que desempeñan funciones diversas. Casi todas guardan relación con la introducción de materias primas y la expulsión de sustancias elaboradas y productos de desecho por parte de la célula. </li></p>
                             </ul>
-                            <p>Tonsequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficitur</p>
                         </div>
                     </div>
                 </div>
@@ -249,171 +194,108 @@
         <div class="container">
             <div class="row left-right-entry">
                 <div class="col-sm-6 col-sm-push-6 wow fadeInRight" data-wow-delay="0.3s">
-                    <div class="image-entry"><img src="img/content/Home-6/left-right-image-2.png" alt="" /></div>
+                    <div class="image-entry"><img src="img/content/Home-6/partescelula.jpg" alt="" /></div>
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="cell-view">
                         <div class="typography-article">
-                            <h2 class="titel-left">How it work</h2>
-                            <p>Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficiturus sed. Vestibulum ac tincidunt enim.Suspendisse id pharetra lacus, et hendrerit mi.<br/><br/></p>
+                            <h2 class="titel-left">Partes de la Célula</h2>
+                            <ul class="list-style-2">
+                                <li><p style="text-align:justify">Citoesqueleto: es una red de filamentos proteicos del citosol que ocupa el interior de todas las células animales y vegetales. Adquiere una relevancia especial en los animales, que carecen de pared celular rígida, pues el citoesqueleto mantiene la estructura y la forma de la célula. Actúa como bastidor para la organización de la célula y la fijación de orgánulos y enzimas. También es responsable de muchos de los movimientos celulares.<br>
+                                        Se forma a partir de tres tipos principales de filamentos protéicos: microtúbulos, filamentos de actina y filamentos intermedios unidos entre sí a otras estructuras celulares por diversas proteínas.</li></p>
+                                <li><p style="text-align:justify">Mitocondrias y cloroplastos: son uno de los orgánulos más sobresalientes del citoplasma y se encuentran en casi todas las células eucarióticas. Observadas al microscopio, presentan una estructura característica: la mitocondria tiene forma alargada u oval de varias micras de longitud y está envuelta por dos membranas distintas, una externa y otra interna, muy replegada.</li></p>
+                                <li><p style="text-align:justify">Las mitocondrias: son los orgánulos productores de energía. La célula necesita energía para crecer y multiplicarse, y las mitocondrias aportan casi toda esta energía realizando las últimas etapas de la descomposición de las moléculas de los alimentos. Estas etapas finales consisten en el consumo de oxígeno y la producción de dióxido de carbono, proceso llamado respiración, por su similitud con la respiración pulmonar. <br>
+                                        Sin mitocondrias, los animales y hongos no serían capaces de utilizar oxígeno para extraer toda la energía de los alimentos y mantener con ella el crecimiento y la capacidad de reproducirse. Los organismos llamados anaerobios viven en medios sin oxígeno, por lo que carecen de mitocondrias.</li></p>
+                                <li><p style="text-align:justify">Cloroplastos: son orgánulos aún mayores y se encuentran en las células de plantas y algas, pero no en las de animales y hongos. Su estructura es aún más compleja que la mitocondrial: además de las dos membranas de la envoltura, tienen numerosos sacos internos formados por membrana que encierran el pigmento verde llamado clorofila.  </li></p>
+                                <p> Sigue el enlace y encontraras temas relacionados <a href="http://www.cerebriti.com/juegos-de-ciencias/la-celula1#.WCVCFPnhDIU"> PARTES CÉLULA*</a></p>
+                                <p style="font-size: 10px; color: dimgray;">* todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L.  </p>
                         </div>
-                        <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-                            <img src="img/theme-1/icon4.png" alt="">
-                            <article class="small">
-                                <h4 class="h4">why our app</h4>
-                                <p>Suspendisse id pharetra lacus, et hendrerit mi. Praesent at vestibulum tortor. Praesent condimentum efficiturus sed.</p>
-                            </article>
-                        </div>
-                        <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-                            <img src="img/theme-1/icon5.png" alt="">
-                            <article class="small">
-                                <h4 class="h4">regular updates</h4>
-                                <p>Curabitur nunc erat, consequat in erat ut, congue bibendum nulla. Suspendisse id pharetra lacus, et hendrerit mi.</p>
-                            </article>
-                        </div>
+
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- BLOCK "TYPE 10" -->
-    <div class="new-block type-10 scroll-to-block" data-id="team">
-        <div class="container">
-            <div class="row page-tagline">
-                <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
-                    <h2 class="title">development team</h2>
-                    <div class="description">Praesent at vestibulum tortor. Praesent condimentum efficitur massa, nec congue sem dapibus sed. Sed eget justo at erat suscipit tristique sit.</div>
-                </div>
+    <div class="new-block scroll-to-block" style="background: #fbfbfb;" data-id="Clasificación_celular"qqq>
+    <div class="container">
+        <div class="row left-right-entry">
+            <div class="col-sm-6 wow fadeInLeft" data-wow-delay="0.3s">
+                <div class="image-entry"><img src="img/content/Home-6/partescelula.jpg" alt="" /></div>
             </div>
+            <div class="col-sm-6 wow fadeInRight" data-wow-delay="0.3s">
+                <div class="cell-view">
+                    <div class="typography-article">
+                        <h2 class="titel-left">Células Procariotas</h2>
+                        <p style="text-align:justify">Las células procariotas son pequeñas y menos complejas que las eucariotas. Contienen ribosomas pero carecen de sistemas de endomembranas (esto es, organelos delimitados por membranas biológicas, como puede ser el núcleo celular). Por ello poseen el material genético en el citosol. Por lo general podría decirse que los procariotas carecen de citoesqueleto. <br><br> Las células procariotas seclasifican en arqueas y bacterias</p>
+                        <ul class="list-style-2">
 
-            <div class="row team-inline-entry">
-                <div class="col-sm-4 wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="paddings-container">
-                        <div class="image-wrapper">
-                            <div class="image-socials-box">
-                                <div class="vertical-align">
-                                    <a href="#"><img src="img/c-icon.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon1.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon2.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon3.png" alt="" /></a>
-                                </div>
-                            </div>
-                            <img class="thumbnail-image" src="img/content/Home-2/team-1.jpg" height="493" width="370" alt="" />
-                        </div>
-                        <div class="name">Patricia arton</div>
-                        <div class="position">co-founder. creative director</div>
-                        <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="paddings-container">
-                        <div class="image-wrapper">
-                            <div class="image-socials-box">
-                                <div class="vertical-align">
-                                    <a href="#"><img src="img/c-icon.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon1.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon2.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon3.png" alt="" /></a>
-                                </div>
-                            </div>
-                            <img class="thumbnail-image" src="img/content/Home-2/team-2.jpg" height="493" width="370" alt="" />
-                        </div>
-                        <div class="name">Patrick smithson</div>
-                        <div class="position">co-founder, developer</div>
-                        <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInRight" data-wow-delay="0.3s">
-                    <div class="paddings-container">
-                        <div class="image-wrapper">
-                            <div class="image-socials-box">
-                                <div class="vertical-align">
-                                    <a href="#"><img src="img/c-icon.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon1.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon2.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon3.png" alt="" /></a>
-                                </div>
-                            </div>
-                            <img class="thumbnail-image" src="img/content/Home-2/team-3.jpg" height="493" width="370" alt="" />
-                        </div>
-                        <div class="name">kate beckett</div>
-                        <div class="position">marketing director</div>
-                        <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row team-inline-entry">
-                <div class="col-sm-4 wow fadeInLeft" data-wow-delay="0.3s">
-                    <div class="paddings-container">
-                        <div class="image-wrapper">
-                            <div class="image-socials-box">
-                                <div class="vertical-align">
-                                    <a href="#"><img src="img/c-icon.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon1.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon2.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon3.png" alt="" /></a>
-                                </div>
-                            </div>
-                            <img class="thumbnail-image" src="img/content/Home-2/team-4.jpg" height="493" width="370" alt="" />
-                        </div>
-                        <div class="name">Patricia arton</div>
-                        <div class="position">co-founder. creative director</div>
-                        <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="paddings-container">
-                        <div class="image-wrapper">
-                            <div class="image-socials-box">
-                                <div class="vertical-align">
-                                    <a href="#"><img src="img/c-icon.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon1.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon2.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon3.png" alt="" /></a>
-                                </div>
-                            </div>
-                            <img class="thumbnail-image" src="img/content/Home-2/team-5.jpg" height="493" width="370" alt="" />
-                        </div>
-                        <div class="name">Patrick smithson</div>
-                        <div class="position">co-founder, developer</div>
-                        <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
-                    </div>
-                </div>
-                <div class="col-sm-4 wow fadeInRight" data-wow-delay="0.3s">
-                    <div class="paddings-container">
-                        <div class="image-wrapper">
-                            <div class="image-socials-box">
-                                <div class="vertical-align">
-                                    <a href="#"><img src="img/c-icon.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon1.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon2.png" alt="" /></a>
-                                    <a href="#"><img src="img/c-icon3.png" alt="" /></a>
-                                </div>
-                            </div>
-                            <img class="thumbnail-image" src="img/content/Home-2/team-6.jpg" height="493" width="370" alt="" />
-                        </div>
-                        <div class="name">kate beckett</div>
-                        <div class="position">marketing director</div>
-                        <div class="description">Fusce ullamcorper turpis at eros blandit, at iaculis eros bibendum. In diam erat, gravida sit amet aliquet vitae</div>
-                    </div>
-                </div>
-            </div>
+                            <li><p style="text-align:justify">Arqueobacterias: Las arqueobacterias necesitan otras sustancias para poder conformar sus paredes celulares.</li></p>
+                            <li><p style="text-align:justify">Eubacterias: Son aquellas que poseen una pared celular conformada por peptidoglicano o por una mureína.</li></p>
 
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+
+    <div class="new-block">
+    <div class="container">
+        <div class="row left-right-entry">
+            <div class="col-sm-6 col-sm-push-6 wow fadeInRight" data-wow-delay="0.3s">
+                <div class="image-entry"><img src="img/content/Home-6/partescelula.jpg" alt="" /></div>
+            </div>
+            <div class="col-sm-6 col-sm-pull-6 wow fadeInLeft" data-wow-delay="0.3s">
+                <div class="cell-view">
+                    <div class="typography-article">
+                        <h2 class="titel-left">Células Eucariota</h2>
+                        <p style="text-align:justify">Las células eucariotas: son el exponente de la complejidad celular actual. Presentan una estructura básica relativamente estable caracterizada por lapresencia de distintos tipos de orgánelos intracitoplasmáticos especializados, entre los cuales destaca el núcleo, que alberga el material genético. Especialmente en los organismos pluricelulares, las células pueden alcanzar un alto grado de especialización.<br><br>
+                                Al comenzar la mitosis se pueden distinguir en el núcleo unos corpulosos caracteristicos, o también llamados los cromosomas, los cuales portan factores hereditarios o tambien se pueden llamar genes.</p>
+
+                        <ul class="list-style-2">
+                            <li><p style="text-align:justify">Los Cromosomas: La función de un núcleo en una célula consiste en transmitir de una célula a otra, su informacion genetica, sin modificarla o empobrecerla.</li></p>
+                            <li><p style="text-align:justify">El Nucléolo: es un orgánulo con una fácil distinción con un microscopio óptico por su gran tamaño. Su tamaño y morfología no obstantes, variables en función de la especie.</li></p>
+
+                    </div>
 
 
-    <!-- BLOCK "MAP" -->
-    <div>
-        <div id="map-canvas" data-lat="43.653226" data-lng="-107.383184" data-zoom="7">
-
-        </div>
-        <div class="addresses-block">
-            <a data-lat="43.653226" data-lng="-107.383184" data-string="1. Here is some address or email or phone or something else..."></a>
-            <a data-lat="57.653226" data-lng="-77.383184" data-string="2. Here is some address or email or phone or something else..."></a>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+<div class="new-block color-background scroll-to-block" data-id="gallery">
+    <div class="container">
+        <div class="row page-tagline">
+            <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
+                <h2 class="title">imágenes de ayuda</h2>
+                <div  class="description"><p style="font-size: 20px"> Disfruta de las siguientes imágenes referentes al mundo de la célula las cuales te serán de mucha ayuda.</p></div>
+            </div>
+        </div>
+        <div class="screens-custom-slider-box wow fadeInUp" data-wow-delay="0.3s">
+            <div class="swiper-container horizontal-pagination" data-autoplay="0" data-loop="0" data-speed="500" data-center="1" data-slides-per-view="3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="custom-screen-wrapper"><img src="img/content/Home-6/CeluAnimal.jpg" alt="" /><div class="text"><p>Disfruta de esta imágen de la Célula Animal</p></div></div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="custom-screen-wrapper"><img src="img/content/Home-6/CeluVE.jpg" alt="" /><div class="text"><p>Disfruta de esta imágen de la Célula Vegetal</p></div></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="custom-screen-wrapper"><img src="img/content/Home-6/celuu.jpg" alt="" /><div class="text"><p>Disfruta de esta imágen de la Célula</p></div></div>
+                    </div>
+
+                </div>
+                <div class="pagination"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
     <!-- FOOTER -->
     @include('partials.admin.footer')

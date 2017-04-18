@@ -7,17 +7,17 @@
         <nav>
             <ul>
                 <li class="submeny">
-                    <a href="#home" class="submeny-top act scroll-to-link">Inicio</a>
+                    <a href="#inicio" class="submeny-top act scroll-to-link">Inicio</a>
 
                 </li>
-                <li><a href="#about" class="scroll-to-link">¿Sabias que?</a></li>
-                <li><a href="#benefits" class="scroll-to-link">La célula</a></li>
-                <li><a href="#gallery" class="scroll-to-link">gallery</a></li>
-                <li><a href="#why" class="scroll-to-link">why</a></li>
-                <li><a href="#how-it-works" class="scroll-to-link">how it works</a></li>
-                <li><a href="#team" class="scroll-to-link">team</a></li>
+                <li><a href="#sabias-que" class="scroll-to-link">¿Sabias que?</a></li>
+                <li><a href="#celula" class="scroll-to-link">La célula</a></li>
+                <li><a href="#Partes_Celula" class="scroll-to-link">Partes de la Célula</a></li>
+                <li><a href="#Clasificación_celular" class="scroll-to-link">Clasificación Célular</a></li>
+                <li><a href="#divi_celular" class="scroll-to-link">División célular</a></li>
+                <li><a href="#gallery" class="scroll-to-link">imágenes</a></li>
                 <li class="submeny">
-                    <a href="#" class="submeny-top">Pages</a>
+                    <a href="#" class="submeny-top">lINKS</a>
                     <ul>
                         <li><a href="blog.html">blog standart</a></li>
                         <li><a href="blog-2.html">blog fullwidth</a></li>
