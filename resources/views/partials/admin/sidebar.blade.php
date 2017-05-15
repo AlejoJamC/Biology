@@ -1,6 +1,6 @@
 @section('header')
     <header>
-        <a href="index.html" id="logo"><img src="img/theme-3/logo.png" alt=""/><img class="act" src="img/theme-3/logo-act.png" alt=""/></a>
+        <a href="#" id="logo"><img src="{{ URL::asset('img/logobiova_168_min.png') }}" alt=""/><img class="act" src="{{ URL::asset('img/logobiova_168_min.png') }}" alt=""/></a>
         <div class="mob-icon">
             <span></span>
         </div>

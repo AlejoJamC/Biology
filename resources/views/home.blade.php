@@ -16,8 +16,8 @@
                                 <div class="col-md-6 banner-text">
                                     <div class="banner-article">
                                         <h1 class="title">LA CÉLULA</h1>
-                                        <div class="description">La célula es la unidad elemental que compone todo organismo y es capaz de actuar de manera autónoma. Todos los seres vivos están formados por células.</div>
-                                        <a class="button" href="#" data-toggle="tooltip" title="Has Clik!"><span>APRENDE YA</span></a>
+                                        <div class="description">Las células presentan diversas formas: alargadas, redondas, estrelladas, irregulares; varían en tamaños, desde muy pequeñas que sólo pueden ser vistas a través del  microscopio, hasta muy grandes como algunas fibras vegetales. Las células animales son diferentes a las células vegetales. </div>
+                                        <a class="button" href="login" data-toggle="tooltip" title="Has Clik!"><span>APRENDE YA</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@
                                     <div class="banner-article">
                                         <h1 class="title">PARTES DE LA CÉLULA</h1>
                                         <div class="description"> Si piensas en las habitaciones de nuestros hogares, el interior de cualquier célula animal o vegetal tiene muchas estructuras similares como la de nuestras habitaciones llamados orgánulos. Tanto las células vegetales y animales tienen muchos orgánulos en común.</div>
-                                        <a class="button" href="#" data-toggle="tooltip" title="Has Clik!"><span>INGRESA</span></a>
+                                        <a class="button" href="login" data-toggle="tooltip" title="Has Clik!"><span>INGRESA</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@
                                     <div class="banner-article">
                                         <h1 class="title">CLASIFICACIÓN CÉLULAR</h1>
                                         <div class="description">Las células se pueden clasificar en dos grandes grupos, según su estructura: EUCARIOTAS, PROCARIOTAS.</div>
-                                        <a class="button" href="#" data-toggle="tooltip" title="Has Clik!"><span>ADELANTE</span></a>
+                                        <a class="button" href="login" data-toggle="tooltip" title="Has Clik!"><span>ADELANTE</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@
                                     <div class="banner-article">
                                         <h1 class="title">DIVISIÓN CÉLULAR</h1>
                                         <div class="description">Es una parte muy importante del ciclo celular en la que una célula inicial se divide para formar células hijas. Gracias a la división celular se produce el crecimiento de los seres vivos.</div>
-                                        <a class="button" href="#" data-toggle="tooltip" title="Has Clik!"><span>SIGUE</span></a>
+                                        <a class="button" href="login" data-toggle="tooltip" title="Has Clik!"><span>SIGUE</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@
             <div class="banner-tabs">
                 <div class="container">
                     <div class="row">
-                        <div class="entry active col-md-3 wow fadeInUp" data-wow-delay="0.3s"><span class="title">aprende ya</span> <span class="description">¿que es la célula?</span></div>
+                        <div class="entry col-md-3 wow fadeInUp" data-wow-delay="0.3s"><span class="title">aprende ya</span> <span class="description">¿que es la célula?</span></div>
                         <div class="entry col-md-3 wow fadeInUp" data-wow-delay="0.6s"><span class="title">aprende</span> <span class="description">partes de la célula</span></div>
                         <div class="entry col-md-3 wow fadeInUp" data-wow-delay="0.9s"><span class="title">eucariotas</span> <span class="description">procariotas</span></div>
                         <div class="entry col-md-3 wow fadeInUp" data-wow-delay="1.2s"><span class="title">conoce mas</span> <span class="description">división célular</span></div>
@@ -103,7 +103,7 @@
                 <div class="col-sm-7 content-entry wow fadeInRight" data-wow-delay="0.3s">
                     <div class="video-thumbnail">
                         <img src="img/content/Home-2/about_image_1.jpg" alt="" />
-                        <a data-src="https://www.youtube.com/embed/fWfGul6TN0Q" class="play" href="#"></a>
+                        <a data-src="https://www.youtube.com/embed/fWfGul6TN0Q" title=" Fuente: Perez Andres. La Célula. Disponible en: https://www.youtube.com/watch?time_continue=4&v=fWfGul6TN0Q" class="play" href="#"></a>
                     </div>
                 </div>
             </div>
@@ -170,11 +170,11 @@
                                 <div class="image-wrapper">
                                     <div class="image-socials-box">
                                         <div class="vertical-align">
-                                            <a href="#"><img src="img/c-icon1.png" alt="" /></a>
-                                            <a href="#"><img src="img/c-icon3.png" alt="" /></a>
+                                            <a target="_blank" href="https://www.linkedin.com/in/jonathan-andres-rodriguez-0b3264139/"><img src="img/c-icon1.png" alt="" /></a>
+                                            <a target="_blank" href="https://twitter.com/mineducacion?lang=es"><img src="img/c-icon3.png" alt="" /></a>
                                         </div>
                                     </div>
-                                    <img class="thumbnail-image" src="img/content/Home-2/yo.jpg" height="493" width="370" alt="" />
+                                    <img class="thumbnail-image" src="img/content/Home-2/yo.jpg" title="Director del Proyecto: Jhonatna Andres Rodriguez" height="493" width="370" alt="" />
                                 </div>
                                 <div class="name">JONATHAN ANDRES RODRIGUEZ PEREZ</div>
                                 <div class="position">director, programador</div>
@@ -238,7 +238,7 @@
                 <div class="form-popup">
                     <div class="form-popup-close-layer"></div>
                     <div class="form-popup-content">
-                        <div class="text">Lxxxxxxxxxxxxxxxxxxx</div>
+                        <div class="text"></div>
                     </div>
                 </div>
             </div>

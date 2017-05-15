@@ -420,14 +420,14 @@ $(function() {
 		clearTimeout(formPopupTimeout);
 						   
 		$('.error-class').removeClass('error-class');						   
-		var msg = 'The following fields should be filled:',
+		var msg = 'Los siguientes campos deben ser llenados: ',
 			error = 0,
 			pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
 
 
-		if ($.trim($('.contact-form input[name="name"]').val()) === '') {error = 1; $('.contact-form input[name="name"]').addClass('error-class'); msg = msg +  '\n - Name';}
-        if (!pattern.test($.trim($('.contact-form input[name="email"]').val()))) {error = 1; $('.contact-form input[name="email"]').addClass('error-class'); msg = msg +  '\n - Email';}
-		if ($.trim($('.contact-form textarea[name="text"]').val()) === '') {error = 1; $('.contact-form textarea[name="text"]').addClass('error-class'); msg = msg +  '\n - Your Message';}
+		if ($.trim($('.contact-form input[name="name"]').val()) === '') {error = 1; $('.contact-form input[name="name"]').addClass('error-class'); msg = msg +  '\n -nombre';}
+        if (!pattern.test($.trim($('.contact-form input[name="email"]').val()))) {error = 1; $('.contact-form input[name="email"]').addClass('error-class'); msg = msg +  '\n - correo';}
+		if ($.trim($('.contact-form textarea[name="text"]').val()) === '') {error = 1; $('.contact-form textarea[name="text"]').addClass('error-class'); msg = msg +  '\n - su mensaje';}
 
         if (error){
 			$('.form-popup .text').text(msg);

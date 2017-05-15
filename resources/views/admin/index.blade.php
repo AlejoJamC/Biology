@@ -15,8 +15,8 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-4 type-1-center">
                     <article class="big white table" style="text-align: left;">
-                        <h1 class="h1">BIO.VA</h1>
-                        <p>Bienvenidos BIO.VA es una sitio web en donde podrás encontrar en secciones diferentes información sobre la Célula en el entorno educativo del grado quinto (5°) de primaria.</p>
+                        <h1 class="h1">BIOVA</h1>
+                        <p>Hola bienvenidos a BIOVA, un sitio web creado para ti y tus necesidades estudiantiles en el area de la Ciencias Naturales (Biología) del grado quinto (5°) primaria, aca podrás encontrar lo que necesitas sobre el tema de la Célula para hacer con facilidad y agrado tus tareas.</p>
 
                     </article>
                 </div>
@@ -30,29 +30,38 @@
             <div class="row page-tagline">
                 <div class="col-md-12">
                     <h2 class="title wow fadeInUp" data-wow-delay="0.3s">sabias que</h2>
-                    <img class="dividing-image wow flipInX" data-wow-delay="0.3s" src="img/content/Home-6/Biologia.jpg" alt="" />
                     <div class="description typography-article wow fadeInUp" data-wow-delay="0.3s">
                         <div class="row">
                             <div class="col-sm-6">
                                 <p style="text-align:justify">La Biología: Etimológicamente la palabra Biología proviene de dos vocablos griegos Bio-vida, y Logos-tratado. Es la ciencia que se ocupa de estudiar la vida, sus orígenes y su evolución. </p>
-                                <p style="text-align:justify">Muchas personas tienen noción de lo que es la biología y pueden definirla como la ciencia que se encarga del estudio de la vida en todas sus manifestaciones, implicando con ello el estudio de todo ser vivo y de su estructura, funcionamiento, taxonomía, distribución, evolución y relaciones, entre otras.</p>
                                 <p style="text-align:justify">A los que estudian la biología se les conoce profesionalmente como biólogos, aunque pueden ser llamados con los nombres de la rama específica en la que se enfocan, debido a que es una ciencia multidisciplinaria, que se nutre de otras ciencias y que a la vez provee a éstas información elemental. </p>
-                                <p style="text-align:justify">A través de la historia, la biología se ha ocupado de campos como: la teoría celular, la evolución, la genética, la energía y la homeóstasis, desde diversos puntos de vista. La Biología es una rama muy amplia, la cual brinda a sus profesionales la posibilidad de especializarse en: </p>
+                                <p style="text-align:justify">la cual brinda a sus profesionales la posibilidad de especializarse en: </p>
+                                <li style="text-align:left"> Botánica: Es el estudio de los miembros del reino plantea.</li>
+                                <br>
+                                <li style="text-align:justify">Zoología: Estudio de los animales, miembros del reino Animalia.</li>
+                                <br>
+                                <li style="text-align:justify">Anatomía: Estudio de la estructura interna y externa de los seres vivos.</li>
+                                <br>
+                                <li style="text-align:justify">Citología: Se ocupa del estudio de las células.</li>
                             </div>
+
                             <div class="col-sm-6">
-                                <h7>
-                                <li><p style="text-align:justify">Botánica: Es el estudio de los miembros del reino plantea.</p></li>
-                                <li><p style="text-align:justify">Zoología: Estudio de los animales, miembros del reino Animalia.</p></li>
-                                <li><p style="text-align:justify">Anatomía: Estudio de la estructura interna y externa de los seres vivos.</p></li>
-                                <li><p style="text-align:justify">Citología: Se ocupa del estudio de las células.</p></li>
-                                <li><p style="text-align:justify">Ecología: Estudia a los seres vivos y su interacción con el medio ambiente.</p></li>
-                                <li><p style="text-align:justify">Microbiología: Estudia los microorganismos u organismos microscópicos.</p></li>
-                                <li><p style="text-align:justify">Micología: Estudia los hongos.</p></li>
-                                <li><p style="text-align:justify">Entomología: Estudio de los insectos. Es una subrama de la Zoología.</p></li>
-                                <li><p style="text-align:justify">Etología: Estudia el comportamiento de los seres vivos.</p></li>
-                                <li><p style="text-align:justify">Ornitología: Estudio de las aves.</p></li>
-                                <li><p style="text-align:justify">Genética: Estudio de los genes y de la herencia genética.</p></li>
-                                </h7>
+                                <h10>
+                                <li style="text-align:justify">Ecología: Estudia a los seres vivos y su interacción con el medio ambiente.</li>
+                                <br>
+                                <li style="text-align:justify">Microbiología: Estudia los microorganismos u organismos microscópicos.</li>
+                                <br>
+                                <li style="text-align:justify">Micología: Estudia los hongos.</li>
+                                <br>
+                                <li style="text-align:justify">Entomología: Estudio de los insectos. Es una subrama de la Zoología.</li>
+                                <br>
+                                <li style="text-align:justify">Etología: Estudia el comportamiento de los seres vivos.</li>
+                                <br>
+                                <li style="text-align:justify">Ornitología: Estudio de las aves.</li>
+                                <br>
+                                <li style="text-align:justify">Genética: Estudio de los genes y de la herencia genética.</li>
+                                <br>
+                                </h10>
                                 <br>
                                 <p style="text-align:justify">Cada una de las ramas de la biología aporta elementos importantes para la comprensión de fenómenos y/o problemas específicos y son muchas veces inherentes entre sí, siendo apoyada por otras áreas como son la química y las matemáticas.</p>
                             </div>
@@ -69,8 +78,11 @@
             <div class="row page-tagline">
                 <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
                     <h2 class="title">La célula</h2>
-                    <div class="description">La célula es la unidad elemental que compone todo organismo y es capaz de actuar de manera autónoma. Todos los seres vivos están formados por células.</div>
-                    <div class="description">Las células tienen numerosas reacciones químicas que les permiten crecer, producir energía y eliminar residuos, a estas reacciones se llama metabolismo (término que proviene de una palabra griega que significa cambio).</div>
+                    <div class="description">La célula es la unidad anatómica, funcional y reproductiva de todos los seres vivos.</div>
+                    <div class="description">Es la unidad anatómica por que todos los seres vivos, simples o complejos están formados por al menos una sola célula .</div>
+                    <div class="description">Es la unidad funcional debido a que todos los procesos que tienen lugar para mantener la vida, se desarrollan en las células.</div>
+                    <div class="description">Es la unidad reproductiva por que las nuevas células se forman de otras ya existentes.</div>
+                    <div class="description">Obserava el siguinte video y prodras disfrutar del mundo de la Célula. <a target="_blank"  href="https://www.youtube.com/watch?v=6Xr0R4N9oCE" data-toggle="tooltip"  title="Divertido Video Sobre la Célula, Fuente: Perez Andres. 01 El gran planeta celularyoutube com. Disponible en: https://www.youtube.com/watch?time_continue=4&v=fWfGul6TN0Q">VIDEO. </a></div>
                 </div>
             </div>
             <div class="row">
@@ -91,8 +103,7 @@
                                         Los cromosomas están muy retorcidos y enmarañados y es difícil identificarlos por separado.<br> <br>Pero justo antes de que la célula se divida, se condensan y adquieren grosor suficiente para ser detectables como estructuras independientes.<br><br>
                                         El ADN del interior de cada cromosoma es una molécula única muy larga y enrollada que contiene secuencias lineales de genes, estos encierran a su vez instrucciones codificadas para la construcción de las moléculas de proteínas y ARN necesarias para producir una copia funcional de la célula.
                                         <br> <br>
-                                    <p>Sigue el enlace y encontraras temas relacionados <a href="http://www.cerebriti.com/juegos-de-ciencias/el-nucleo">JUEGA* </a></p><br>
-                                    <p style="font-size: 10px; color: dimgray;">* todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L. </p>
+                                        <p>Sigue el enlace y encontraras temas relacionados <a target="_blank" href="http://www.cerebriti.com/juegos-de-ciencias/el-nucleo" data-toggle="tooltip"  title="Juego El Núcleo, * todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L. ">JUEGA* </a></p><br>
                                     </div>
                                 </div>
                             </div>
@@ -106,8 +117,8 @@
                                         <li>Nutrición, ya que en él se incorporan esas sustancias que serán luego transformadas para liberar energía</li><br>
                                         <li>Almacenamiento, se ocupa de almacenar ciertas sustancias que a futuro se usarán y es importante que estén allí a la espera de su necesidad de usarlas</li><br>
                                         <li>Estructural, dado que el citoplasma es aquella parte que le da la forma a la célula y que será el punto de partida de todos sus movimientos</li><br>
-                                        <p> Sigue el enlace y encontraras temas relacionados <a href="http://www.cerebriti.com/juegos-de-ciencias/partes-del-citoplasma#.WCKtLPnhDIU">CLICK AQUÍ* </a> </p><br>
-                                        <p style="font-size: 10px; color: dimgray;">* todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L. </p>
+                                        <p> Sigue el enlace y encontraras temas relacionados <a target="_blank" href="http://www.cerebriti.com/juegos-de-ciencias/partes-del-citoplasma#.WCKtLPnhDIU" data-toggle="tooltip" title="Juego Citoplasma, * todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L.">CITOPLASMA* </a> </p><br>
+
                                     </div>
 
                                 </div>
@@ -134,9 +145,7 @@
                                         <li> <p>Lisosomas: Pequeñas bolsas globulares, cargadas de jugos digestivos, que se forman en el aparato de Golgi. Realizan la digestión de las sustancias ingeridas por la célula. Abundan en las células defensoras como son los glóbulos blancos.</li> </p> <br>
 
                                         <li> <p> Mitocondrias: Son de forma esférica, formadas por una doble membrana; su parte externa es lisa, y la interna tiene una serie de pliegues, los cuales forman crestas. Brinda energía necesaria para las funciones celulares.</li> </p> <br>
-                                        <p> Sigue el enlace y encontraras temas relacionados <a href="http://cmapspublic3.ihmc.us/rid=1HKBXG8YC-J6PPKX-LY5/organelos.cmap"> ORGANELOS*</a></p><br>
-
-                                        <p style="font-size: 10px; color: dimgray;">* todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L. </p>
+                                        <p> Sigue el enlace y encontraras temas relacionados <a target="_blank" href="http://cmapspublic3.ihmc.us/rid=1HKBXG8YC-J6PPKX-LY5/organelos.cmap" data-toggle="tooltip" title="Juego Divertido, * todos los derechos reservados de Cmap Software"> ORGANELOS*</a></p><br>
 
 
                                     </div>
@@ -148,9 +157,8 @@
                                     <div class="title">membrana célular</div>
                                     <div style="text-align:justify" class="description">Es una estructura que contiene los diferentes elementos que conforman la célula, esta membrana es bien conocida por su función delimitadora, sin embargo es una estructura compleja capaz de llevar a cabo múltiples funciones de gran importancia para la vida.<br><br>
                                         Los principales constituyentes de la membrana celular son los lípidos o moléculas de grasa, específicamente los fosfolípidos que se disponen formando dos capas, en la formación de la membrana también participa el colesterol. Estas moléculas se mantienen adheridas entre sí, sin embargo tienen capacidad de movimiento lo cual le brinda fluidez y flexibilidad a la membrana.<br><br>
-                                        <p> Sigue el enlace y encontraras temas relacionados <a href="http://es.slideshare.net/Rosmakoch/membrana-celular-estructura-y-funcin"> MEMBRANA CÉLULAR*</a></p><br>
+                                        <p> Sigue el enlace y encontraras temas relacionados <a target="_blank" href="http://es.slideshare.net/Rosmakoch/membrana-celular-estructura-y-funcin" data-toggle="tooltip" title="Presentación Membrana Célular, * todos los derechos reservados de Rosmakoch, slideshare"> MEMBRANA CÉLULAR*</a></p><br>
 
-                                        <p style="font-size: 10px; color: dimgray;">* todos los derechos reservados de Rosmakoch, slideshare </p>
                                     </div>
                                 </div>
                             </div>
@@ -207,8 +215,8 @@
                                 <li><p style="text-align:justify">Las mitocondrias: son los orgánulos productores de energía. La célula necesita energía para crecer y multiplicarse, y las mitocondrias aportan casi toda esta energía realizando las últimas etapas de la descomposición de las moléculas de los alimentos. Estas etapas finales consisten en el consumo de oxígeno y la producción de dióxido de carbono, proceso llamado respiración, por su similitud con la respiración pulmonar. <br>
                                         Sin mitocondrias, los animales y hongos no serían capaces de utilizar oxígeno para extraer toda la energía de los alimentos y mantener con ella el crecimiento y la capacidad de reproducirse. Los organismos llamados anaerobios viven en medios sin oxígeno, por lo que carecen de mitocondrias.</li></p>
                                 <li><p style="text-align:justify">Cloroplastos: son orgánulos aún mayores y se encuentran en las células de plantas y algas, pero no en las de animales y hongos. Su estructura es aún más compleja que la mitocondrial: además de las dos membranas de la envoltura, tienen numerosos sacos internos formados por membrana que encierran el pigmento verde llamado clorofila.  </li></p>
-                                <p> Sigue el enlace y encontraras temas relacionados <a href="http://www.cerebriti.com/juegos-de-ciencias/la-celula1#.WCVCFPnhDIU"> PARTES CÉLULA*</a></p>
-                                <p style="font-size: 10px; color: dimgray;">* todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L.  </p>
+                                <p> Sigue el enlace y encontraras temas relacionados <a target="_blank" href="http://www.cerebriti.com/juegos-de-ciencias/la-celula1#.WCVCFPnhDIU" data-toggle="tooltip" title="Juego sobre la Célula, * todos los derechos reservados de CEREBRITI TECHNOLOGIES S.L."> PARTES DE LA CÉLULA*</a></p>
+
                         </div>
 
 
@@ -279,14 +287,17 @@
             <div class="swiper-container horizontal-pagination" data-autoplay="0" data-loop="0" data-speed="500" data-center="1" data-slides-per-view="3">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="custom-screen-wrapper"><img src="img/content/Home-6/CeluAnimal.jpg" alt="" /><div class="text"><p>Disfruta de esta imágen de la Célula Animal</p></div></div>
+                        <div class="custom-screen-wrapper"><img src="img/content/Home-6/CeluAnimal.jpg" title="Imágen colorida Célula Animal" alt="" /><div class="text"><p>Disfruta de esta imágen de la Célula Animal</p></div></div>
 
                     </div>
                     <div class="swiper-slide">
-                        <div class="custom-screen-wrapper"><img src="img/content/Home-6/CeluVE.jpg" alt="" /><div class="text"><p>Disfruta de esta imágen de la Célula Vegetal</p></div></div>
+                        <div class="custom-screen-wrapper"><img src="img/content/Home-6/CeluVE.jpg"  title="Imágen colorida Célula Vegetal"  alt="" /><div class="text"><p>Disfruta de esta imágen de la Célula Vegetal</p></div></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="custom-screen-wrapper"><img src="img/content/Home-6/celuu.jpg" alt="" /><div class="text"><p>Disfruta de esta imágen de la Célula</p></div></div>
+                        <div class="custom-screen-wrapper"><img src="img/content/Home-6/celuu.jpg" title="Imágen colorida de la Célula"  alt="" /><div class="text"><p>Disfruta de esta imágen de la Célula</p></div></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="custom-screen-wrapper"><img src="img/content/Home-6/micros.jpg" title="niño con instrumentos para experimentar "  alt="" /><div class="text"><p>Disfruta de niño experimentando</p></div></div>
                     </div>
 
                 </div>
