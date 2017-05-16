@@ -64,24 +64,28 @@ $(function() {
 	/*============================*/
 	/* 04 - function on page load */
 	/*============================*/
-	$(window).load(function(){
-		//$('body, html').animate({'scrollTop':'0'}, 0);
-		
-		//window.scrollTo(0, 0);
-		$('#loader-wrapper').delay(300).fadeOut(300, function(){enableScroll = 1; scrollCall();});
-		initSwiper();
-		if(window.location.hash) {
-			setTimeout(function(){
-				$('body, html').animate({'scrollTop':$('.scroll-to-block[data-id="'+window.location.hash.substr(1)+'"]').offset().top - (($('.sidebar-menu-added').length)?0:$('header').height()) + 1}, 10);
+    $(window).load(function () {
+        //$('body, html').animate({'scrollTop':'0'}, 0);
 
-				//window.scrollTo(0, $('.scroll-to-block').eq(index).offset().top - $('header').height() + 1);
-			}, 100);
-		}else{
-			$('body, html').animate({'scrollTop':0}, 10);
-		}
-		
-		$('body').addClass('loaded');
-	});
+        //window.scrollTo(0, 0);
+        $('#loader-wrapper').delay(300).fadeOut(300, function () {
+            enableScroll = 1;
+            scrollCall();
+        });
+        initSwiper();
+        if (window.location.hash) {
+            setTimeout(function () {
+                $('body, html').animate({'scrollTop': $('.scroll-to-block[data-id="' + window.location.hash.substr(1) + '"]')
+					.offset().top - (($('.sidebar-menu-added').length) ? 0 : $('header').height()) + 1}, 10);
+
+                //window.scrollTo(0, $('.scroll-to-block').eq(index).offset().top - $('header').height() + 1);
+            }, 100);
+        } else {
+            $('body, html').animate({'scrollTop': 0}, 10);
+        }
+
+        $('body').addClass('loaded');
+    });
 
 
 	/*==============================*/
