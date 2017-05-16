@@ -1,6 +1,6 @@
 @section('header')
     <header>
-        <a href="#" id="logo"><img src="{{ URL::asset('img/logobiova_168_min.png') }}" alt=""/><img class="act" src="{{ URL::asset('img/logobiova_168_min.png') }}" alt=""/></a>
+        <a href="#" id="logo"><img src="{{ URL::asset('img/logobiova.png') }}" alt=""/><img class="act" src="{{ URL::asset('img/logobiova.png') }}" alt=""/></a>
         <div class="mob-icon">
             <span></span>
         </div>
@@ -11,13 +11,8 @@
                 <li><a href="#how-it-work" data-toggle="popover" title="Resgistrate y aprende" class="scroll-to-link">Como Funciona</a></li>
                 <li><a href="#team" data-toggle="popover" title="Quien la creó" class="scroll-to-link">Desarrollo</a></li>
                 <li><a href="#contact" data-toggle="popover" title="Comunicate con nosotros" class="scroll-to-link">Contacto</a></li>
-                <li class="submeny">
-                    <a href="#" class="submeny-top">Iniciar sesión</a>
-                    <ul>
-                        <li><a href="/login">Estudiante</a></li>
-                        <li><a href="/teacher/login">Docente</a></li>
-                        <li><a href="/admin/login">Administrador</a></li>
-                    </ul>
+                <li>
+                    <a href="/login" >Iniciar sesión</a>
                 </li>
             </ul>
         </nav>
