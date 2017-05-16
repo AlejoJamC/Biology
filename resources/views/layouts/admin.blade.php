@@ -8,7 +8,7 @@
 
 <!-- LOADER -->
 <div id="loader-wrapper">
-    <img src="{{ URL::asset('img/theme-3/logo.png') }}" alt=""/>
+    <img src="{{ URL::asset('img/logobiova_69.png') }}" alt=""/>
     <span></span>
 </div>
 
