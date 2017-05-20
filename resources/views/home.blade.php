@@ -9,7 +9,7 @@
         <div class="swiper-container horizontal-pagination" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="img/content/Home-2/lacélula.jpg" class="center-image" alt="" />
+                    <img src="img/content/Home-2/lacélula.jpg" class="center-image" alt="Principal" />
                     <div class="center-tagline">
                         <div class="container">
                             <div class="row">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/content/Home-2/3137.jpg" class="center-image" alt="" />
+                    <img src="img/content/Home-2/3137.jpg" class="center-image" alt="Secundario" />
                     <div class="center-tagline">
                         <div class="container">
                             <div class="row">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/content/Home-2/partesde.jpg" class="center-image" alt="" />
+                    <img src="img/content/Home-2/partesde.jpg" class="center-image" alt="Tercero" />
                     <div class="center-tagline">
                         <div class="container">
                             <div class="row">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/content/Home-2/cell-div.jpg" class="center-image" alt="" />
+                    <img src="img/content/Home-2/cell-div.jpg" class="center-image" alt="Cuarto" />
                     <div class="center-tagline">
                         <div class="container">
                             <div class="row">
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-sm-7 content-entry wow fadeInRight" data-wow-delay="0.3s">
                     <div class="video-thumbnail">
-                        <img src="img/content/Home-2/about_image_1.jpg" alt="" />
+                        <img src="img/content/Home-2/about_image_1.jpg" alt="video" />
                         <a data-src="https://www.youtube.com/embed/fWfGul6TN0Q" title=" Fuente: Perez Andres. La Célula. Disponible en: https://www.youtube.com/watch?time_continue=4&v=fWfGul6TN0Q" class="play" href="#"></a>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
             <div class="row">
                 <div class="content-entry col-sm-6 wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="phones-container">
-                        <img src="img/content/Home-1/lacelula.jpg" alt="" />
+                        <img src="img/content/Home-1/lacelula.jpg" alt="Imagen3D" />
                     </div>
                 </div>
                 <div class="content-entry col-sm-6">
@@ -126,21 +126,21 @@
                     </article>
 
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-                        <img src="img/theme-3/icon4.png" alt="">
+                        <img src="img/theme-3/icon4.png" alt="icono1">
                         <article class="small">
                             <h4 class="h4">por que usarla</h4>
                             <p>En esta aplicación encontraras todo lo relacionado al mundo de la Célula. Permitiendo que puedas ampliar tus conocimientos sobre esta rama de la Biología, encontrando material didáctico en un solo lugar.</p>
                         </article>
                     </div>
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-                        <img src="img/theme-3/icon5.png" alt="">
+                        <img src="img/theme-3/icon5.png" alt="icono2">
                         <article class="small">
                             <h4 class="h4">Actualiza</h4>
                             <p>Danos tus sugerencias, para poder realizar constantes actualizaciones que sean de gran importancia y de mucha ayuda para que puedas lograr y cumplir con tu proceso educativo.</p>
                         </article>
                     </div>
                     <div class="icon-text-description-entry wow flipInY" data-wow-delay="0.3s">
-                        <img src="img/theme-3/icon6.png" alt="">
+                        <img src="img/theme-3/icon6.png" alt="icono3">
                         <article class="small">
                             <h4 class="h4">Buen contenido</h4>
                             <p>En nuestra APP encontraras gran contenido de mucha ayuda en la obtención de conocimientos sobre la Célula.</p>
@@ -170,11 +170,11 @@
                                 <div class="image-wrapper">
                                     <div class="image-socials-box">
                                         <div class="vertical-align">
-                                            <a target="_blank" href="https://www.linkedin.com/in/jonathan-andres-rodriguez-0b3264139/"><img src="img/c-icon1.png" alt="" /></a>
-                                            <a target="_blank" href="https://twitter.com/mineducacion?lang=es"><img src="img/c-icon3.png" alt="" /></a>
+                                            <a target="_blank" href="https://www.linkedin.com/in/jonathan-andres-rodriguez-0b3264139/"><img src="img/c-icon1.png" alt="icono4" /></a>
+                                            <a target="_blank" href="https://twitter.com/mineducacion?lang=es"><img src="img/c-icon3.png" alt="icono5" /></a>
                                         </div>
                                     </div>
-                                    <img class="thumbnail-image" src="img/content/Home-2/yo.jpg" title="Director del Proyecto: Jhonatna Andres Rodriguez" height="493" width="370" alt="" />
+                                    <img class="thumbnail-image" src="img/content/Home-2/yo.jpg" title="Director del Proyecto: Jhonatna Andres Rodriguez" height="493" width="370" alt="Director" />
                                 </div>
                                 <div class="name">JONATHAN ANDRES RODRIGUEZ PEREZ</div>
                                 <div class="position">director, programador</div>
@@ -200,7 +200,7 @@
             <div class="row">
                 <div class="col-md-3 wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="contact-thumbs">
-                        <img src="img/theme-3/icon7.png" alt=""/>
+                        <img src="img/theme-3/icon7.png" alt="telefono"/>
                         <article class="normall">
                             <p>
                                 Tel:
@@ -210,12 +210,12 @@
                         </article>
                     </div>
                     <div class="contact-thumbs">
-                        <img src="img/theme-3/icon8.png" alt=""/>
+                        <img src="img/theme-3/icon8.png" alt="correo"/>
                         <article class="normall">
                             <p>
                                 Email:
                                 <br>
-                                <a href="malito:bioloova.gmail.com">bioloova.gmail.com</a>
+                                <a href="mailto:bioloova@gmail.com">bioloova@gmail.com</a>
                             </p>
                         </article>
                     </div>
@@ -230,9 +230,9 @@
                         </select>
                         <textarea class="required" placeholder="Tu mensaje" name="text"></textarea>
                         <div class="submit-wraper">
-                            <div class="button">Enviar Mensaje<input type="submit" value="" /></div>
+                            <div class="button" data-toggle="tooltip" title="Llena todos los campos!" >Enviar Mensaje<input type="submit" value="" /></div>
                         </div>
-                        <input type="hidden" name="mailto" value="bioloova.gmail.com" style="display: none;" />
+                        <input type="hidden" name="mailto" value="bioloova@gmail.com" style="display: none;" />
                     </form>
                 </div>
                 <div class="form-popup">
