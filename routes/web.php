@@ -31,10 +31,19 @@ Route::get('/dashboard/course/create',function () {
 });
 Route::post('/dashboard/course/create', 'CourseController@create');
 
-Route::get('/dashboard/course/{id}/update/', 'CourseController@getUpdate');
-Route::post('/dashboard/course/{id}/update/', 'CourseController@postUpdate');
+Route::get('/dashboard/course/{id}/update/', 'CourseController@Update');
+Route::put('/dashboard/course/{id}/update/', 'CourseController@UpdatePut');
 
+// Rutas para el CRUD de los contenidos
+Route::get('/dashboard/content/', 'ContentController@index');
 
+Route::get('/dashboard/content/create',function () {
+    return view('content.create');
+});
+Route::post('/dashboard/content/create', 'ContentController@create');
+
+Route::get('/dashboard/content/{id}/update/', 'ContentController@Update');
+Route::put('/dashboard/content/{id}/update/', 'ContentController@putUpdate');
 
 Route::get('/dashboard/admin',function () {
     return view('admin.dash');

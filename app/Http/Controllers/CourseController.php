@@ -16,6 +16,7 @@ class CourseController extends Controller
 
 		return view('course.mostrar',['courses'=> $courses]);
     }
+
     public function create (CreateCourseRequest $request){
 
         Course::create
@@ -29,11 +30,19 @@ class CourseController extends Controller
         return redirect('/dashboard/course/')->with('creado','El curso '.$request->get('descripcion').', ha sido creado correctamente.');
     }
 
-    public function getUpdate ($id) {
-        return view('course.update',['course'=> Course::find($id)]);
+    public function Update ($id) {
+        $course = Course::find($id);
+        if ( $course <> null)
+		{
+			return view('course.update',['course'=> $course]);
+		} else
+		{
+			return redirect('/dashboard/course')->with('error','El artículo '.$id.', no existe en la DB.');
+		}
+        
     }
 
-    public function postUpdate (Request $request, $id) {
+    public function putUpdate (CreateCourseRequest $request, $id) {
         
 		$course = Course::find($id);
 		if ( $course <> null)
@@ -45,7 +54,7 @@ class CourseController extends Controller
 			return redirect('/dashboard/course')->with('actualizado','El curso '.$course->descripcion.', se ha actualizado');
 		} else
 		{
-			return redirect('/validado/course')->with('error','El artículo '.$id.', no existe en la DB.');
+			return redirect('/dashboard/course')->with('error','El artículo '.$id.', no existe en la DB.');
 		}
     }
 }

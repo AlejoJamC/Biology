@@ -44,24 +44,20 @@
 								<table class="table table-bordered" id="tabla-articulos">
 									<thead>
                                         <th>ID</th>
-                                        <th>Nombre</th>
-                                        <th>Descripcion</th>
-                                        <th>Cantidad</th>
-                                        <th>Usuario</th>
-                                        <th>Creado en:</th>
-										<th>Acción</th>
+                                        <th>Titulo</th>
+                                        <th>descripcion</th>
+                                        <th>Creado en</th>
+                                        <th>Acción</th>
 									</thead>
 									<tbody>
 
-										@foreach ($courses as $course)											
+										@foreach ($contents as $content)											
 											<tr>
-												<td>{{ $course->id }}</td>
-												<td>{{ $course->nombre }}</td>
-												<td>{{ $course->descripcion }}</td>
-												<td>{{ $course->cantidad }}</td>
-                                                <td>{{ $course->usuario_id }}</td>
-                                                <td>{{ $course->created_at }}</td>
-												<td><a class="btn btn-success btn-block" href="/dashboard/course/{{ $course->id }}/update">Modificar</a></td>
+												<td>{{ $content->id }}</td>
+												<td>{{ $content->titulo }}</td>
+												<td>{{ $content->descripcion }}</td>
+                                                <td>{{ $content->created_at }}</td>
+												<td><a class="btn btn-success btn-block" href="/dashboard/content/{{ $content->id }}/update">Modificar</a></td>
 											</tr>
 										@endforeach
 										
@@ -72,7 +68,7 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-12 col-md-6">
-							<a href="/dashboard/course/create" class="btn btn-primary btn-block" role="button">Nuevo</a>
+							<a href="/dashboard/content/create" class="btn btn-primary btn-block" role="button">Nuevo</a>
 						</div>
 					</div>
 				</div>

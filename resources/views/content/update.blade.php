@@ -1,6 +1,6 @@
 @extends('layouts.dash')
 
-@section('title', 'Modificar Curso | Proyecto de Grado Biologia 5 grado')
+@section('title', 'Modificar Contenido | Proyecto de Grado Biologia 5 grado')
 
 @section('content')
     <div class="right_col" role="main">
@@ -24,16 +24,12 @@
                     {{ csrf_field() }}
                     <input type="hidden" name="_method" value="PUT">
                     <div class="form-group">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" class="form-control" value="{{ $course->nombre }}" name="nombre" id="nombre" placeholder="Nombre">
+                        <label for="titulo">Titulo</label>
+                        <input type="text" class="form-control" value="{{ $content->titulo }}" name="titulo" id="titulo" placeholder="Titulo">
                     </div>
                     <div class="form-group">
                         <label for="descripcion">Descripcion</label>
-                        <input type="text" class="form-control" value="{{ $course->descripcion }}" name="descripcion" id="descripcion" placeholder="Descripcion">
-                    </div>
-                    <div class="form-group">
-                        <label for="cantidad">Cantidad</label>
-                        <input type="number" class="form-control" value="{{ $course->cantidad }}" name="cantidad" id="cantidad" placeholder="Cantidad">
+                        <input type="text" class="form-control" value="{{ $content->descripcion }}" name="descripcion" id="descripcion" placeholder="Descripcion">
                     </div>
                     
                     <button type="submit" class="btn btn-success btn-block">Guardar</button>

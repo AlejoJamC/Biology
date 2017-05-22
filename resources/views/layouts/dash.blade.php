@@ -34,8 +34,7 @@
                             <li><a><i class="fa fa-home"></i> Contenido <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
                                     <li><a href="/dashboard/course/">Cursos</a></li>
-                                    <li><a href="index2.html">Seccion 2</a></li>
-                                    <li><a href="index3.html">Seccion 3</a></li>
+                                    <li><a href="/dashboard/content/">Contenidos</a></li>
                                 </ul>
                             </li>
                             <li><a><i class="fa fa-edit"></i> Profesores <span class="fa fa-chevron-down"></span></a>
