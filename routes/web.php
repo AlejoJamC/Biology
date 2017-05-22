@@ -23,6 +23,13 @@ Route::get('/dashboard/teacher',function () {
     return view('admin.profesor');
 });
 
+Route::get('/dashboard/course/', 'CourseController@index');
+
+Route::get('/dashboard/course/create',function () {
+    return view('course.create');
+});
+Route::post('/dashboard/course/create', 'CourseController@create');
+
 Route::get('/dashboard/admin',function () {
     return view('admin.dash');
 });
