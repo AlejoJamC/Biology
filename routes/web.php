@@ -49,6 +49,23 @@ Route::get('/dashboard/admin',function () {
     return view('admin.dash');
 });
 
+// Rutas para el CRUD de los Questionario
+Route::get('/dashboard/test/', 'TestController@index');
+
+Route::get('/dashboard/test/create',function () {
+    return view('test.create');
+});
+Route::post('/dashboard/test/create', 'TestController@create');
+
+Route::get('/dashboard/test/{id}/update/', 'TestController@Update');
+Route::put('/dashboard/test/{id}/update/', 'TestController@putUpdate');
+
+
+// Dashboard Administracion
+Route::get('/dashboard/admin',function () {
+    return view('admin.dash');
+});
+
 Route::get('/teacher/login',function () {
     return view('auth.login');
 });
