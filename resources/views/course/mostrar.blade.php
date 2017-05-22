@@ -49,6 +49,7 @@
                                         <th>Cantidad</th>
                                         <th>Usuario</th>
                                         <th>Creado en:</th>
+										<th>Acción</th>
 									</thead>
 									<tbody>
 
@@ -60,6 +61,7 @@
 												<td>{{ $course->cantidad }}</td>
                                                 <td>{{ $course->usuario_id }}</td>
                                                 <td>{{ $course->created_at }}</td>
+												<td><a class="btn btn-success btn-block" href="/dashboard/course/{{ $course->id }}/update">Modificar</a></td>
 											</tr>
 										@endforeach
 										

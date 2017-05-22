@@ -25,7 +25,10 @@ class CourseController extends Controller
             'usuario_id' => 1
         ]);
 
-        //Return 'Curso creado';
         return redirect('/dashboard/course/')->with('creado','El curso '.$request->get('descripcion').', ha sido creado correctamente.');
+    }
+
+    public function getUpdate ($id) {
+        return view('course.update',['course'=> Course::find($id)]);
     }
 }

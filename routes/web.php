@@ -30,6 +30,14 @@ Route::get('/dashboard/course/create',function () {
 });
 Route::post('/dashboard/course/create', 'CourseController@create');
 
+Route::get('/dashboard/course/{id}/update/', 'CourseController@getUpdate');
+/*
+Route::get('/dashboard/course/{id}/update',function ($id) {
+    return view('course.update',['id' => $id ]);
+});
+*/
+Route::post('/dashboard/course/create', 'CourseController@create');
+
 Route::get('/dashboard/admin',function () {
     return view('admin.dash');
 });
