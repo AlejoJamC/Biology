@@ -23,6 +23,7 @@ Route::get('/dashboard/teacher',function () {
     return view('admin.profesor');
 });
 
+// Rutas para el CRUD de los cursos
 Route::get('/dashboard/course/', 'CourseController@index');
 
 Route::get('/dashboard/course/create',function () {
@@ -31,12 +32,9 @@ Route::get('/dashboard/course/create',function () {
 Route::post('/dashboard/course/create', 'CourseController@create');
 
 Route::get('/dashboard/course/{id}/update/', 'CourseController@getUpdate');
-/*
-Route::get('/dashboard/course/{id}/update',function ($id) {
-    return view('course.update',['id' => $id ]);
-});
-*/
-Route::post('/dashboard/course/create', 'CourseController@create');
+Route::post('/dashboard/course/{id}/update/', 'CourseController@postUpdate');
+
+
 
 Route::get('/dashboard/admin',function () {
     return view('admin.dash');
