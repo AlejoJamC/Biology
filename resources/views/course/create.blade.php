@@ -20,6 +20,7 @@
                         <label for="txt_cantidad">Cantidad</label>
                         <input type="number" class="form-control" name="txt_cantidad" id="txt_cantidad" placeholder="Cantidad">
                     </div>
+                    
                     <button type="submit" class="btn btn-success btn-block">Guardar</button>
                 </form>
             </div>

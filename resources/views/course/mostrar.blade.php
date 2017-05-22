@@ -51,6 +51,7 @@
                                         <th>Creado en:</th>
 									</thead>
 									<tbody>
+
 										@foreach ($courses as $course)											
 											<tr>
 												<td>{{ $course->id }}</td>
@@ -61,6 +62,7 @@
                                                 <td>{{ $course->created_at }}</td>
 											</tr>
 										@endforeach
+										
 									</tbody>
 								</table>
 							</div>
