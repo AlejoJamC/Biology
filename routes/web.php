@@ -60,6 +60,26 @@ Route::post('/dashboard/test/create', 'TestController@create');
 Route::get('/dashboard/test/{id}/update/', 'TestController@Update');
 Route::put('/dashboard/test/{id}/update/', 'TestController@putUpdate');
 
+// Rutas para el CRUD de los Preguntas
+Route::get('/dashboard/question/', 'QuestionController@index');
+
+Route::get('/dashboard/question/create',function () {
+    return view('question.create');
+});
+Route::post('/dashboard/question/create', 'QuestionController@create');
+
+Route::get('/dashboard/question/{id}/update/', 'QuestionController@Update');
+Route::put('/dashboard/question/{id}/update/', 'QuestionController@putUpdate');
+
+// Rutas para el CRUD de los Respuestas
+Route::get('/dashboard/answer/', 'AnswerController@index');
+
+Route::get('/dashboard/answer/create', 'AnswerController@getCreate');
+Route::post('/dashboard/answer/create', 'AnswerController@postCreate');
+
+Route::get('/dashboard/answer/{id}/update/', 'AnswerController@Update');
+Route::put('/dashboard/answer/{id}/update/', 'AnswerController@putUpdate');
+
 
 // Dashboard Administracion
 Route::get('/dashboard/admin',function () {

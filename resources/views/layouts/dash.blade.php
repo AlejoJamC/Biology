@@ -69,9 +69,7 @@
                                 <ul class="nav child_menu">
                                     <li><a href="/dashboard/test/">Questionarios</a></li>
                                     <li><a href="/dashboard/question/">Preguntas</a></li>
-                                    <li><a href="project_detail.html">Project Detail</a></li>
-                                    <li><a href="contacts.html">Contacts</a></li>
-                                    <li><a href="profile.html">Profile</a></li>
+                                    <li><a href="/dashboard/answer/">Respuestas</a></li>
                                 </ul>
                             </li>
                             <li><a><i class="fa fa-desktop"></i> Alumnos <span class="fa fa-chevron-down"></span></a>

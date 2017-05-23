@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Respuesta extends Model
+class Answer extends Model
 {
     /**
 	 * The database table used by the model.
