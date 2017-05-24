@@ -46,6 +46,7 @@
                                         <th>ID</th>
                                         <th>Titulo</th>
                                         <th>Creado en:</th>
+										<th>Preguntas</th>
 										<th>Acción</th>
 									</thead>
 									<tbody>
@@ -55,6 +56,7 @@
 												<td>{{ $test->id }}</td>
 												<td>{{ $test->titulo }}</td>
                                                 <td>{{ $test->created_at }}</td>
+												<td><a class="btn btn-primary btn-block" href="/dashboard/test/question/{{ $test->id }}">Ver</a></td>
 												<td><a class="btn btn-success btn-block" href="/dashboard/test/{{ $test->id }}/update">Modificar</a></td>
 											</tr>
 										@endforeach										

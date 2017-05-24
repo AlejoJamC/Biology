@@ -80,6 +80,9 @@ Route::post('/dashboard/answer/create', 'AnswerController@postCreate');
 Route::get('/dashboard/answer/{id}/update/', 'AnswerController@Update');
 Route::put('/dashboard/answer/{id}/update/', 'AnswerController@putUpdate');
 
+// Rutas para el CRUD de Questionario - Preguntas
+Route::get('/dashboard/test/question/{id}/', 'TestQuestionController@index');
+Route::post('/dashboard/test/question/{id}/create/', 'TestQuestionController@create');
 
 // Dashboard Administracion
 Route::get('/dashboard/admin',function () {
