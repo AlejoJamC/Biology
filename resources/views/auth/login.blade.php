@@ -17,15 +17,26 @@
                     </div>
                 </div>
             </div>
+            @if (count($errors) > 0)
+						<div class="alert alert-danger">
+							<strong>Whoops!</strong> Al parece algo está mal.<br><br>
+							<ul>
+								@foreach ($errors->all() as $error)
+									<li>{{ $error }}</li>
+								@endforeach
+							</ul>
+						</div>
+					@endif
             <div class="row-view">
                 <div class="cell-view">
                     <div class="content-404">
                         <div class="title" style="font-size: 70px;">Iniciar sesión</div>
                         <div class="login-page">
                             <div class="form" >
-                                <form class="login-form">
-                                    <input type="text" placeholder="email"/>
-                                    <input type="password" placeholder="contraseña"/>
+                                <form class="login-form" method="POST">
+                                    {{ csrf_field() }}
+                                    <input type="text" name="email" id="email" placeholder="email"/>
+                                    <input type="password" name="password"  placeholder="contraseña"/>
                                     <button>Iniciar sesión</button>
                                     <p class="message">No esta registrado? <a href="/register">Crear una cuenta</a></p>
                                 </form>

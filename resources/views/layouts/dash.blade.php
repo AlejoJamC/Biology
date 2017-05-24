@@ -34,17 +34,11 @@
                             <li><a><i class="fa fa-home"></i> Contenido <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
                                     <li><a href="/dashboard/course/">Cursos</a></li>
-                                    <li><a href="/dashboard/content/">Contenidos</a></li>
                                 </ul>
                             </li>
                             <li><a><i class="fa fa-edit"></i> Profesores <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="form.html">General Form</a></li>
-                                    <li><a href="form_advanced.html">Advanced Components</a></li>
-                                    <li><a href="form_validation.html">Form Validation</a></li>
-                                    <li><a href="form_wizards.html">Form Wizard</a></li>
-                                    <li><a href="form_upload.html">Form Upload</a></li>
-                                    <li><a href="form_buttons.html">Form Buttons</a></li>
+                                    <li><a href="/dashboard/teacher/create">Crear</a></li>
                                 </ul>
                             </li>
                             <li><a><i class="fa fa-desktop"></i> Alumnos <span class="fa fa-chevron-down"></span></a>
@@ -53,11 +47,6 @@
                                     <li><a href="media_gallery.html">Media Gallery</a></li>
                                     <li><a href="typography.html">Typography</a></li>
                                     <li><a href="icons.html">Icons</a></li>
-                                    <li><a href="glyphicons.html">Glyphicons</a></li>
-                                    <li><a href="widgets.html">Widgets</a></li>
-                                    <li><a href="invoice.html">Invoice</a></li>
-                                    <li><a href="inbox.html">Inbox</a></li>
-                                    <li><a href="calendar.html">Calendar</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -67,6 +56,7 @@
                         <ul class="nav side-menu">
                             <li><a><i class="fa fa-edit"></i> Contenido <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
+                                    <li><a href="/dashboard/content/">Contenidos</a></li>
                                     <li><a href="/dashboard/test/">Questionarios</a></li>
                                     <li><a href="/dashboard/question/">Preguntas</a></li>
                                     <li><a href="/dashboard/answer/">Respuestas</a></li>
@@ -74,12 +64,7 @@
                             </li>
                             <li><a><i class="fa fa-desktop"></i> Alumnos <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="page_403.html">403 Error</a></li>
-                                    <li><a href="page_404.html">404 Error</a></li>
-                                    <li><a href="page_500.html">500 Error</a></li>
-                                    <li><a href="plain_page.html">Plain Page</a></li>
-                                    <li><a href="login.html">Login Page</a></li>
-                                    <li><a href="pricing_tables.html">Pricing Tables</a></li>
+                                    <li><a href="/dashboard/studenCourse">Estudiantes por Curso</a></li>
                                 </ul>
                             </li>
                         </ul>

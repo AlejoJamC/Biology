@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('/login',function () {
     return view('auth.login');
 });
+Route::post('/login', 'Auth\LoginController@login');
 
 Route::get('/dashboard/teacher',function () {
     return view('admin.profesor');

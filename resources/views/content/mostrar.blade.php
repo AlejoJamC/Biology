@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-10 col-md-push-1 col-xs-12">
                 <div class="panel panel-default">
-				<div class="panel-heading">Mantenimiento Cursos</div>
+				<div class="panel-heading">Mantenimiento Contenidos</div>
 				<div class="panel-body">
 					@if (count($errors) > 0)
 						<div class="alert alert-danger">
