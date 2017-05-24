@@ -54,7 +54,13 @@
 											<tr>
 												<td>{{ $testQuestion->pregunta }}</td>
 												<td>{{ $testQuestion->sugerencia }}</td>
-												<td><a class="btn btn-danger btn-block" href="/dashboard/test/{{ $test->id }}/update">Eliminar</a></td>
+												<td>
+                                                    <form action="/dashboard/test/question/{{ $test->id }}/{{ $testQuestion->id }}/delete" method="POST">
+                                                        {{ csrf_field() }}
+                                                        <input type="hidden" name="_method" value="DELETE">
+                                                        <button type="submit" class="btn btn-danger btn-block">Eliminar</button>
+                                                    </form>
+                                                </td>
 											</tr>
 										@endforeach	
 									</tbody>
@@ -86,7 +92,9 @@
                         {{ csrf_field() }}
                         <div class="form-group">
                             <label for="questionario">Questionario</label>
-                            <input type="text" class="form-control" name="questionario" id="questionario" value="{{ $test->titulo }}" disabled>
+                            <select class="form-control" name="questionario" readonly>
+                                <option value="{{ $test->id }}">{{ $test->titulo }}</option>								
+                            </select>
                         </div>
                         <div class="form-group">
                             <label for="pregunta">Pregunta</label>
