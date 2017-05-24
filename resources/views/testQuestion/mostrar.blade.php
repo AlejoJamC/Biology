@@ -55,7 +55,7 @@
 												<td>{{ $testQuestion->pregunta }}</td>
 												<td>{{ $testQuestion->sugerencia }}</td>
 												<td>
-                                                    <form action="/dashboard/test/question/{{ $test->id }}/{{ $testQuestion->id }}/delete" method="POST">
+                                                    <form action="/dashboard/test/question/{{ $test->id }}/{{ $testQuestion->id }}/{{ $testQuestion->idUnion }}/delete" method="POST">
                                                         {{ csrf_field() }}
                                                         <input type="hidden" name="_method" value="DELETE">
                                                         <button type="submit" class="btn btn-danger btn-block">Eliminar</button>

@@ -83,7 +83,7 @@ Route::put('/dashboard/answer/{id}/update/', 'AnswerController@putUpdate');
 // Rutas para el CRUD de Questionario - Preguntas
 Route::get('/dashboard/test/question/{id}/', 'TestQuestionController@index');
 Route::post('/dashboard/test/question/{id}/create/', 'TestQuestionController@create');
-Route::delete('/dashboard/test/question/{id}/{pregunta}/delete/', 'TestQuestionController@destroy');
+Route::delete('/dashboard/test/question/{question}/{pregunta}/{id}/delete/', 'TestQuestionController@destroy');
 
 // Dashboard Administracion
 Route::get('/dashboard/admin',function () {

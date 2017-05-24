@@ -16,7 +16,7 @@ class TestQuestionController extends Controller
     public function index ($id){
         $test = Test::Find($id);
         $testQuestions = TestQuestion::join('preguntas','pregunta_id','=','preguntas.id')
-                ->Select('questionario_preguntas.id','preguntas.id as id', 'preguntas.pregunta','preguntas.sugerencia')
+                ->Select('questionario_preguntas.id as idUnion','preguntas.id as id', 'preguntas.pregunta','preguntas.sugerencia')
                 ->where('questionario_id','=',$id)
                 ->get();
         $enteros = [];
@@ -43,7 +43,13 @@ class TestQuestionController extends Controller
 		}
     }
 
-    public function destroy ($id, $pregunta){
-        return 'function destroy';
+    public function destroy ($question, $pregunta, $id){
+        $testQuestion = TestQuestion::Find($id);
+        if ($testQuestion <> null){
+            TestQuestion::Destroy($id);
+            return redirect('/dashboard/test/question/'.$question)->with('error','La pregunta fue eliminada del questionario consultado.');
+        } else {
+            return redirect('/dashboard/test/question/'.$question)->with('error','La pregunta no existe en la BD.');
+        }
     }
 }
