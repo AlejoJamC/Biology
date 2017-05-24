@@ -38,10 +38,6 @@ CREATE TABLE `contenido` (
 -- Volcado de datos para la tabla `contenido`
 --
 
---INSERT INTO `contenido` (`id`, `titulo`, `descripcion`, `updated_at`, `created_at`) VALUES
---(1, 'Prueba 1', 'titulo del contenido 1', '2017-05-22 21:32:16', '2017-05-22 21:27:10'),
---(2, 'prueba 2', 'Descripcion del contenido 2', '2017-05-22 21:32:29', '2017-05-22 21:32:29');
-
 -- --------------------------------------------------------
 
 --
@@ -57,15 +53,6 @@ CREATE TABLE `cursos` (
   `updated_at` datetime NOT NULL,
   `created_at` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `cursos`
---
-
---INSERT INTO `cursos` (`id`, `nombre`, `descripcion`, `cantidad`, `usuario_id`, `updated_at`, `created_at`) VALUES
---(1, 'Prueba 1', 'Descripcion de la prueba 1', 1, 1, '2017-05-22 19:12:53', '2017-05-22 14:07:26'),
---(2, 'Curso 1', 'Curso primero nivel', 2, 1, '2017-05-22 14:16:14', '2017-05-22 14:16:14'),
---(3, 'Prueba 3', 'Descripcion prueba 3', 3, 1, '2017-05-22 19:16:14', '2017-05-22 19:16:14');
 
 -- --------------------------------------------------------
 

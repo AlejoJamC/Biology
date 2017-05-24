@@ -1,13 +1,13 @@
 @extends('layouts.dash')
 
-@section('title', 'Crear Curso | Proyecto de Grado Biologia 5 grado')
+@section('title', 'Mantenimiento Respuestas | Proyecto de Grado Biologia 5 grado')
 
 @section('content')
     <div class="right_col" role="main">
         <div class="row">
             <div class="col-md-10 col-md-push-1 col-xs-12">
                 <div class="panel panel-default">
-				<div class="panel-heading">Mantenimiento Cursos</div>
+				<div class="panel-heading">Mantenimiento Respuestas</div>
 				<div class="panel-body">
 					@if (count($errors) > 0)
 						<div class="alert alert-danger">
