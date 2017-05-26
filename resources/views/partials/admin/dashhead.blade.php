@@ -8,6 +8,7 @@
         <link href="{{ URL::asset('dash/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
         <!-- Font Awesome -->
         <link href="{{ URL::asset('dash/vendors/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+        <link href="{{ URL::asset('font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
         <!-- NProgress -->
         <link href="{{ URL::asset('dash/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
         <!-- iCheck -->

@@ -24,6 +24,10 @@ Route::get('/dashboard/teacher',function () {
     return view('admin.profesor');
 });
 
+// Rutas Tipos de Usuarios
+Route::get('/dashboard/userType/', 'UserTypeController@index');
+Route::post('/dashboard/userType/create', 'UserTypeController@create');
+
 // Rutas para el CRUD de los cursos
 Route::get('/dashboard/course/', 'CourseController@index');
 

@@ -31,14 +31,20 @@
                     <div class="menu_section">
                         <h3>Rol Administrador</h3>
                         <ul class="nav side-menu">
-                            <li><a><i class="fa fa-home"></i> Contenido <span class="fa fa-chevron-down"></span></a>
+                            <li><a><i class="fa fa-user-circle-o"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="/dashboard/course/">Cursos</a></li>
+                                    <li><a href="/dashboard/user/">Ver Usuarios</a></li>
+                                    <li><a href="/dashboard/userType/">Tipos de Usuarios</a></li>
                                 </ul>
                             </li>
                             <li><a><i class="fa fa-edit"></i> Profesores <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="/dashboard/teacher/create">Crear</a></li>
+                                    <li><a href="/dashboard/teacher/view">Ver Profesores</a></li>
+                                </ul>
+                            </li>
+                            <li><a><i class="fa fa-home"></i> Cursos <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu">
+                                    <li><a href="/dashboard/course/">Ver Cursos</a></li>
                                 </ul>
                             </li>
                             <li><a><i class="fa fa-desktop"></i> Alumnos <span class="fa fa-chevron-down"></span></a>
