@@ -31,6 +31,8 @@ Route::get('/dashboard/user/', 'UserController@index');
 // Rutas Tipos de Usuarios
 Route::get('/dashboard/userType/', 'UserTypeController@index');
 Route::post('/dashboard/userType/create', 'UserTypeController@create');
+Route::get('/dashboard/userType/{id}/update/', 'UserTypeController@Update');
+Route::put('/dashboard/userType/{id}/update/', 'UserTypeController@putUpdate');
 
 // Rutas para el CRUD de los cursos
 Route::get('/dashboard/course/', 'CourseController@index');

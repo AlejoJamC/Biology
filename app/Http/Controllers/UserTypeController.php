@@ -23,4 +23,30 @@ class UserTypeController extends Controller
         ]);
         return redirect('/dashboard/userType/')->with('creado','El tipo de usuario '.$request->get('descripcion').', ha sido creado correctamente.');
     }
+
+    public function Update ($id) {
+        $userType = UserType::find($id);
+        if ( $userType <> null)
+		{
+			return view('userType.update',['userType'=> $userType]);
+		} else
+		{
+			return redirect('/dashboard/userType')->with('error','El artículo '.$id.', no existe en la DB.');
+		}
+        
+    }
+
+    public function putUpdate (CrearTipoUsuarioRequest $request, $id) {
+        
+		$userType = UserType::find($id);
+		if ( $userType <> null)
+		{
+			$userType->nombre = $request->descripcion;
+			$userType->save();
+			return redirect('/dashboard/userType')->with('actualizado','El curso '.$userType->nombre.', se ha actualizado');
+		} else
+		{
+			return redirect('/dashboard/userType')->with('error','El artículo '.$id.', no existe en la DB.');
+		}
+    }
 }
