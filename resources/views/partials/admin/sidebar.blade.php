@@ -20,17 +20,7 @@
                 <li class="submeny">
                     <a href="#" class="submeny-top">lINKS</a>
                     <ul>
-                        <li><a href="blog.html">blog standart</a></li>
-                        <li><a href="blog-2.html">blog fullwidth</a></li>
-                        <li><a href="blog-3.html">blog left/right post</a></li>
-                        <li><a href="blog-detail.html">standart post</a></li>
-                        <li><a href="blog-detail-2.html">fullwidth post</a></li>
-                        <li><a href="gallery.html">gallery style 1</a></li>
-                        <li><a href="gallery-2.html">gallery style 2</a></li>
-                        <li><a href="el.html">elements</a></li>
-                        <li><a href="teaser-background.html">teaser standart</a></li>
-                        <li><a href="teaser-circles.html">teaser video</a></li>
-                        <li><a href="page-404.html">page 404</a></li>
+                       <li><a href="page-404.html">page 404</a></li>
                     </ul>
                 </li>
             </ul>

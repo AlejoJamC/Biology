@@ -9,7 +9,7 @@
         <div class="swiper-container horizontal-pagination" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="img/content/Home-2/lacélula.jpg" class="center-image" alt="Principal" />
+                    <img src="img/content/Home-2/lacélula.jpg" class="center-image" alt="Principal">
                     <div class="center-tagline">
                         <div class="container">
                             <div class="row">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/content/Home-2/3137.jpg" class="center-image" alt="Secundario" />
+                    <img src="img/content/Home-2/3137.jpg" class="center-image" alt="Secundario" >
                     <div class="center-tagline">
                         <div class="container">
                             <div class="row">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/content/Home-2/partesde.jpg" class="center-image" alt="Tercero" />
+                    <img src="img/content/Home-2/partesde.jpg" class="center-image" alt="Tercero" >
                     <div class="center-tagline">
                         <div class="container">
                             <div class="row">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/content/Home-2/cell-div.jpg" class="center-image" alt="Cuarto" />
+                    <img src="img/content/Home-2/cell-div.jpg" class="center-image" alt="Cuarto" >
                     <div class="center-tagline">
                         <div class="container">
                             <div class="row">
@@ -102,12 +102,13 @@
                 </div>
                 <div class="col-sm-7 content-entry wow fadeInRight" data-wow-delay="0.3s">
                     <div class="video-thumbnail">
-                        <img src="img/content/Home-2/about_image_1.jpg" alt="video" />
+                        <img src="img/content/Home-2/about_image_1.jpg" alt="video" >
                         <a data-src="https://www.youtube.com/embed/fWfGul6TN0Q" title=" Fuente: Perez Andres. La Célula. Disponible en: https://www.youtube.com/watch?time_continue=4&v=fWfGul6TN0Q" class="play" href="#"></a>
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
 
     <!-- BLOCK "TYPE 8" -->
@@ -116,7 +117,7 @@
             <div class="row">
                 <div class="content-entry col-sm-6 wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="phones-container">
-                        <img src="img/content/Home-1/lacelula.jpg" alt="Imagen3D" />
+                        <img src="img/content/Home-1/lacelula.jpg" alt="Imagen3D Biova" >
                     </div>
                 </div>
                 <div class="content-entry col-sm-6">
@@ -170,11 +171,11 @@
                                 <div class="image-wrapper">
                                     <div class="image-socials-box">
                                         <div class="vertical-align">
-                                            <a target="_blank" href="https://www.linkedin.com/in/jonathan-andres-rodriguez-0b3264139/"><img src="img/c-icon1.png" alt="icono4" /></a>
-                                            <a target="_blank" href="https://twitter.com/mineducacion?lang=es"><img src="img/c-icon3.png" alt="icono5" /></a>
+                                            <a target="_blank" href="https://www.linkedin.com/in/jonathan-andres-rodriguez-0b3264139/"><img src="img/c-icon1.png" alt="icono4 Biova"></a>
+                                            <a target="_blank" href="https://twitter.com/mineducacion?lang=es"><img src="img/c-icon3.png" alt="icono5 Biova" ></a>
                                         </div>
                                     </div>
-                                    <img class="thumbnail-image" src="img/content/Home-2/yo.jpg" title="Director del Proyecto: Jhonatna Andres Rodriguez" height="493" width="370" alt="Director" />
+                                    <img class="thumbnail-image" src="img/content/Home-2/yo.jpg" title="Director del Proyecto: Jhonatna Andres Rodriguez" height="493" width="370" alt="Director del Proyecto Biova">
                                 </div>
                                 <div class="name">JONATHAN ANDRES RODRIGUEZ PEREZ</div>
                                 <div class="position">director, programador</div>
@@ -186,10 +187,11 @@
 
             </div>
         </div>
+        </div>
     </div>
 
     <!-- BLOCK "TYPE 7" -->
-    <div class="block type-7 scroll-to-block" data-id="contact">
+    <div class="block type-18 scroll-to-block" data-id="contact">
         <div class="container">
             <div class="row page-tagline">
                 <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
@@ -200,7 +202,7 @@
             <div class="row">
                 <div class="col-md-3 wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="contact-thumbs">
-                        <img src="img/theme-3/icon7.png" alt="telefono"/>
+                        <img src="img/theme-3/icon7.png" alt="telefono contacto Biova">
                         <article class="normall">
                             <p>
                                 Tel:
@@ -210,29 +212,29 @@
                         </article>
                     </div>
                     <div class="contact-thumbs">
-                        <img src="img/theme-3/icon8.png" alt="correo"/>
+                        <img src="img/theme-3/icon8.png" alt="correo">
                         <article class="normall">
                             <p>
                                 Email:
                                 <br>
-                                <a href="mailto:bioloova@gmail.com">bioloova@gmail.com</a>
+                                <a href="mailto:Yohan290309@gmail.com">bioloova@gmail.com</a>
                             </p>
                         </article>
                     </div>
                 </div>
                 <div class="col-md-7 col-md-offset-1 wow fadeInRight" data-wow-delay="0.3s">
                     <form class="contact-form"  method="post">
-                        <input class="required" type="text" placeholder="Tu Nombre" value="" name="name" />
-                        <input class="required" type="text" placeholder="Tu Correo" value="" name="email" />
-                        <input type="text" placeholder="Asunto" value="" name="subject" />
+                        <input class="required" type="text" placeholder="Tu Nombre" value="" name="name" >
+                        <input class="required" type="text" placeholder="Tu Correo" value="" name="email" >
+                        <input type="text" placeholder="Asunto" value="" name="subject">
                         <select name="ciudad">
                             <option>Bucaramanga</option>
                         </select>
                         <textarea class="required" placeholder="Tu mensaje" name="text"></textarea>
                         <div class="submit-wraper">
-                            <div class="button" data-toggle="tooltip" title="Llena todos los campos!" >Enviar Mensaje<input type="submit" value="" /></div>
+                           <div class="button" data-toggle="tooltip" title="Llena todos los campos!" >Enviar Mensaje<input type="submit" value=""></div>
                         </div>
-                        <input type="hidden" name="mailto" value="bioloova@gmail.com" style="display: none;" />
+                        <input type="hidden" name="mailto" value="Yohan290309@gmail.com" style="display: none;" >
                     </form>
                 </div>
                 <div class="form-popup">
@@ -243,20 +245,27 @@
                 </div>
             </div>
         </div>
+
+        <style>
+            p.padding {
+                padding-bottom: 2cm;
+            }
+        </style>
     </div>
+
 
     <!-- BLOCK "MAP" -->
     <div>
 
 
-        </div>
-        <div class="addresses-block">
+            <div class="addresses-block">
             <a data-lat="43.653226" data-lng="-107.383184" data-string="1. Here is some address or email or phone or something else..."></a>
             <a data-lat="57.653226" data-lng="-77.383184" data-string="2. Here is some address or email or phone or something else..."></a>
-        </div>
+            </div>
     </div>
 
     <!-- FOOTER -->
+    <p class="padding" >
     @include('partials.main.footer')
 
     <!-- POPUP "VIDEO" -->

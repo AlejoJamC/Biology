@@ -14,7 +14,7 @@
                 <a target="_blank" href="https://twitter.com/mineducacion?lang=es"><img src="{{ URL::asset('img/theme-3/c-icon3.png') }}" alt="twitter"/></a>
             </div>
             <div class="copy">
-                <span>© 2017 DERECHOS RESERVADOS BIO.VA</span>
+                <span>© 2017 DERECHOS RESERVADOS BIOVA</span>
             </div>
         </div>
         <div  data-toggle="tooltip" title="Regresa al inicio" class="back-to-top"><i class="fa fa-chevron-up"></i></div>
