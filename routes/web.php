@@ -23,6 +23,10 @@ Route::post('/login', 'Auth\LoginController@login');
 Route::get('/dashboard/teacher',function () {
     return view('admin.profesor');
 });
+Route::get('/dashboard/teacher/course/', 'CourseTeacherController@index');
+
+//Rutas Usuarios
+Route::get('/dashboard/user/', 'UserController@index');
 
 // Rutas Tipos de Usuarios
 Route::get('/dashboard/userType/', 'UserTypeController@index');
@@ -31,13 +35,11 @@ Route::post('/dashboard/userType/create', 'UserTypeController@create');
 // Rutas para el CRUD de los cursos
 Route::get('/dashboard/course/', 'CourseController@index');
 
-Route::get('/dashboard/course/create',function () {
-    return view('course.create');
-});
-Route::post('/dashboard/course/create', 'CourseController@create');
+Route::get('/dashboard/course/create', 'CourseController@getCreate');
+Route::post('/dashboard/course/create', 'CourseController@postCreate');
 
 Route::get('/dashboard/course/{id}/update/', 'CourseController@Update');
-Route::put('/dashboard/course/{id}/update/', 'CourseController@UpdatePut');
+Route::put('/dashboard/course/{id}/update/', 'CourseController@putUpdate');
 
 // Rutas para el CRUD de los contenidos
 Route::get('/dashboard/content/', 'ContentController@index');
@@ -53,6 +55,11 @@ Route::put('/dashboard/content/{id}/update/', 'ContentController@putUpdate');
 Route::get('/dashboard/admin',function () {
     return view('admin.dash');
 });
+
+// Rutas para los contenidos de los cursos
+Route::get('/dashboard/course/content/{id}','CourseContentController@index');
+Route::post('/dashboard/course/content/{id}/create/', 'CourseContentController@create');
+Route::delete('/dashboard/course/content/{curso}/{contenido}/{id}/delete/', 'CourseContentController@destroy');
 
 // Rutas para el CRUD de los Questionario
 Route::get('/dashboard/test/', 'TestController@index');
@@ -91,9 +98,7 @@ Route::post('/dashboard/test/question/{id}/create/', 'TestQuestionController@cre
 Route::delete('/dashboard/test/question/{question}/{pregunta}/{id}/delete/', 'TestQuestionController@destroy');
 
 // Dashboard Administracion
-Route::get('/dashboard/admin',function () {
-    return view('admin.dash');
-});
+Route::get('/dashboard/admin', 'UserController@index');
 
 Route::get('/teacher/login',function () {
     return view('auth.login');

@@ -31,10 +31,18 @@
                         <input type="text" class="form-control" name="descripcion" id="descripcion" placeholder="Descripcion">
                     </div>
                     <div class="form-group">
+                        <label for="profesor">Profesor</label>
+                        <select class="form-control" name="profesor">
+                                <option></option>
+						    @foreach ($profesores as $profesor)
+							    <option value="{{ $profesor->id }}">{{ $profesor->nombre . ' ' . $profesor->apellido }}</option>
+							@endforeach									
+						</select>
+                    </div>
+                    <div class="form-group">
                         <label for="cantidad">Cantidad</label>
                         <input type="number" class="form-control" name="cantidad" id="cantidad" placeholder="Cantidad">
                     </div>
-                    
                     <button type="submit" class="btn btn-success btn-block">Guardar</button>
                 </form>
             </div>

@@ -32,6 +32,21 @@
                         <input type="text" class="form-control" value="{{ $course->descripcion }}" name="descripcion" id="descripcion" placeholder="Descripcion">
                     </div>
                     <div class="form-group">
+                        <label for="profesor">Profesor</label>
+                        <select class="form-control" name="profesor">
+                            @foreach ($profesores as $profesor)
+								@if ( $profesor->id == $course->usuario_id )
+									<option value="{{ $profesor->id }}" selected>{{ $profesor->nombre . ' ' . $profesor->apellido }}</option>
+                                @else
+                                    <option value="{{ $profesor->id }}">{{ $profesor->nombre . ' ' . $profesor->apellido }}</option>
+								@endif
+							@endforeach	
+						    @foreach ($profesores as $profesor)
+							    
+							@endforeach									
+						</select>
+                    </div>
+                    <div class="form-group">
                         <label for="cantidad">Cantidad</label>
                         <input type="number" class="form-control" value="{{ $course->cantidad }}" name="cantidad" id="cantidad" placeholder="Cantidad">
                     </div>

@@ -83,12 +83,11 @@
                                     <th>
                                         <input type="checkbox" id="check-all" class="flat">
                                     </th>
-                                    <th class="column-title">Consecurivo </th>
-                                    <th class="column-title">Estudiante </th>
-                                    <th class="column-title">Fecha de Registro </th>
-                                    <th class="column-title">Id Curso </th>
+                                    <th class="column-title">ID</th>
+                                    <th class="column-title">Profesor</th>
+                                    <th class="column-title">Fecha de Registro</th>
+                                    <th class="column-title">Correo</th>
                                     <th class="column-title">Estado </th>
-                                    </th>
                                     <th class="bulk-actions" colspan="7">
                                         <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
                                     </th>
@@ -96,120 +95,18 @@
                                 </thead>
 
                                 <tbody>
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000040</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">May 23, 2014 11:47:56 PM </td>
-                                    <td class=" ">121000210 <i class="success fa fa-long-arrow-up"></i></td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000039</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">May 23, 2014 11:30:12 PM</td>
-                                    <td class=" ">121000208 <i class="success fa fa-long-arrow-up"></i>
-                                    </td>
-                                    <td class=" ">Inactivo</td>
-                                    </td>
-                                </tr>
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000038</td>
-                                    <td class=" ">Mike Smith</td>
-                                    <td class=" ">May 24, 2014 10:55:33 PM</td>
-                                    <td class=" ">121000203 <i class="success fa fa-long-arrow-up"></i>
-                                    </td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000037</td>
-                                    <td class=" ">Mike Smith</td>
-                                    <td class=" ">May 24, 2014 10:52:44 PM</td>
-                                    <td class=" ">121000204</td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000040</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">May 24, 2014 11:47:56 PM </td>
-                                    <td class=" ">121000210</td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000039</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">May 26, 2014 11:30:12 PM</td>
-                                    <td class=" ">121000208 <i class="error fa fa-long-arrow-down"></i>
-                                    </td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000038</td>
-                                    <td class=" ">Mike Smith</td>
-                                    <td class=" ">May 26, 2014 10:55:33 PM</td>
-                                    <td class=" ">121000203</td>
-                                    <td class=" ">Inactivo</td>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000037</td>
-                                    <td class=" ">Mike Smith</td>
-                                    <td class=" ">May 26, 2014 10:52:44 PM</td>
-                                    <td class=" ">121000204</td>
-                                    <td class=" ">Inactivo</td>
-                                    </td>
-                                </tr>
-
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000040</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">May 27, 2014 11:47:56 PM </td>
-                                    <td class=" ">121000210</td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000039</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">May 28, 2014 11:30:12 PM</td>
-                                    <td class=" ">121000208</td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
+                                    @foreach ($profesores as $profesor)											
+											<tr>
+                                                <th>
+                                                    <input type="checkbox" id="check-all" class="flat">
+                                                </th>
+												<td>{{ $profesor->id }}</td>
+												<td>{{ $profesor->nombre . ' ' .$profesor->apellido }}</td>
+												<td>{{ $profesor->created_At }}</td>
+                                                <td>{{ $profesor->email }}</td>
+                                                <td>{{ $profesor->estado }}</td>
+											</tr>
+									@endforeach
                                 </tbody>
                             </table>
                         </div>
@@ -250,12 +147,11 @@
                                     <th>
                                         <input type="checkbox" id="check-all" class="flat">
                                     </th>
-                                    <th class="column-title">Invoice </th>
-                                    <th class="column-title">Invoice Date </th>
-                                    <th class="column-title">Order </th>
-                                    <th class="column-title">Bill to Name </th>
-                                    <th class="column-title">Status </th>
-                                    </th>
+                                    <th class="column-title">ID</th>
+                                    <th class="column-title">Alumno</th>
+                                    <th class="column-title">Fecha de Registro</th>
+                                    <th class="column-title">Correo</th>
+                                    <th class="column-title">Estado </th>
                                     <th class="bulk-actions" colspan="7">
                                         <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
                                     </th>
@@ -263,120 +159,18 @@
                                 </thead>
 
                                 <tbody>
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000040</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">May 23, 2014 11:47:56 PM </td>
-                                    <td class=" ">121000210 <i class="success fa fa-long-arrow-up"></i></td>
-                                    <td class=" ">Inactivo</td>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000039</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">May 23, 2014 11:30:12 PM</td>
-                                    <td class=" ">121000208 <i class="success fa fa-long-arrow-up"></i>
-                                    </td>
-                                    <td class=" ">Inactivo</td>
-                                    </td>
-                                </tr>
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000038</td>
-                                    <td class=" ">Mike Smith</td>
-                                    <td class=" ">May 24, 2014 10:55:33 PM</td>
-                                    <td class=" ">121000203 <i class="success fa fa-long-arrow-up"></i>
-                                    </td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000037</td>
-                                    <td class=" ">Mike Smith</td>
-                                    <td class=" ">May 24, 2014 10:52:44 PM</td>
-                                    <td class=" ">121000204</td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000040</td>
-                                    <td class=" ">May 24, 2014 11:47:56 PM </td>
-                                    <td class=" ">121000210</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000039</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">May 26, 2014 11:30:12 PM</td>
-                                    <td class=" ">121000208 <i class="error fa fa-long-arrow-down"></i>
-                                    </td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000038</td>
-                                    <td class=" ">Mike Smith</td>
-                                    <td class=" ">May 26, 2014 10:55:33 PM</td>
-                                    <td class=" ">121000203</td>
-                                    <td class=" ">Inactivo</td>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000037</td>
-                                    <td class=" ">Mike Smith</td>
-                                    <td class=" ">May 26, 2014 10:52:44 PM</td>
-                                    <td class=" ">121000204</td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
-
-                                <tr class="even pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000040</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">May 27, 2014 11:47:56 PM </td>
-                                    <td class=" ">121000210</td>
-                                    <td class=" ">Inactivo</td>
-                                    </td>
-                                </tr>
-                                <tr class="odd pointer">
-                                    <td class="a-center ">
-                                        <input type="checkbox" class="flat" name="table_records">
-                                    </td>
-                                    <td class=" ">121000039</td>
-                                    <td class=" ">John Blank L</td>
-                                    <td class=" ">Estudiante 1</td>
-                                    <td class=" ">121000208</td>
-                                    <td class=" ">Activo</td>
-                                    </td>
-                                </tr>
+                                    @foreach ($alumnos as $almuno)											
+											<tr>
+                                                <th>
+                                                    <input type="checkbox" id="check-all" class="flat">
+                                                </th>
+												<td>{{ $almuno->id }}</td>
+												<td>{{ $almuno->nombre . ' ' .$almuno->apellido }}</td>
+												<td>{{ $almuno->created_At }}</td>
+                                                <td>{{ $almuno->email }}</td>
+                                                <td>{{ $almuno->estado }}</td>
+											</tr>
+									@endforeach
                                 </tbody>
                             </table>
                         </div>

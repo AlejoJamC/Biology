@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+use App\Http\Requests;
+
+use App\Models\Course;
+
+class CourseTeacherController extends Controller
+{
+    public function index (){
+        $courses = Course::where('usuario_id',5)->get();
+        return view('courseTeacher.view',['courses' => $courses]);
+    }
+}

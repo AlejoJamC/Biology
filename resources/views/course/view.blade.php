@@ -1,6 +1,6 @@
 @extends('layouts.dash')
 
-@section('title', 'Crear Curso | Proyecto de Grado Biologia 5 grado')
+@section('title', 'Mantenimiento Curso | Proyecto de Grado Biologia 5 grado')
 
 @section('content')
     <div class="right_col" role="main">
@@ -59,7 +59,11 @@
 												<td>{{ $course->nombre }}</td>
 												<td>{{ $course->descripcion }}</td>
 												<td>{{ $course->cantidad }}</td>
-                                                <td>{{ $course->usuario_id }}</td>
+												@foreach ($profesores as $profesor)
+													@if ( $profesor->id == $course->usuario_id )
+														<td> {{ $profesor->nombre . ' ' . $profesor->apellido }} </td>
+													@endif
+												@endforeach												
                                                 <td>{{ $course->created_at }}</td>
 												<td><a class="btn btn-success btn-block" href="/dashboard/course/{{ $course->id }}/update">Modificar</a></td>
 											</tr>

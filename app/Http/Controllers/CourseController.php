@@ -7,24 +7,29 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Requests\CreateCourseRequest;
 use App\Models\Course;
+use App\Models\User;
 
 class CourseController extends Controller
 {
 
     public function index (){
         $courses = Course::All();
-
-		return view('course.mostrar',['courses'=> $courses]);
+        $profesores = User::where('tipo_id',2)->get();
+		return view('course.view',['courses'=> $courses, 'profesores' => $profesores]);
     }
 
-    public function create (CreateCourseRequest $request){
+    public function getCreate (){
+        $profesores = User::where('tipo_id',2)->get();
+		return view('course.create',['profesores'=> $profesores]);
+    }
 
+    public function postCreate (CreateCourseRequest $request){
         Course::create
         ([
             'nombre' => $request->nombre,
             'descripcion' => $request->descripcion,
             'cantidad' => $request->cantidad,
-            'usuario_id' => 1
+            'usuario_id' => $request->profesor
         ]);
 
         return redirect('/dashboard/course/')->with('creado','El curso '.$request->get('descripcion').', ha sido creado correctamente.');
@@ -34,7 +39,8 @@ class CourseController extends Controller
         $course = Course::find($id);
         if ( $course <> null)
 		{
-			return view('course.update',['course'=> $course]);
+            $profesores = User::where('tipo_id',2)->get();
+			return view('course.update',['course'=> $course, 'profesores' => $profesores]);
 		} else
 		{
 			return redirect('/dashboard/course')->with('error','El artículo '.$id.', no existe en la DB.');
@@ -50,6 +56,7 @@ class CourseController extends Controller
 			$course->nombre = $request->nombre;
 			$course->descripcion = $request->descripcion;
 			$course->cantidad = $request->cantidad;
+            $course->usuario_id = $request->profesor;
 			$course->save();
 			return redirect('/dashboard/course')->with('actualizado','El curso '.$course->descripcion.', se ha actualizado');
 		} else
