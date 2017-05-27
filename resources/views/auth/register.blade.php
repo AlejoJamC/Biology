@@ -32,9 +32,15 @@
                                     <div class="col-md-6">
                                         <input type="text" placeholder="email"/>
                                         <select style="width: 100%;">
-                                            <option value="volvo">seleccionar rol ...</option>
-                                            <option value="saab">Estudiante</option>
-                                            <option value="mercedes">Profesor</option>
+                                            <option value="0">seleccionar rol ...</option>
+                                            @if($registerData === 1)
+                                                <option value="1">Estudiante</option>
+                                            @elseif($registerData === 2)
+                                                <option value="2">Profesor</option>
+                                            @elseif($registerData === 3)
+                                                <option value="2">Administrador</option>
+                                            @endif
+
                                         </select>
                                     </div>
                                     <button>Crear Usuario</button>

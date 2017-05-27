@@ -18,7 +18,23 @@ Route::get('/', function () {
 Route::get('/login',function () {
     return view('auth.login');
 });
-Route::post('/login', 'Auth\LoginController@login');
+
+Route::post('/login', 'UserController@doLogin');
+
+Route::get('/register',function () {
+    $registerType = 1;
+    return view('auth.register')->with('registerData', $registerType);
+});
+
+Route::get('/teacher/register',function () {
+    $registerType = 2;
+    return view('auth.register')->with('registerData', $registerType);
+});
+
+Route::get('/admin/register',function () {
+    $registerType = 3;
+    return view('auth.register')->with('registerData', $registerType);
+});
 
 Route::get('/dashboard/teacher',function () {
     return view('admin.profesor');
@@ -110,18 +126,6 @@ Route::get('/teacher/login',function () {
 
 Route::get('/admin/login',function () {
     return view('auth.login');
-});
-
-Route::get('/register',function () {
-    return view('auth.register');
-});
-
-Route::get('/teacher/register',function () {
-    return view('auth.register');
-});
-
-Route::get('/admin/register',function () {
-    return view('auth.register');
 });
 
 Route::get('/dashboard',function () {

@@ -36,7 +36,7 @@
                                 <form class="login-form" method="POST">
                                     {{ csrf_field() }}
                                     <input type="text" name="email" id="email" placeholder="email"/>
-                                    <input type="password" name="password"  placeholder="contraseña"/>
+                                    <input type="password" name="password" id="password"  placeholder="contraseña"/>
                                     <button>Iniciar sesión</button>
                                     <p class="message">No esta registrado? <a href="/register">Crear una cuenta</a></p>
                                 </form>

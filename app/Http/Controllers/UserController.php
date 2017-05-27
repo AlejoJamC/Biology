@@ -42,4 +42,29 @@ class UserController extends Controller
 			return redirect('/dashboard/user/inactive')->with('error','El usuario '.$id.', no existe en la DB.');
 		}
     }
+
+    public function doLogin(Request $request){
+        $email = $request->email;
+        $password = $request->password;
+        $query = 'email = "' . $email . '" AND password = "' . $password . '"';
+        $userLogin = User::whereRaw($query, array(1))->get();
+
+        //var_dump($userLogin[0]->tipo_id);
+        //die;
+
+        if ( $userLogin <> null) {
+            $userType = $userLogin[0]->tipo_id;
+            if ($userType === 1) {
+                return redirect('/dashboard');
+            } else {
+                return redirect('/dashboard/user');
+            }
+        }else{
+            return redirect('/login');
+        }
+    }
+
+    public function doRegister(Request $request){
+
+    }
 }

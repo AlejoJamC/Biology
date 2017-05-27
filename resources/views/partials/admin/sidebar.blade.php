@@ -23,6 +23,9 @@
                    <li><a href="/dashboard/examen">Questionario</a></li>
                     </ul>
                 </li>
+                <li class="submeny">
+                    <a href="/login">Cerrar sesión</a>
+                </li>
             </ul>
         </nav>
     </header>
