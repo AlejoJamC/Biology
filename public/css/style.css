@@ -125,7 +125,7 @@ blockquote:before, blockquote:after, q:before, q:after {content: ''; content: no
 body *{-webkit-text-size-adjust:none;}
 .clear{clear:both; overflow:hidden; height:0px; font-size:0px; display: block;}
 input:focus, select:focus, textarea:focus, button:focus {outline: none;}
-input, textarea, select{font-family: 'regular', sans-serif; font-weight: 400; -webkit-appearance: none; border-radius: 0;}
+input, textarea, select{font-family: 'regular', sans-serif; font-weight: 400; border-radius: 0;}
 a, a:link, a:visited, a:active, a:hover{cursor: pointer; text-decoration: none; outline: none;}
 body{font-family: 'regular', sans-serif; font-weight: normal; font-size: 14px; line-height: 1; color: #777777;}
 
@@ -2166,4 +2166,11 @@ _:-ms-input-placeholder, :root .type-2.block .image-block .bg {position: absolut
 .back-to-top:hover{background: #fff!important; color: #222;}
 @media (max-width: 767px) {
     .back-to-top{width: 40px; line-height: 40px;}
+}
+
+
+.form-radio {
+    border: 1px solid #CCC;
+    padding: 7px;
+    border-radius: 6px;
 }
