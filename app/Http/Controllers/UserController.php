@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
 
 use App\Http\Requests;
 
@@ -15,7 +16,9 @@ class UserController extends Controller
         $profesores = User::where('tipo_id',2)->get();
         $alumnos = User::where('tipo_id',1)->get();
         $usersTypes = UserType::ALL();
-
-        return view('admin.dash', ['alumnos' => $alumnos,'profesores' => $profesores, 'usersTypes' => $usersTypes]);
+        $cuentausuarios = User::where('tipo_id',1)->get()->count();
+        $cuentaprofesores = User::where('tipo_id',2)->get()->count();
+        return view('admin.dash', ['alumnos' => $alumnos,'profesores' => $profesores, 'usersTypes' => $usersTypes,
+            'cuentausuarios' => $cuentausuarios, 'cuentaprofesores'=> $cuentaprofesores]);
     }
 }
