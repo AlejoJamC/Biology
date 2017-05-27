@@ -18,4 +18,25 @@ class UserController extends Controller
 
         return view('admin.dash', ['alumnos' => $alumnos,'profesores' => $profesores, 'usersTypes' => $usersTypes]);
     }
+
+    public function listInactive()
+    {
+        $users = User::where('estado',0)->get();
+        $usersTypes = UserType::ALL();
+        return view('user.inactive', ['users' => $users, 'usersTypes' => $usersTypes]);
+    }
+
+    public function active(Request $request){
+        $id = $request->id;
+        $user = User::find($id);
+		if ( $user <> null)
+		{
+			$user->estado = 1;
+			$user->save();
+			return redirect('/dashboard/user/inactive')->with('actualizado','El usuario '.$user->nombre.', ha sido activado.');
+		} else
+		{
+			return redirect('/dashboard/user/inactive')->with('error','El usuario '.$id.', no existe en la DB.');
+		}
+    }
 }

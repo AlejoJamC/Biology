@@ -27,10 +27,12 @@ Route::get('/dashboard/teacher/course/', 'CourseTeacherController@index');
 
 //Rutas Usuarios
 Route::get('/dashboard/user/', 'UserController@index');
+Route::get('/dashboard/user/inactive/', 'UserController@listInactive');
+Route::post('/dashboard/activar/{id}/', 'UserController@active');
 
 // Rutas Tipos de Usuarios
 Route::get('/dashboard/userType/', 'UserTypeController@index');
-Route::post('/dashboard/userType/create', 'UserTypeController@create');
+Route::post('/dashboard/userType/create/', 'UserTypeController@create');
 Route::get('/dashboard/userType/{id}/update/', 'UserTypeController@Update');
 Route::put('/dashboard/userType/{id}/update/', 'UserTypeController@putUpdate');
 
