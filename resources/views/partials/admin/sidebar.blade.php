@@ -18,9 +18,9 @@
                 <li><a href="#divi_celular" class="scroll-to-link">División célular</a></li>
                 <li><a href="#gallery" class="scroll-to-link">imágenes</a></li>
                 <li class="submeny">
-                    <a href="#" class="submeny-top">lINKS</a>
+                    <a href="#" class="submeny-top">Examén</a>
                     <ul>
-                       <li><a href="page-404.html">page 404</a></li>
+                   <li><a href="/dashboard/examen">Questionario</a></li>
                     </ul>
                 </li>
             </ul>
