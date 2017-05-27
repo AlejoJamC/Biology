@@ -6,8 +6,17 @@
 
     <div class="block type-1 scroll-to-block">
         <div class="col-md-8 col-md-push-2 col-xs-12">
+            <div class="row">
+                @if(Session::has('error'))
+					<div class="alert alert-danger">
+						<p><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> {{ Session::get('error') }}</p>
+					</div>
+				@endif
+            </div>
             <div clas="row" style="padding-top:5%;">
-                <form method="GET">
+                <form method="POST">
+                    <input class="hidden" type="text" name="questionario" id="questionario" value="{{ $questionario->id }}">
+                    {{ csrf_field() }}
                     <div class="panel panel-default">
                         <div class="panel-heading">{{ $questionario->titulo }}</div>
                             <div class="panel-body">
@@ -17,7 +26,7 @@
                                         @foreach($respuestas as $respuesta)
                                             @if ( $respuesta->pregunta_id == $pregunta->pregunta_id)
                                                 <div class="radio">
-                                                    <label><input type="radio" name="option{{ $pregunta->pregunta_id }}" value="{{ $respuesta->respuesta_id }}">{{ $respuesta->respuesta }}</label>
+                                                    <label><input type="radio" name="pregunta{{ $pregunta->pregunta_id }}" value="{{ $respuesta->respuesta_id }}">{{ $respuesta->respuesta }}</label>
                                                 </div>
                                             @endif
                                         @endforeach

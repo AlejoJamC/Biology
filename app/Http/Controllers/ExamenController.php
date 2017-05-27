@@ -9,6 +9,7 @@ use App\Http\Requests;
 use App\Models\Test;
 use App\Models\Question;
 use App\Models\Answer;
+use App\Models\RespuestasEstudiantes;
 
 class ExamenController extends Controller
 {
@@ -24,5 +25,33 @@ class ExamenController extends Controller
                                     ->where('questionario_preguntas.questionario_id','=',1)
                                     ->get();
         return view('examen.view',['questionario' => $questionario, 'preguntas' => $preguntas, 'respuestas' => $respuestas]);
+    }
+
+    public function respuesta (Request $request){
+        $cantidad = Question::join('questionario_preguntas','preguntas.id','=','questionario_preguntas.pregunta_id')
+                    ->Select('preguntas.id')
+                    ->where('questionario_preguntas.questionario_id','=',1)
+                    ->groupBy('preguntas.id')
+                    ->get();
+
+        foreach ($cantidad as $valor) {
+            $variable = 'pregunta' . $valor['id'];
+            if ( !$request->has($variable)) {
+                return redirect('/dashboard/examen/')->with('error','Falta responder la pregunta ' . $valor['id']);
+            }
+        }
+
+        foreach ($cantidad as $valor) {
+            $variable = 'pregunta' . $valor['id'];
+            RespuestasEstudiantes::create
+            ([
+                'estudiante_id' => 1,
+                'questionario_id' => $request->questionario,
+                'pregunta_id' => $valor['id'],
+                'respuesta_id' => $request->$variable
+            ]);
+        }
+        return redirect('/dashboard/')->with('creado','Su respuestas fueron guardadas satisfactoriamente.');
+
     }
 }

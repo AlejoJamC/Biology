@@ -9,6 +9,11 @@
             <div class="bg" style="background-image:url(img/content/Home-6/eeee.jpg);"></div>
             <div class="bg-span"></div>
         </div>
+         @if(Session::has('creado'))
+		    <div class="alert alert-danger">
+			    <p><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> {{ Session::get('error') }}</p>
+			</div>
+		@endif
         <div class="container type-1-text wow fadeInUp" data-wow-delay="0.3s">
             <div class="row">
                 <div class="col-md-8 col-md-offset-4 type-1-center">

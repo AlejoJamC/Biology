@@ -133,3 +133,4 @@ Route::get('/dashboard',function () {
 });
 
 Route::get('/dashboard/examen/','ExamenController@index');
+Route::post('/dashboard/examen/','ExamenController@respuesta');
