@@ -1,14 +1,14 @@
 @extends('layouts.dash')
 
-@section('title', 'Mantenimiento Curso por Profesor | Proyecto de Grado Biologia 5 grado')
+@section('title', 'Mantenimiento estudiante por curso | Proyecto de Grado Biologia 5 grado')
 
 @section('content')
     <div class="right_col" role="main">
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-10 col-sm-12 col-xs-12">
                 <div class="x_panel">
                     <div class="x_title">
-                        <h2>Tabla de cursos</h2>
+                        <h2>Tabla de estudiantes</h2>
                         <ul class="nav navbar-right panel_toolbox">
                             <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                             </li>
@@ -38,27 +38,24 @@
                                         <input type="checkbox" id="check-all" class="flat">
                                     </th>
                                     <th class="column-title">ID</th>
-                                    <th class="column-title">Profesor</th>
-                                    <th class="column-title">Fecha de Registro</th>
+                                    <th class="column-title">Alumno</th>
                                     <th class="column-title">Correo</th>
-                                    <th class="column-title">Estado </th>
-                                    <th class="bulk-actions" colspan="7">
-                                        <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
-                                    </th>
+                                    <th class="column-title">Estado</th>
+                                    <th class="column-title">Resultado Questionario</th>
                                 </tr>
                                 </thead>
 
                                 <tbody>
-                                   @foreach ($courses as $course)											
-											<tr>
-												<td>{{ $course->id }}</td>
-												<td>{{ $course->nombre }}</td>
-												<td>{{ $course->descripcion }}</td>
-												<td>{{ $course->cantidad }}</td>											
-                                                <td>{{ $course->created_at }}</td>
-												<td><a class="btn btn-success btn-block" href="/dashboard/course/content/{{ $course->id }}/">Contenidos</a></td>
-											</tr>
-										@endforeach
+                                  @foreach ($estudiantes as $estudiante)
+                                    <tr>
+                                        <td></td>
+                                        <td>{{ $estudiante->estudiante_id }}</td>
+                                        <td>{{ $estudiante->nombre . ' ' . $estudiante->apellido }}</td>
+                                        <td>{{ $estudiante->email }}</td>
+                                        <td>{{ $estudiante->estado }}</td>
+                                        <td>{{ (( $estudiante->correctas / $estudiante->total_preguntas ) * 100 ) . '%' }}</td>
+                                    </tr>
+                                  @endforeach
                                 </tbody>
                             </table>
                         </div>

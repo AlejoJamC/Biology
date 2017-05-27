@@ -117,6 +117,9 @@ Route::get('/dashboard/test/question/{id}/', 'TestQuestionController@index');
 Route::post('/dashboard/test/question/{id}/create/', 'TestQuestionController@create');
 Route::delete('/dashboard/test/question/{question}/{pregunta}/{id}/delete/', 'TestQuestionController@destroy');
 
+//Rutas Estudiantes por Curso
+Route::get('/dashboard/studenCourse/','CourseStudenController@index');
+
 // Dashboard Administracion
 Route::get('/dashboard/admin', 'UserController@index');
 
