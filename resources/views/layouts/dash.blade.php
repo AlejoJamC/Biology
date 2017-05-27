@@ -7,7 +7,7 @@
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view">
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="index.html" class="site_title"><i class="fa fa-area-chart"></i> <span>BIO.VA</span></a>
+                    <a href="index.html" class="site_title"><i class="fa fa-area-chart"></i> <span>BIOVA</span></a>
                 </div>
 
                 <div class="clearfix"></div>
@@ -15,11 +15,11 @@
                 <!-- menu profile quick info -->
                 <div class="profile">
                     <div class="profile_pic">
-                        <img src="{{ URL::asset('dash/images/img.jpg') }}" alt="..." class="img-circle profile_img">
+                        <img src="{{ URL::asset('img/content/Home-2/yo.jpg') }}" alt="..." class="img-circle profile_img">
                     </div>
                     <div class="profile_info">
                         <span>Bienvenido,</span>
-                        <h2>John Doe</h2>
+                        <h2>Jonathan Andres Rodriguez</h2>
                     </div>
                 </div>
                 <!-- /menu profile quick info -->
@@ -131,7 +131,7 @@
         <!-- footer content -->
         <footer>
             <div class="pull-right">
-                2016 Todos los Derechos Reservados <a href="#">bio.va</a>
+                2016 Todos los Derechos Reservados <a href="#">biova</a>
             </div>
             <div class="clearfix"></div>
         </footer>
