@@ -1,7 +1,7 @@
 @extends('layouts.auth')
 
 @section('css')
-    <link href="{{ URL::asset('css/login.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ URL::asset('css/login.css') }}" rel="stylesheet" type="text/css" >
 @stop
 
 @section('title', 'Login | Proyecto de Grado Biologia 5 grado')
@@ -13,7 +13,7 @@
             <div class="row-view">
                 <div class="cell-view">
                     <div class="teaser-logo">
-                        <a href="index.html" class="logo"><img src="{{ URL::asset('img/logobiova_168_min.png') }}" alt="" /></a>
+                        <a href="index.html" class="logo"><img src="{{ URL::asset('img/logobiova.png') }}" alt="Logo Biova"></a>
                     </div>
                 </div>
             </div>
@@ -35,8 +35,8 @@
                             <div class="form" >
                                 <form class="login-form" method="POST">
                                     {{ csrf_field() }}
-                                    <input type="text" name="email" id="email" placeholder="email"/>
-                                    <input type="password" name="password" id="password"  placeholder="contraseña"/>
+                                    <input type="text" name="email" id="email" placeholder="email">
+                                    <input type="password" name="password" id="password"  placeholder="contraseña">
                                     <button>Iniciar sesión</button>
                                     <p class="message">No esta registrado? <a href="/register">Crear una cuenta</a></p>
                                 </form>
