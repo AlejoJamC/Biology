@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- BLOCK "TYPE 11" -->
-    <div class="new-block type-11 scroll-to-block" data-id="home">
+    <div class="new-block type-11 scroll-to-block" data-id="inicio">
 
         <div class="swiper-container horizontal-pagination" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1">
             <div class="swiper-wrapper">
@@ -16,7 +16,10 @@
                                 <div class="col-md-6 banner-text">
                                     <div class="banner-article">
                                         <h1 class="title">LA CÉLULA</h1>
-                                        <div class="description">Las células presentan diversas formas: alargadas, redondas, estrelladas, irregulares; varían en tamaños, desde muy pequeñas que sólo pueden ser vistas a través del  microscopio, hasta muy grandes como algunas fibras vegetales. Las células animales son diferentes a las células vegetales. </div>
+                                        <div class="description">Las células presentan diversas formas: alargadas,
+                                            redondas, estrelladas, irregulares; varían en tamaños, desde muy pequeñas que sólo pueden ser vistas a través
+                                            del  microscopio, hasta muy grandes como algunas fibras vegetales. Las células animales son diferentes a las
+                                            células vegetales. </div>
                                         <a class="button" href="login" data-toggle="tooltip" title="Has Clik!"><span>APRENDE YA</span></a>
                                     </div>
                                 </div>
@@ -89,14 +92,17 @@
     </div>
 
     <!-- BLOCK "TYPE 15" -->
-    <div class="new-block type-15 scroll-to-block" data-id="about">
+    <div class="new-block type-15 scroll-to-block" data-id="acerca_de">
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 content-entry wow fadeInLeft" data-wow-delay="0.3s">
                     <div class="cell-view">
                         <article class="normall">
                             <h2 class="h2 titel-left">La Biología</h2>
-                            <p style="text-align:justify">La biología estudia las células en función de su constitución molecular y la forma en que cooperan entre sí para constituir organismos muy complejos, como por ejemplo el ser humano. Todo esto permite comprender como es el funcionamiento del cuerpo humano sano, cómo se desarrolla y envejece y qué falla en caso de enfermedad, por lo cual es imprescindible conocer las células que lo constituyen. </p>
+                            <p style="text-align:justify">La biología estudia las células en función de su constitución molecular y la
+                                forma en que cooperan entre sí para constituir organismos muy complejos, como por ejemplo el ser humano.
+                                Todo esto permite comprender como es el funcionamiento del cuerpo humano sano, cómo se desarrolla y envejece
+                                y qué falla en caso de enfermedad, por lo cual es imprescindible conocer las células que lo constituyen. </p>
                         </article>
                     </div>
                 </div>
@@ -112,7 +118,7 @@
     </div>
 
     <!-- BLOCK "TYPE 8" -->
-    <div class="new-block type-8 scroll-to-block" data-id="how-it-work">
+    <div class="new-block type-8 scroll-to-block" data-id="como_funciona">
         <div class="container">
             <div class="row">
                 <div class="content-entry col-sm-6 wow fadeInLeft" data-wow-delay="0.3s">
@@ -153,7 +159,7 @@
     </div>
 
     <!-- BLOCK "TYPE 10" -->
-    <div class="new-block type-10 scroll-to-block" data-id="team">
+    <div class="new-block type-10 scroll-to-block" data-id="desarrollo">
         <div class="container">
             <div class="row page-tagline">
                 <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
@@ -191,7 +197,7 @@
     </div>
 
     <!-- BLOCK "TYPE 7" -->
-    <div class="block type-18 scroll-to-block" data-id="contact">
+    <div class="block type-18 scroll-to-block" data-id="contacto">
         <div class="container">
             <div class="row page-tagline">
                 <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">

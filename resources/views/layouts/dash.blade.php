@@ -11,7 +11,6 @@
                 </div>
 
                 <div class="clearfix"></div>
-
                 <!-- menu profile quick info -->
                 <div class="profile">
                     <div class="profile_pic">
@@ -122,7 +121,7 @@
         <!-- footer content -->
         <footer>
             <div class="pull-right">
-                2016 Todos los Derechos Reservados <a href="#">biova</a>
+                2017 Todos los Derechos Reservados <a href="#">BIOVA</a>
             </div>
             <div class="clearfix"></div>
         </footer>
