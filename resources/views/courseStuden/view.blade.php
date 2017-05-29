@@ -41,6 +41,8 @@
                                     <th class="column-title">Alumno</th>
                                     <th class="column-title">Correo</th>
                                     <th class="column-title">Estado</th>
+                                    <th class="column-title">Preguntas Correctas</th>
+                                    <th class="column-title">Total Preguntas</th>
                                     <th class="column-title">Resultado Questionario</th>
                                 </tr>
                                 </thead>
@@ -53,6 +55,8 @@
                                         <td>{{ $estudiante->nombre . ' ' . $estudiante->apellido }}</td>
                                         <td>{{ $estudiante->email }}</td>
                                         <td>{{ $estudiante->estado }}</td>
+                                        <td>{{ $estudiante->correctas }}</td>
+                                        <td>{{ $estudiante->total_preguntas }}</td>
                                         <td>{{ (( $estudiante->correctas / $estudiante->total_preguntas ) * 100 ) . '%' }}</td>
                                     </tr>
                                   @endforeach
