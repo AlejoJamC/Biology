@@ -11,30 +11,29 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Se activa las funcioanes prefabricadas de Laravel Authentication
 
-Route::get('/login',function () {
-    return view('auth.login');
-});
+Auth::routes();
+
+// ------------- SECCION INICIAL - NO AUTH REQUERIDO ----------------
+
+Route::get('/', 'HomeController@index');
+
+Route::get('/login', 'HomeController@login');
 
 Route::post('/login', 'UserController@doLogin');
 
-Route::get('/register',function () {
-    $registerType = 1;
-    return view('auth.register')->with('registerData', $registerType);
-});
+Route::get('/register', 'HomeController@registrarEstudiante');
 
-Route::get('/teacher/register',function () {
-    $registerType = 2;
-    return view('auth.register')->with('registerData', $registerType);
-});
+Route::get('/teacher/register', 'HomeController@registrarProfesor');
 
-Route::get('/admin/register',function () {
-    $registerType = 3;
-    return view('auth.register')->with('registerData', $registerType);
-});
+Route::get('/admin/register', 'HomeController@registrarAdmnistrador');
+
+Route::get('/teacher/login', 'HomeController@teacherLogin');
+
+Route::get('/admin/login', 'HomeController@adminLogin');
+
+// ------------- SECCION DASHBOARD - AUTH REQUERIDO ----------------
 
 Route::get('/dashboard/teacher',function () {
     return view('admin.profesor');
@@ -122,14 +121,6 @@ Route::get('/dashboard/studenCourse/','CourseStudenController@index');
 
 // Dashboard Administracion
 Route::get('/dashboard/admin', 'UserController@index');
-
-Route::get('/teacher/login',function () {
-    return view('auth.login');
-});
-
-Route::get('/admin/login',function () {
-    return view('auth.login');
-});
 
 Route::get('/dashboard',function () {
     return view('admin.index');
