@@ -13,6 +13,11 @@ use App\Models\RespuestasEstudiantes;
 
 class ExamenController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index (){
         $questionario = Test::Find(1);
         $preguntas = Question::join('questionario_preguntas','preguntas.id','=','questionario_preguntas.pregunta_id')

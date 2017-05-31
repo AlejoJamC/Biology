@@ -11,6 +11,11 @@ use App\Models\UserType;
 
 class UserTypeController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index () {
         $usersTypes = UserType::All();
         return view('userType.view', ['usersTypes' => $usersTypes]);

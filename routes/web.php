@@ -21,7 +21,7 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/login', 'HomeController@login');
 
-Route::post('/login', 'UserController@doLogin');
+Route::post('/login', 'HomeController@doLogin');
 
 Route::get('/register', 'HomeController@registrarEstudiante');
 
@@ -35,9 +35,10 @@ Route::get('/admin/login', 'HomeController@adminLogin');
 
 // ------------- SECCION DASHBOARD - AUTH REQUERIDO ----------------
 
-Route::get('/dashboard/teacher',function () {
-    return view('admin.profesor');
-});
+Route::get('/dashboard', 'UserController@dashboard');
+
+Route::get('/dashboard/teacher', 'UserController@dashboardProfesor');
+
 Route::get('/dashboard/teacher/course/', 'CourseTeacherController@index');
 
 //Rutas Usuarios
@@ -63,17 +64,12 @@ Route::put('/dashboard/course/{id}/update/', 'CourseController@putUpdate');
 // Rutas para el CRUD de los contenidos
 Route::get('/dashboard/content/', 'ContentController@index');
 
-Route::get('/dashboard/content/create',function () {
-    return view('content.create');
-});
+Route::get('/dashboard/content/create','ContentController@getCreate');
+
 Route::post('/dashboard/content/create', 'ContentController@create');
 
 Route::get('/dashboard/content/{id}/update/', 'ContentController@Update');
 Route::put('/dashboard/content/{id}/update/', 'ContentController@putUpdate');
-
-Route::get('/dashboard/admin',function () {
-    return view('admin.dash');
-});
 
 // Rutas para los contenidos de los cursos
 Route::get('/dashboard/course/content/{id}','CourseContentController@index');
@@ -83,9 +79,8 @@ Route::delete('/dashboard/course/content/{curso}/{contenido}/{id}/delete/', 'Cou
 // Rutas para el CRUD de los Questionario
 Route::get('/dashboard/test/', 'TestController@index');
 
-Route::get('/dashboard/test/create',function () {
-    return view('test.create');
-});
+Route::get('/dashboard/test/create', 'TestController@getCreate');
+
 Route::post('/dashboard/test/create', 'TestController@create');
 
 Route::get('/dashboard/test/{id}/update/', 'TestController@Update');
@@ -94,9 +89,8 @@ Route::put('/dashboard/test/{id}/update/', 'TestController@putUpdate');
 // Rutas para el CRUD de los Preguntas
 Route::get('/dashboard/question/', 'QuestionController@index');
 
-Route::get('/dashboard/question/create',function () {
-    return view('question.create');
-});
+Route::get('/dashboard/question/create', 'QuestionController@getCreate');
+
 Route::post('/dashboard/question/create', 'QuestionController@create');
 
 Route::get('/dashboard/question/{id}/update/', 'QuestionController@Update');
@@ -121,10 +115,6 @@ Route::get('/dashboard/studenCourse/','CourseStudenController@index');
 
 // Dashboard Administracion
 Route::get('/dashboard/admin', 'UserController@index');
-
-Route::get('/dashboard',function () {
-    return view('admin.index');
-});
 
 Route::get('/dashboard/examen/','ExamenController@index');
 Route::post('/dashboard/examen/','ExamenController@respuesta');

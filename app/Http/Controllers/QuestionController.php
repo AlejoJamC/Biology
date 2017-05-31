@@ -11,9 +11,19 @@ use App\Models\Question;
 
 class QuestionController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index () {
         $questions = Question::All();
         return View('question.mostrar', ['questions' => $questions]);
+    }
+
+    public function getCreate()
+    {
+        return view('question.create');
     }
 
     public function create (CreateQuestionRequest $request) {

@@ -13,6 +13,11 @@ use App\Models\TestQuestion;
 
 class TestQuestionController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index ($id){
         $test = Test::Find($id);
         $testQuestions = TestQuestion::join('preguntas','pregunta_id','=','preguntas.id')

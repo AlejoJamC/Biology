@@ -12,6 +12,11 @@ use App\Models\CursoEstudiante;
 
 class CourseStudenController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index (){
         $estudiantes = DB::table('usuarios')->join('respuestas_estudiantes','usuarios.id','=','respuestas_estudiantes.estudiante_id')
                 ->join('respuestas',function($join){

@@ -10,9 +10,19 @@ use App\Http\Requests\CreateTestRequest;
 
 class TestController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index () {
         $tests = Test::All();
         return view('test.mostrar',['tests'=> $tests]);
+    }
+
+    public function getCreate()
+    {
+        return view('test.create');
     }
 
     public function create (CreateTestRequest $request){

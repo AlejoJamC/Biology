@@ -23,7 +23,7 @@ class RegisterController extends Controller
     use RegistersUsers;
 
     /**
-     * Where to redirect users after login / registration.
+     * Where to redirect users after registration.
      *
      * @var string
      */
@@ -39,6 +39,12 @@ class RegisterController extends Controller
         $this->middleware('guest');
     }
 
+    public function showRegistrationForm()
+    {
+        $registerType = 1;
+        return view('auth.register')->with('registerData', $registerType);
+    }
+
     /**
      * Get a validator for an incoming registration request.
      *
@@ -48,9 +54,11 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|min:6|confirmed',
+            'nombre' => 'required|string|max:255',
+            'apellido' => 'required|string|max:255',
+            'email' => 'required|string|email|max:100|unique:users',
+            'password' => 'required|string|min:6|confirmed',
+            'tipo_id' => 'required|numeric|exists:tipo_usuario,id'
         ]);
     }
 
@@ -63,9 +71,11 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'name' => $data['name'],
+            'nombre' => $data['apellido'],
+            'apellido' => $data['nombre'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'tipo_id' => $data['tipo_id']
         ]);
     }
 }

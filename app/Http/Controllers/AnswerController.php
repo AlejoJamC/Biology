@@ -15,6 +15,11 @@ use App\Models\Question;
 
 class AnswerController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index () {
         $answers = Answer::All();
         $questions = Question::All();

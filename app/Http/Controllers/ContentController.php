@@ -10,11 +10,23 @@ use App\Models\Content;
 
 class ContentController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+
     public function index () {
 
         $contents = Content::All();
         return view('content.mostrar',['contents'=> $contents]);
     }
+
+    public function getCreate()
+    {
+        return view('content.create');
+    }
+
 
     public function create (CreateContentRequest $request){
 
