@@ -45,6 +45,18 @@ class RegisterController extends Controller
         return view('auth.register')->with('registerData', $registerType);
     }
 
+    public function registrarProfesor()
+    {
+        $registerType = 2;
+        return view('auth.register')->with('registerData', $registerType);
+    }
+
+    public function registrarAdmnistrador()
+    {
+        $registerType = 3;
+        return view('auth.register')->with('registerData', $registerType);
+    }
+
     /**
      * Get a validator for an incoming registration request.
      *
@@ -56,7 +68,7 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'nombre' => 'required|string|max:255',
             'apellido' => 'required|string|max:255',
-            'email' => 'required|string|email|max:100|unique:users',
+            'email' => 'required|string|email|max:100|unique:usuarios',
             'password' => 'required|string|min:6|confirmed',
             'tipo_id' => 'required|numeric|exists:tipo_usuario,id'
         ]);
@@ -71,11 +83,12 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'nombre' => $data['apellido'],
-            'apellido' => $data['nombre'],
+            'nombre' => $data['nombre'],
+            'apellido' => $data['apellido'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
-            'tipo_id' => $data['tipo_id']
+            'tipo_id' => $data['tipo_id'],
+            'estado' => 0
         ]);
     }
 }

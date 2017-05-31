@@ -23,26 +23,85 @@
                         <div class="title" style="font-size: 70px;">Crear usuario</div>
                         <div class="login-page2">
                             <div class="form">
-                                <form class="login-form">
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="Nombres">
-                                        <input type="text" placeholder="Apellidos">
-                                        <input type="password" placeholder="contraseña">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="text" placeholder="email">
-                                        <select style="width: 100%;">
-                                            <option value="0">seleccionar rol ...</option>
-                                            @if($registerData === 1)
-                                                <option value="1">Estudiante</option>
-                                            @elseif($registerData === 2)
-                                                <option value="2">Profesor</option>
-                                            @elseif($registerData === 3)
-                                                <option value="2">Administrador</option>
+                                <form class="form-horizontal" role="form" method="POST" action="/register">
+                                    {{ csrf_field() }}
+                                    <div class="form-group{{ $errors->has('nombre') ? ' has-error' : '' }}">
+                                        <label for="nombre" class="col-md-4 control-label">Nombre</label>
+                                        <div class="col-md-6">
+                                            <input id="nombre" type="text" class="form-control" name="nombre" value="{{ old('nombre') }}" placeholder="Nombres" required autofocus>
+                                            @if ($errors->has('name'))
+                                                <span class="help-block">
+                                                    <strong>{{ $errors->first('name') }}</strong>
+                                                </span>
                                             @endif
-
-                                        </select>
+                                        </div>
                                     </div>
+
+                                    <div class="form-group{{ $errors->has('apellido') ? ' has-error' : '' }}">
+                                        <label for="apellido" class="col-md-4 control-label">Apellido</label>
+                                        <div class="col-md-6">
+                                            <input id="apellido" type="text" class="form-control" name="apellido" value="{{ old('apellido') }}" required>
+                                            @if ($errors->has('apellido'))
+                                                <span class="help-block">
+                                                    <strong>{{ $errors->first('apellido') }}</strong>
+                                                </span>
+                                            @endif
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                                        <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+                                        <div class="col-md-6">
+                                            <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
+                                            @if ($errors->has('email'))
+                                                <span class="help-block">
+                                                    <strong>{{ $errors->first('email') }}</strong>
+                                                </span>
+                                            @endif
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group{{ $errors->has('tipo_id') ? ' has-error' : '' }}">
+                                        <label for="tipo_id" class="col-md-4 control-label">Tipo Usuario</label>
+                                        <div class="col-md-6">
+                                            <select name="tipo_id" id="tipo_id" class="form-control" style="width: 100%;">
+                                                        <option value="0">seleccionar rol ...</option>
+                                                        @if($registerData === 1)
+                                                            <option value="1">Estudiante</option>
+                                                        @elseif($registerData === 2)
+                                                            <option value="2">Profesor</option>
+                                                        @elseif($registerData === 3)
+                                                            <option value="2">Administrador</option>
+                                                        @endif
+
+                                            </select>
+                                            @if ($errors->has('tipo_id'))
+                                                <span class="help-block">
+                                                    <strong>{{ $errors->first('tipo_id') }}</strong>
+                                                </span>
+                                            @endif
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+                                        <label for="password" class="col-md-4 control-label">Password</label>
+                                        <div class="col-md-6">
+                                            <input id="password" type="password" class="form-control" name="password" required>
+                                            @if ($errors->has('password'))
+                                                <span class="help-block">
+                                                    <strong>{{ $errors->first('password') }}</strong>
+                                                </span>
+                                            @endif
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
+                                        <div class="col-md-6">
+                                            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                                        </div>
+                                    </div>
+
                                     <button>Crear Usuario</button>
                                     <p class="message">Ya esta registrado? <a href="/login">iniciar sesion</a></p>
                                 </form>
