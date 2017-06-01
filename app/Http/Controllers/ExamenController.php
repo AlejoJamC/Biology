@@ -50,7 +50,7 @@ class ExamenController extends Controller
             $variable = 'pregunta' . $valor['id'];
             RespuestasEstudiantes::create
             ([
-                'estudiante_id' => 1,
+                'estudiante_id' => Auth::user()->id,
                 'questionario_id' => $request->questionario,
                 'pregunta_id' => $valor['id'],
                 'respuesta_id' => $request->$variable

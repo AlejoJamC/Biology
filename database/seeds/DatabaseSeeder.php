@@ -3,6 +3,7 @@
 use Illuminate\Database\Seeder;
 
 use App\Models\UserType;
+use App\Models\User;
 
 class DatabaseSeeder extends Seeder
 {
@@ -16,7 +17,9 @@ class DatabaseSeeder extends Seeder
         DB::statement('SET FOREIGN_KEY_CHECKS = 0');
 
         UserType::truncate();
+        USer::truncate();
 
         $this->call('TipoUsuarioSeeder');
+        $this->call('Usuario');
     }
 }
