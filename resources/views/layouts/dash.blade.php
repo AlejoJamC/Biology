@@ -18,7 +18,7 @@
                     </div>
                     <div class="profile_info">
                         <span>Bienvenido,</span>
-                        <h2>Jonathan Andres Rodriguez</h2>
+                        <h2>{{ Auth::user()->nombre . ' ' .  Auth::user()->apellido }}</h2>
                     </div>
                 </div>
                 <!-- /menu profile quick info -->
