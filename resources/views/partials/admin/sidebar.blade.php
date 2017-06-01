@@ -9,7 +9,7 @@
             <ul>
                 
                 <li class="submeny">
-                    <a href="#inicio" class="submeny-top act scroll-to-link">Inicio</a>
+                    <a href="#inicio" class="submeny-top act scroll-to-link">{{ Auth::user()->nombre . ' ' . Auth::user()->apellido }}</a>
 
                 </li>
                 <li><a href="#sabias-que" class="scroll-to-link">¿Sabias que?</a></li>

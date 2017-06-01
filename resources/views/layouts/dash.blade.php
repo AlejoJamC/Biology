@@ -24,9 +24,10 @@
                 <!-- /menu profile quick info -->
 
                 <br />
-
+                
                 <!-- sidebar menu -->
                 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                @if ( Auth::user()->tipo_id == 3 )
                     <div class="menu_section">
                         <h3>Rol Administrador</h3>
                         <ul class="nav side-menu">
@@ -48,6 +49,7 @@
                             </li>
                         </ul>
                     </div>
+                @endif
                     <div class="menu_section">
                         <h3>Rol Profesor</h3>
                         <ul class="nav side-menu">
@@ -70,7 +72,7 @@
 
                 </div>
                 <!-- /sidebar menu -->
-
+                
                 <!-- /menu footer buttons -->
                 <div class="sidebar-footer hidden-small">
 
