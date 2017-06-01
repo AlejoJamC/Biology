@@ -121,7 +121,7 @@ class LoginController extends Controller
             $url = '/dashboard';
         } elseif (Auth::user()->tipo_id == 2) {
             $url = '/dashboard/teacher';
-        } elseif (Auth::user()->tipo_id == 2) {
+        } elseif (Auth::user()->tipo_id == 3) {
             $url = '/dashboard/admin';
         } else {
             $url = '/dashboard/';
