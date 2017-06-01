@@ -11,6 +11,8 @@ use App\Models\Question;
 use App\Models\Answer;
 use App\Models\RespuestasEstudiantes;
 
+use Auth;
+
 class ExamenController extends Controller
 {
     public function __construct()
