@@ -3,10 +3,11 @@
         <a href="#" id="logo"><img src="{{ URL::asset('img/logobiova.png') }}" alt="logo biova"/><img class="act"
             src="{{ URL::asset('img/logobiova.png') }}" alt="logo biova"/></a>
         <div class="mob-icon">
-            <span></span>
+            <span>{{ Auth::user()->nombre }}</span>
         </div>
         <nav>
             <ul>
+                
                 <li class="submeny">
                     <a href="#inicio" class="submeny-top act scroll-to-link">Inicio</a>
 
