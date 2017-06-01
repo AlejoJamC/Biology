@@ -27,14 +27,15 @@
                                     {{ csrf_field() }}
                                     <div class="form-group{{ $errors->has('nombre') ? ' has-error' : '' }}">
                                        <label for="nombre" class="col-md-5 control-label">Nombre</label>
-                                        <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-6">
                                             <input id="nombre" type="text" class="form-control" name="nombre" value="{{ old('nombre') }}" placeholder="Nombres" required autofocus>
                                             @if ($errors->has('name'))
                                                 <span class="help-block">
                                                     <strong>{{ $errors->first('name') }}</strong>
                                                 </span>
                                             @endif
-                                        </div>
+                                            </div>
                                     </div>
 
                                     <div class="form-group{{ $errors->has('apellido') ? ' has-error' : '' }}">
@@ -49,6 +50,7 @@
                                         </div>
                                     </div>
 
+
                                     <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                                         <label for="email" class="col-md-5 control-label">E-Mail Address</label>
                                         <div class="col-md-6">
@@ -60,6 +62,7 @@
                                             @endif
                                         </div>
                                     </div>
+
 
                                     <div class="form-group{{ $errors->has('tipo_id') ? ' has-error' : '' }}">
                                         <label for="tipo_id" class="col-md-5 control-label">Tipo Usuario</label>
@@ -102,6 +105,7 @@
                                         </div>
                                     </div>
 
+                                    </div>
                                     <button>Crear Usuario</button>
                                     <p class="message">Ya esta registrado? <a href="/login">iniciar sesion</a></p>
 
