@@ -5,7 +5,11 @@ namespace App\Http\Controllers\Auth;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
+//use Illuminate\Foundation\Auth\RegistersUsers;
+//use Illuminate\Foundation\Auth\RedirectsUsers;
+use Illuminate\Auth\Events\Registered;
 
 class RegisterController extends Controller
 {
@@ -20,7 +24,7 @@ class RegisterController extends Controller
     |
     */
 
-    use RegistersUsers;
+    //use RegistersUsers;
 
     /**
      * Where to redirect users after registration.
@@ -57,6 +61,27 @@ class RegisterController extends Controller
         return view('auth.register')->with('registerData', $registerType);
     }
 
+    public function register(Request $request)
+    {
+        $this->validator($request->all())->validate();
+
+        event(new Registered($usuario = $this->create($request->all())));
+
+        //$this->guard()->login($usuario);
+
+        return redirect($this->redirectPath());
+    }
+
+    protected function guard()
+    {
+        return Auth::guard();
+    }
+
+    public function redirectPath()
+    {
+        return property_exists($this, 'redirectTo') ? $this->redirectTo : '/login';
+    }
+    
     /**
      * Get a validator for an incoming registration request.
      *
