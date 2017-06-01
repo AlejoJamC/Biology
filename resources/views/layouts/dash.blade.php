@@ -14,11 +14,11 @@
                 <!-- menu profile quick info -->
                 <div class="profile">
                     <div class="profile_pic">
-                        <img src="{{ URL::asset('img/content/Home-2/yo.jpg') }}" alt="..." class="img-circle profile_img">
+                        <img src="{{ URL::asset('img/logobiova_69.png') }}" alt="..." class="img-circle profile_img">
                     </div>
                     <div class="profile_info">
                         <span>Bienvenido,</span>
-                        <h2>{{ Auth::user()->nombre . ' ' .  Auth::user()->apellido }}</h2>
+                        <h2><strong>{{ Auth::user()->nombre . ' ' .  Auth::user()->apellido }}</strong></h2>
                     </div>
                 </div>
                 <!-- /menu profile quick info -->
