@@ -37,14 +37,15 @@ class ExamenController extends Controller
     public function respuesta (Request $request){
         $cantidad = Question::join('questionario_preguntas','preguntas.id','=','questionario_preguntas.pregunta_id')
                     ->Select('preguntas.id')
-                    ->where('questionario_preguntas.questionario_id','=',1)
+                    ->where('questionario_preguntas.questionario_id','=',$request->questionario)
                     ->groupBy('preguntas.id')
                     ->get();
 
+        //return $cantidad;
         foreach ($cantidad as $valor) {
             $variable = 'pregunta' . $valor['id'];
             if ( !$request->has($variable)) {
-                return redirect('/dashboard/examen/')->with('error','Falta responder la pregunta ' . $valor['id']);
+                return redirect('/dashboard/examen/'.$request->questionario)->with('error','Falta responder la pregunta ' . $valor['id']);
             }
         }
 

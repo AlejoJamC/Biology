@@ -38,7 +38,7 @@
 				@endif
             </div>
             <div clas="row" style="padding-top:5%;">
-                <form method="POST">
+                <form method="POST" action="/dashboard/examen">
                     <input class="hidden" type="text" name="questionario" id="questionario" value="{{ $questionario->id }}">
                     {{ csrf_field() }}
                     <div class="panel panel-default">

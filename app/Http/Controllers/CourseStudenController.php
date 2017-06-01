@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 use App\Http\Requests;
 
 use App\Models\User;
+use App\Models\Test;
 use App\Models\CursoEstudiante;
 
 class CourseStudenController extends Controller
@@ -28,8 +29,8 @@ class CourseStudenController extends Controller
                         DB::raw('Count(*) AS total_preguntas'))
                 ->GroupBy('respuestas_estudiantes.estudiante_id','usuarios.nombre', 'usuarios.apellido','usuarios.email', 'usuarios.estado', 'respuestas_estudiantes.questionario_id')
                 ->get();
-
+        $tests = Test::All();
         //return ;
-        return view('courseStuden.view',['estudiantes' => $estudiantes]);
+        return view('courseStuden.view',['tests' => $tests ,'estudiantes' => $estudiantes]);
     }
 }

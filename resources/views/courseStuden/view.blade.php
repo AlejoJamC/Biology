@@ -40,7 +40,7 @@
                                     <th class="column-title">ID</th>
                                     <th class="column-title">Alumno</th>
                                     <th class="column-title">Correo</th>
-                                    <th class="column-title">Estado</th>
+                                    <th class="column-title">Questionario</th>
                                     <th class="column-title">Preguntas Correctas</th>
                                     <th class="column-title">Total Preguntas</th>
                                     <th class="column-title">Resultado Questionario</th>
@@ -54,7 +54,13 @@
                                         <td>{{ $estudiante->estudiante_id }}</td>
                                         <td>{{ $estudiante->nombre . ' ' . $estudiante->apellido }}</td>
                                         <td>{{ $estudiante->email }}</td>
-                                        <td>{{ $estudiante->estado }}</td>
+                                        <td>
+                                            @foreach ($tests AS $test)
+                                                @if ($estudiante->questionario_id == $test->id)
+                                                    {{ $test->titulo }}
+                                                @endif
+                                            @endforeach                     
+                                        </td>
                                         <td>{{ $estudiante->correctas }}</td>
                                         <td>{{ $estudiante->total_preguntas }}</td>
                                         <td>{{ (( $estudiante->correctas / $estudiante->total_preguntas ) * 100 ) . '%' }}</td>

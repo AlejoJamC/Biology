@@ -123,6 +123,8 @@ class LoginController extends Controller
             $url = '/dashboard/teacher';
         } elseif (Auth::user()->tipo_id == 2) {
             $url = '/dashboard/admin';
+        } else {
+            $url = '/dashboard/';
         }
 
         return $this->authenticated($request, $this->guard()->user())?: redirect()->intended($url);
