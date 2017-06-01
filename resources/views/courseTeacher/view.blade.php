@@ -40,8 +40,10 @@
                                     <th class="column-title">ID</th>
                                     <th class="column-title">Profesor</th>
                                     <th class="column-title">Fecha de Registro</th>
-                                    <th class="column-title">Correo</th>
-                                    <th class="column-title">Estado </th>
+                                    <th class="column-title">Cantidad</th>
+                                    <th class="column-title">Fecha Creación:</th>
+                                    <th class="column-title">Alumnos</th>
+                                    <th class="column-title">Acción:</th>
                                     <th class="bulk-actions" colspan="7">
                                         <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
                                     </th>
@@ -51,12 +53,16 @@
                                 <tbody>
                                    @foreach ($courses as $course)											
 											<tr>
+                                                <td></td>
 												<td>{{ $course->id }}</td>
 												<td>{{ $course->nombre }}</td>
 												<td>{{ $course->descripcion }}</td>
-												<td>{{ $course->cantidad }}</td>											
+												<td>{{ $course->cantidad }}</td>
                                                 <td>{{ $course->created_at }}</td>
-												<td><a class="btn btn-success btn-block" href="/dashboard/course/content/{{ $course->id }}/">Contenidos</a></td>
+                                                <td>
+                                                    <a class="btn btn-success" href="/dashboard/teacher/course/student/{{ $course->id }}/">Alumnos</a>
+                                                </td>
+												<td><a class="btn btn-success" href="/dashboard/course/content/{{ $course->id }}/">Contenidos</a></td>
 											</tr>
 										@endforeach
                                 </tbody>

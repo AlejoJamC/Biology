@@ -48,7 +48,9 @@ Route::get('/dashboard', 'UserController@dashboard');
 Route::get('/dashboard/teacher', 'UserController@dashboardProfesor');
 
 Route::get('/dashboard/teacher/course/', 'CourseTeacherController@index');
-
+Route::get('/dashboard/teacher/course/student/{id}', 'CourseTeacherController@studensCourse');
+Route::post('/dashboard/teacher/course/student/{id}/create', 'CourseTeacherController@create');
+Route::delete('/dashboard/teacher/course/student/{id}/delete', 'CourseTeacherController@destroy');
 //Rutas Usuarios
 Route::get('/dashboard/user/', 'UserController@index');
 Route::get('/dashboard/user/inactive/', 'UserController@listInactive');
