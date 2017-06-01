@@ -1,9 +1,33 @@
-@extends('layouts.admin')
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
 
-@section('title', 'Dashboard | Proyecto de Grado Biologia 5 grado')
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-@section('content')
-
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+    <!-- LOADER -->
+    <div class="row">
+        <div class="col-xs-12 text-center" id="loader-wrapper">
+            <img src="{{ URL::asset('img/logobiova.png') }}" alt="">
+            <span></span>
+        </div>
+    </div>
     <div class="block type-1 scroll-to-block">
         <div class="col-md-8 col-md-push-2 col-xs-12">
             <div class="row">
@@ -40,30 +64,11 @@
             </div>
         </div>
     </div>
-
-
-    <!-- FOOTER -->
-    @include('partials.admin.footer')
-
-    <!-- POPUP "VIDEO" -->
-    <div class="video-popup">
-        <span></span>
-        <span></span>
-        <iframe src="#"></iframe>
-        <a href="#"></a>
     </div>
-@endsection
-<div class="theme-config">
-    <div class="title">Select Color:</div>
-    <div class="colours-wrapper">
-        <div data-theme="theme-1" style="color: #fbc011;" class="entry active"></div>
-        <div data-theme="theme-2" style="color: #00bbd2;" class="entry"></div>
-        <div data-theme="theme-3" style="color: #4caf50;" class="entry"></div>
-        <div data-theme="theme-4" style="color: #ba68c8;" class="entry"></div>
-        <div data-theme="theme-5" style="color: #d80d0d;" class="entry"></div>
-        <div data-theme="theme-6" style="color: #0045ad;" class="entry"></div>
-        <div data-theme="theme-7" style="color: #dd137b;" class="entry"></div>
-        <div data-theme="theme-8" style="color: #482d1d;" class="entry"></div>
-    </div>
-    <div class="open"><img src="img/gear-icon.png" alt="Icono Biova"><img src="img/gear-icon.png" alt="Icono Biova"><img src="img/gear-icon.png" alt="Icono Biova"></div>
-</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+

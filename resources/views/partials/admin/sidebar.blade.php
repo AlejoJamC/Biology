@@ -21,7 +21,9 @@
                 <li class="submeny">
                     <a href="#" class="submeny-top">Examén</a>
                     <ul>
-                   <li><a href="/dashboard/examen">Questionario</a></li>
+                        @foreach ($tests AS $test)
+                            <li><a href="/dashboard/examen/{{ $test->id }}">{{ $test->titulo }}</a></li>
+                        @endforeach
                     </ul>
                 </li>
                 <li class="submeny">
