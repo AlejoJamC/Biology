@@ -20,16 +20,16 @@ class ExamenController extends Controller
         $this->middleware('auth');
     }
 
-    public function index (){
-        $questionario = Test::Find(1);
+    public function index ($id){
+        $questionario = Test::Find($id);
         $preguntas = Question::join('questionario_preguntas','preguntas.id','=','questionario_preguntas.pregunta_id')
                     ->Select('preguntas.id AS pregunta_id','preguntas.pregunta')
-                    ->where('questionario_preguntas.questionario_id','=',1)
+                    ->where('questionario_preguntas.questionario_id','=',$id)
                     ->get();
         $respuestas = Question::join('questionario_preguntas','preguntas.id','=','questionario_preguntas.pregunta_id')
                                     ->join('respuestas','preguntas.id','=','respuestas.pregunta_id')
                                     ->Select('preguntas.id AS pregunta_id','respuestas.id as respuesta_id','respuestas.respuesta')
-                                    ->where('questionario_preguntas.questionario_id','=',1)
+                                    ->where('questionario_preguntas.questionario_id','=',$id)
                                     ->get();
         return view('examen.view',['questionario' => $questionario, 'preguntas' => $preguntas, 'respuestas' => $respuestas]);
     }

@@ -8,6 +8,7 @@ use App\Http\Requests;
 
 use App\Models\User;
 use App\Models\UserType;
+use App\Models\Test;
 
 class UserController extends Controller
 {
@@ -28,7 +29,8 @@ class UserController extends Controller
 
     public function dashboard()
     {
-        return view('admin.index');
+        $tests = Test::All();
+        return view('admin.index', ['tests' => $tests]);
     }
 
     public function dashboardProfesor()

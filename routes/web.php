@@ -124,5 +124,5 @@ Route::get('/dashboard/studenCourse/','CourseStudenController@index');
 // Dashboard Administracion
 Route::get('/dashboard/admin', 'UserController@index');
 
-Route::get('/dashboard/examen/','ExamenController@index');
+Route::get('/dashboard/examen/{id}','ExamenController@index');
 Route::post('/dashboard/examen/','ExamenController@respuesta');
