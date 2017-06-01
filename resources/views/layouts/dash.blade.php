@@ -62,7 +62,7 @@
                             </li>
                             <li><a><i class="fa fa-desktop"></i> Alumnos <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="/dashboard/studenCourse">Estudiantes por Curso</a></li>
+                                    <li><a href="/dashboard/studenCourse">Estudiantes por Cuestionario</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -73,16 +73,18 @@
 
                 <!-- /menu footer buttons -->
                 <div class="sidebar-footer hidden-small">
-                    <a data-toggle="tooltip" data-placement="top" title="Settings">
-                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+
+                    <a data-toggle="tooltip" data-placement="top" title="">
+                        <span class="glyphicon " aria-hidden="true"></span>
                     </a>
-                    <a data-toggle="tooltip" data-placement="top" title="FullScreen">
-                        <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+
+                    <a data-toggle="tooltip" data-placement="top" title="">
+                        <span class="glyphicon " aria-hidden="true"></span>
                     </a>
-                    <a data-toggle="tooltip" data-placement="top" title="Lock">
-                        <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                    <a data-toggle="tooltip" data-placement="top" title="">
+                        <span class="glyphicon " aria-hidden="true"></span>
                     </a>
-                    <a data-toggle="tooltip" data-placement="top" title="Logout" href="/logout" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                    <a data-toggle="tooltip" data-placement="top" title="Cerrar Sesión" href="/logout" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                         <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
                     </a>
 
@@ -102,17 +104,7 @@
                         <a id="menu_toggle"><i class="fa fa-bars"></i></a>
                     </div>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="">
-                            <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                <span class=" fa fa-angle-down"></span>
-                            </a>
-                            <ul class="dropdown-menu dropdown-usermenu pull-right">
-                                <li><a href="/login"><i class="fa fa-sign-out pull-right"></i> Cerrar sesión</a></li>
-                            </ul>
-                        </li>
 
-                    </ul>
                 </nav>
             </div>
         </div>
