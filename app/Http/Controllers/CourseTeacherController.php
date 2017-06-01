@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 
 use App\Models\Course;
+use Auth;
 
 class CourseTeacherController extends Controller
 {
@@ -16,7 +17,7 @@ class CourseTeacherController extends Controller
     }
 
     public function index (){
-        $courses = Course::where('usuario_id',5)->get();
+        $courses = Course::where('usuario_id', Auth::user()->id)->get();
         return view('courseTeacher.view',['courses' => $courses]);
     }
 }
