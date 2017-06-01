@@ -60,27 +60,7 @@
                     <div class="x_content">
 
 
-                        <div class="table-responsive">
-                            <table class="table table-striped jambo_table bulk_action">
-                                <thead>
-                                <tr class="headings">
-                                    <th>
-                                        <input type="checkbox" id="check-all" class="flat">
-                                    </th>
-                                    <th class="column-title">Invoice </th>
-                                    <th class="column-title">Invoice Date </th>
-                                    <th class="column-title">Order </th>
-                                    <th class="column-title">Bill to Name </th>
-                                    <th class="column-title">Status </th>
-                                    </th>
-                                    <th class="bulk-actions" colspan="7">
-                                        <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
-                                    </th>
-                                </tr>
-                                </thead>
 
-                            </table>
-                        </div>
                     </div>
                 </div>
             </div>
