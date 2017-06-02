@@ -16,7 +16,14 @@ class TestController extends Controller
     }
 
     public function index () {
-        $tests = Test::where('usuario_id',Auth::user()->id)->get();
+
+        if (Auth::user()->tipo_id === 3){
+            $tests = Test::get();
+
+        }
+        else{
+            $tests = Test::where('usuario_id',Auth::user()->id)->get();
+        }
         return view('test.mostrar',['tests'=> $tests]);
     }
 

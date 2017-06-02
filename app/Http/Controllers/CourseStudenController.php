@@ -10,6 +10,7 @@ use App\Http\Requests;
 use App\Models\User;
 use App\Models\Test;
 use App\Models\CursoEstudiante;
+use Auth;
 
 class CourseStudenController extends Controller
 {
@@ -24,14 +25,15 @@ class CourseStudenController extends Controller
                         $join->on('respuestas_estudiantes.respuesta_id','=','respuestas.id')
                         ->on('respuestas_estudiantes.pregunta_id','=','respuestas.pregunta_id');
                     })
+                ->join('questionario','respuestas_estudiantes.questionario_id','=','questionario.id')
                 ->Select('respuestas_estudiantes.estudiante_id','usuarios.nombre', 'usuarios.apellido','usuarios.email', 'usuarios.estado', 'respuestas_estudiantes.questionario_id',
                         DB::raw('SUM(CASE WHEN respuestas.correcta = 1 THEN 1 ELSE 0 END) AS correctas'),
                         DB::raw('Count(*) AS total_preguntas'))
-                ->Where('usuarios.id',Auth::user()->id)
+
                 ->GroupBy('respuestas_estudiantes.estudiante_id','usuarios.nombre', 'usuarios.apellido','usuarios.email', 'usuarios.estado', 'respuestas_estudiantes.questionario_id')
                 ->get();
         $tests = Test::All();
-        //return ;
+        //return Auth::User();
         return view('courseStuden.view',['tests' => $tests ,'estudiantes' => $estudiantes]);
     }
 }
