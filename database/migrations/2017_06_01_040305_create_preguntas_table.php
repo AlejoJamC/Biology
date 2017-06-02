@@ -18,6 +18,8 @@ class CreatePreguntasTable extends Migration
             $table->string('pregunta');
             $table->string('sugerencia');
             $table->timestamps();
+            $table->integer('usuario_id')->unsigned();
+            $table->foreign('usuario_id')->references('id')->on('usuarios');
         });
     }
 

@@ -11,6 +11,8 @@ use App\Models\Course;
 use App\Models\Content;
 use App\Models\CursoContenido;
 
+use Auth;
+
 class CourseContentController extends Controller
 {
     public function __construct()
@@ -23,12 +25,15 @@ class CourseContentController extends Controller
         $contenidos = CursoContenido::join('contenido','contenido_id','=','contenido.id')
                         ->Select('contenido.id', 'contenido.titulo', 'contenido.descripcion', 'curso_contenido.id as key')
                         ->where('curso_id',$id)
+                        ->Where('contenido.usuario_id',Auth::user()->id)
                         ->get();
         $enteros = [];
         foreach ($contenidos as $contenido => $value ) {
             array_push($enteros, $value["id"]);
         }
-        $contents = Content::whereNotIn('id',$enteros)->get();
+        $contents = Content::whereNotIn('id',$enteros)
+                ->Where('usuario_id',Auth::user()->id)
+                ->get();
 
         return view('courseContent.view',[ 'course' => $course, 'contenidos' => $contenidos, 'contents' => $contents]);
     }

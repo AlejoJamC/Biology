@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Requests\CreateContentRequest;
-
+use Auth;
 use App\Models\Content;
 
 class ContentController extends Controller
@@ -18,7 +18,7 @@ class ContentController extends Controller
 
     public function index () {
 
-        $contents = Content::All();
+        $contents = Content::Where('usuario_id',Auth::user()->id)->get();
         return view('content.mostrar',['contents'=> $contents]);
     }
 
@@ -33,7 +33,8 @@ class ContentController extends Controller
         Content::create
         ([
             'titulo' => $request->titulo,
-            'descripcion' => $request->descripcion
+            'descripcion' => $request->descripcion,
+            'usuario_id' => Auth::user()->id
         ]);
 
         return redirect('/dashboard/content/')->with('creado','El contenido '.$request->get('descripcion').', ha sido creado correctamente.');

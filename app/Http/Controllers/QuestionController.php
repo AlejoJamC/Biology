@@ -8,6 +8,7 @@ use App\Http\Requests;
 use App\Http\Requests\CreateQuestionRequest;
 
 use App\Models\Question;
+use Auth;
 
 class QuestionController extends Controller
 {
@@ -17,7 +18,7 @@ class QuestionController extends Controller
     }
 
     public function index () {
-        $questions = Question::All();
+        $questions = Question::where('usuario_id',Auth::user()->id)->get();
         return View('question.mostrar', ['questions' => $questions]);
     }
 
@@ -30,7 +31,8 @@ class QuestionController extends Controller
         Question::create
         ([
             'pregunta' => $request->get('pregunta'),
-            'sugerencia' => $request->get('sugerencia')
+            'sugerencia' => $request->get('sugerencia'),
+            'usuario_id' => Auth::user()->id
         ]);
         return redirect('/dashboard/question/')->with('creado','La pregunta '.$request->get('pregunta').', ha sido creado correctamente.');
     }

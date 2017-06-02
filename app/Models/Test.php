@@ -18,7 +18,7 @@ class Test extends Model
 	 *
 	 * @var array
 	 */
-	protected $fillable = ['id', 'titulo'];
+	protected $fillable = ['id', 'titulo', 'usuario_id'];
 
 	public function questions()
     {

@@ -22,5 +22,10 @@ class TipoUsuarioSeeder extends Seeder
         ([
             'nombre' => 'Profesor'
         ]);
+
+        UserType::create
+        ([
+            'nombre' => 'Administrador'
+        ]);
     }
 }

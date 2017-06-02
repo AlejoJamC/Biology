@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Test;
-
+use Auth;
 use App\Http\Requests;
 use App\Http\Requests\CreateTestRequest;
 
@@ -16,7 +16,7 @@ class TestController extends Controller
     }
 
     public function index () {
-        $tests = Test::All();
+        $tests = Test::where('usuario_id',Auth::user()->id)->get();
         return view('test.mostrar',['tests'=> $tests]);
     }
 
@@ -28,7 +28,8 @@ class TestController extends Controller
     public function create (CreateTestRequest $request){
         Test::create
         ([
-            'titulo' => $request->get('titulo')
+            'titulo' => $request->get('titulo'),
+            'usuario_id' => Auth::user()->id
         ]);
 
         return redirect('/dashboard/test/')->with('creado','El questionario '.$request->get('titulo').', ha sido creado correctamente.');

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Requests\CreateTestQuestionRequest;
-
+use Auth;
 use App\Models\Test;
 use App\Models\Question;
 use App\Models\TestQuestion;
@@ -23,12 +23,15 @@ class TestQuestionController extends Controller
         $testQuestions = TestQuestion::join('preguntas','pregunta_id','=','preguntas.id')
                 ->Select('questionario_preguntas.id as idUnion','preguntas.id as id', 'preguntas.pregunta','preguntas.sugerencia')
                 ->where('questionario_id','=',$id)
+                ->Where('preguntas.usuario_id',Auth::user()->id)
                 ->get();
         $enteros = [];
         foreach ($testQuestions as $testQuestion => $value ) {
             array_push($enteros, $value["id"]);
         }
-        $questions = Question::whereNotIn('id',$enteros)->get();
+        $questions = Question::whereNotIn('id',$enteros)
+                ->Where('usuario_id',Auth::user()->id)
+                ->get();
         return view('testQuestion.mostrar', ['test' => $test, 'questions' => $questions, 'testQuestions' => $testQuestions]);
     }
 

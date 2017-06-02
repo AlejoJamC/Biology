@@ -9,7 +9,7 @@ use Illuminate\Validation\Rule;
 use App\Http\Requests;
 use App\Http\Requests\CreateAnswerRequest;
 use App\Http\Requests\UpdateAnswerRequest;
-
+use Auth;
 use App\Models\Answer;
 use App\Models\Question;
 
@@ -21,13 +21,13 @@ class AnswerController extends Controller
     }
 
     public function index () {
-        $answers = Answer::All();
-        $questions = Question::All();
+        $answers = Answer::Where('usuario_id',Auth::user()->id)->get();
+        $questions = Question::Where('usuario_id',Auth::user()->id)->get();
         return View('answer.mostrar', ['answers' => $answers, 'questions' => $questions]);
     }
 
     public function getCreate () {
-        $questions = Question::All();
+        $questions = Question::Where('usuario_id',Auth::user()->id)->get();
         return View('answer.create', ['questions' => $questions]);
     }
 
@@ -43,7 +43,8 @@ class AnswerController extends Controller
         ([
             'pregunta_id' => $request->get('pregunta'),
             'respuesta' => $request->get('respuesta'),
-            'correcta' => $correcta
+            'correcta' => $correcta,
+            'usuario_id' => Auth::user()->id
         ]);
 
         return redirect('/dashboard/answer/')->with('creado','La respuesta '.$request->get('respuesta').', ha sido creado correctamente.');
@@ -54,7 +55,7 @@ class AnswerController extends Controller
         $answer = Answer::Find($id);
         if ( $answer <> null)
 		{
-            $questions = Question::All();
+            $questions = Question::Where('usuario_id',Auth::user()->id)->get();
 			return view('answer.update',['answer'=> $answer, 'questions' => $questions]);
 		} else
 		{

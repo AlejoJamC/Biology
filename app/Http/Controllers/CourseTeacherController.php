@@ -29,13 +29,15 @@ class CourseTeacherController extends Controller
         $students = User::join('curso_estudiantes','usuarios.id','=','curso_estudiantes.estudiante_id')
                     ->join('cursos','curso_estudiantes.curso_id','=','cursos.id')
                     ->Select('usuarios.*','cursos.nombre as curso','curso_estudiantes.id AS key')
-                    ->where('curso_estudiantes.curso_id',$id)
+                    ->where('curso_estudiantes.curso_id','=',$id)
                     ->get();
         $enteros = [];
         foreach ($students as $student => $value ) {
             array_push($enteros, $value["id"]);
         }
-        $users = User::whereNotIn('id',$enteros)->get();
+        $users = User::whereNotIn('id',$enteros)
+                ->Where('tipo_id','=',1)
+                ->get();
         return view('courseTeacher.list',['students' => $students, 'course' => $course, 'users' => $users]);
     }
 

@@ -102,7 +102,7 @@
                                                 </th>
 												<td>{{ $profesor->id }}</td>
 												<td>{{ $profesor->nombre . ' ' .$profesor->apellido }}</td>
-												<td>{{ $profesor->created_At }}</td>
+												<td>{{ $profesor->created_at }}</td>
                                                 <td>{{ $profesor->email }}</td>
                                                 <td>{{ $profesor->estado }}</td>
 											</tr>
@@ -166,7 +166,7 @@
                                                 </th>
 												<td>{{ $almuno->id }}</td>
 												<td>{{ $almuno->nombre . ' ' .$almuno->apellido }}</td>
-												<td>{{ $almuno->created_At }}</td>
+												<td>{{ $almuno->created_at }}</td>
                                                 <td>{{ $almuno->email }}</td>
                                                 <td>{{ $almuno->estado }}</td>
 											</tr>

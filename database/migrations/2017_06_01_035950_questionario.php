@@ -16,6 +16,8 @@ class Questionario extends Migration
         Schema::create('questionario', function (Blueprint $table) {
             $table->increments('id');
             $table->string('titulo');
+            $table->integer('usuario_id')->unsigned();
+            $table->foreign('usuario_id')->references('id')->on('usuarios');
             $table->timestamps();
         });
     }
