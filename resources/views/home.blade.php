@@ -201,7 +201,7 @@
         <div class="container">
             <div class="row page-tagline">
                 <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
-                    <h2 class="title">danos tus sujerencias</h2>
+                    <h2 class="title">danos tus sugerencias</h2>
                     <div class="description">Ayúdanos a mejorar cada día más, para poder ayudarte a mejorar tus conocimientos sobre la célula. Esperamos tus sugerencias, Gracias.  </div>
                 </div>
             </div>
