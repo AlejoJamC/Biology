@@ -197,7 +197,7 @@
     </div>
 
     <!-- BLOCK "TYPE 7" -->
-    <div class="block type-18 scroll-to-block" data-id="contacto">
+    <div class="block type-7 scroll-to-block" data-id="contacto">
         <div class="container">
             <div class="row page-tagline">
                 <div class="col-md-6 col-md-offset-3 wow flipInX" data-wow-delay="0.3s">
