@@ -620,70 +620,70 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/home-6/membranas.jpg"
+                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/membranas.jpg"
                                                                     title="Imágen membrana de la Célula"
                                                                     alt="Membrana Célula Biova">
                                 <div class="text"><p>Disfruta de esta imágen Membrana Célular</p></div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/home-6/cloroplastooo.jpg"
+                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/cloroplastooo.jpg"
                                                                     title="Imágen cloroplasto Célula"
                                                                     alt="Cloroplasto Célula Biova">
                                 <div class="text"><p>Disfruta de esta imágen de Cloroplastos Célula</p></div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/home-6/citoesq.jpg"
+                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/citoesq.jpg"
                                                                     title="Imágen Citoesqueleto Célula"
                                                                     alt="Citoesqueleto Célula Biova">
                                 <div class="text"><p>Disfruta del Citoesqueleto Célula</p></div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/home-6/mitocondriasimag.jpg"
+                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/mitocondriasimag.jpg"
                                                                     title="Imágen Mitocondrias Célula"
                                                                     alt="Mitocondrias Célula Biova">
                                 <div class="text"><p>Disfruta de esta imágen Mitocondria Célula</p></div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/home-6/célula procariota.png"
+                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/célula procariota.png"
                                                                     title="Imágen Célula procariota"
                                                                     alt="Procariota Célula Biova">
                                 <div class="text"><p>Disfruta de esta imágen célula Procariota</p></div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/home-6/celulaaveget.jpg"
+                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/celulaaveget.jpg"
                                                                     title="Imágen Célula eucariota animal"
                                                                     alt="Eucariota Vegetal Célula Biova">
                                 <div class="text"><p>Disfruta de esta imágen célula Eucariota Vegetal</p></div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/home-6/celulaanimall.jpg"
+                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/celulaanimall.jpg"
                                                                     title="Imágen Célula eucariota animal"
                                                                     alt="Eucariota Animal Célula Biova">
                                 <div class="text"><p>Disfruta de esta imágen célula Eucariota Animal</p></div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/home-6/biova eucariotas.jpg"
+                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/biova eucariotas.jpg"
                                                                     title="Imágen Células Eucariotas"
                                                                     alt="Eucariotas Célula Biova">
                                 <div class="text"><p>Disfruta de esta imágen células Eucariotas</p></div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/home-6/diferencias.jpg" height="520" width="390"
+                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/diferencias.jpg" height="520" width="390"
                                                                     title="Imágen diferencias entre células"
                                                                     alt="Diferencias Célula Biova">
                                 <div class="text"><p>Disfruta de esta imágen diferencias de las células </p></div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="custom-screen-wrapper"><img src="img/content/home-6/fases-mitosis-division-celular.jpg" height="520" width="390"
+                            <div class="custom-screen-wrapper"><img src="img/content/Home-6/fases-mitosis-division-celular.jpg" height="520" width="390"
                                                                     title="Imágen Fases de la mitosis"
                                                                     alt="Fases Mitosis Célula Biova">
                                 <div class="text"><p>Disfruta de esta imágen Fases de la Mitosis </p></div>
